@@ -1,0 +1,30 @@
+title: Anabelle's Website
+email: anonabelle.art@gmail.com
+description: The collected works of Anabelle Laureola (anonabelle), a Filipino cartoonist and illustrator.
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from

@@ -1,0 +1,29 @@
+# site.data.gallery-dita
+# dita sows a good deed
+
+- name: Cover Art
+  category: cover
+  link: /assets/proj/dita/dita-cover.jpg
+  img: /assets/proj/dita/dita-cover.jpg
+
+- name: Title page
+  category: pages
+  link: /assets/proj/dita/dita-title.jpg
+  img: /assets/proj/dita/dita-title.jpg
+- name: Spread 03a (textless)
+  category: pages
+  link: /assets/proj/dita/sp03.jpg
+  img: /assets/proj/dita/sp03.jpg
+- name: Spread 03a (textless)
+  category: pages
+  link: /assets/proj/dita/sp03b.jpg
+  img: /assets/proj/dita/sp03b.jpg
+
+- name: Spread 06 (textless)
+  category: spreads
+  link: /assets/proj/dita/sp06.jpg
+  img: /assets/proj/dita/sp06.jpg
+- name: Spread 07 (textless)
+  category: spreads
+  link: /assets/proj/dita/sp07.jpg
+  img: /assets/proj/dita/sp07.jpg

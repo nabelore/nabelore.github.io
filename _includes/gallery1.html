@@ -1,0 +1,36 @@
+<!-- ======= Gallery container ======= -->
+<section class="section site-portfolio {% if page.url == "/" %} pt-4{% endif %}">
+  <div class="container">
+  
+  {% if page.url == "/ink" %}
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-12 col-lg-6 text-center">
+        <div id="filters" class="filters">
+          <a href="#" class="mb-1 btn btn2 current" data-filter="*">All</a>
+          <a href="#" class="mb-1 btn btn2 " data-filter=".animals2020">Animals</a>
+          <a href="#" class="mb-1 btn btn2 " data-filter=".objects2020">Objects & Arrangements</a>
+          <a href="#" class="mb-1 btn btn2 " data-filter=".ink2019">Landscapes & Locations</a>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+   
+   {% if page.url == "/paint" %}
+    <div class="row mb-5 justify-content-center">
+      <div class="col-md-12 col-lg-6 text-center">
+        <div id="filters" class="filters">
+          <a href="#" class="mb-1 btn btn2 current" data-filter="*">All</a>
+          <a href="#" class="mb-1 btn btn2 " data-filter=".stilllife">Still Life</a>
+          <a href="#" class="mb-1 btn btn2 " data-filter=".portraits">Portraits</a>
+          <a href="#" class="mb-1 btn btn2 " data-filter=".landscape">Landscapes</a>
+          <a href="#" class="mb-1 btn btn2 " data-filter=".study">Studies</a>
+          <br />
+          <a href="#" class="mb-1 btn btn1 " data-filter=".watercolor">watercolor</a>
+          <a href="#" class="mb-1 btn btn1 " data-filter=".gouache">gouache</a>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+    <!-- <div id="portfolio-grid" class="row no-gutter justify-content-center" data-masonry='{"percentPosition": true }'> -->
+    <div id="portfolio-grid" class="row no-gutter justify-content-center">

@@ -1,0 +1,17 @@
+# site.data.nav-artStyles
+
+- name: Ink Illustrations
+  category: style
+  link: /ink
+  link2: 
+  link3: 
+  img: /assets/proj/ink-2019/1003.jpg
+  desc: 
+
+- name: Paintings
+  category: style
+  link: /paint
+  link2: /assets/html/paint.html
+  link3: 
+  img: /assets/proj/paint-2019/0730.jpg
+  desc: 

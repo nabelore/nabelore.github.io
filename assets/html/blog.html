@@ -1,0 +1,26 @@
+---
+title: Blog
+permalink: /blog
+redirect_from:
+- /assets/html/blog
+- /assets/html/blog.html
+description:
+keywords:
+---
+<section class="section text-center pt-5 pb-5">
+<div class="container">
+	<h1>Anabelle's Comic Journal</h1>
+</div>
+</section>
+<section class="section">
+<div class="container">
+	<ul>
+		{% for post in site.posts %}
+			<li>
+				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+				{{post.excerpt}}
+			</li>
+		{% endfor %}
+	</ul>
+</div>
+</section>

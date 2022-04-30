@@ -1,0 +1,64 @@
+<!-- ======= Navbar =======  -->
+
+<nav class="nav navbar navbar-expand-sm fixed-top py-3">
+  <div class="container container-fluid">
+    <div class="navbar-brand">
+        <h1><a href="/">Anabelle Laureola</a></h1>
+        <p class="">Cartoonist + Illustrator</p>
+    </div>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon bi bi-list"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigation</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          {% for item in site.data.navigation %}
+            <li><a href="{{ item.permalink }}" {% if page.url == item.permalink %}class="current"{% endif %}>{{ item.name }}</a></li>
+          {% endfor %}
+
+          <li class="nav-item dropdown">
+              <a class="dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Art Styles
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
+                {% for item in site.data.nav-artStyles %}
+                <li><a href="{{ item.link }}" class="{% if page.url == item.link %}current {% endif %}dropdown-item">{{ item.name }}</a></li>
+                {% endfor %}
+              </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+              <a class="dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Projects
+              </a>
+              <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarScrollingDropdown">
+                {% for item in site.data.nav-proj %}
+                <li><a href="{{ item.link }}" class="{% if page.url == item.link %}current {% endif %}dropdown-item">{{ item.name }}</a></li>
+                {% endfor %}
+              </ul>
+          </li>
+        </ul>
+
+        <!-- mobile navigation -->
+        <h5 class="offcanvas-title" id="">Art Styles</h5>
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
+            {% for item in site.data.nav-artStyles %}
+            <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+        <h5 class="offcanvas-title" id="">Projects</h5>
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
+            {% for item in site.data.nav-proj %}
+            <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+            {% endfor %}
+        </ul>
+
+      </div>
+    </div>
+  </div>
+</nav>

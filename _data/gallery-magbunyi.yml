@@ -1,0 +1,65 @@
+# site.data.gallery-ink
+# magbunyi
+
+- name: Oonah 01
+  category: pages
+  collection: oonah
+  link: assets/proj/magbunyi/oonah-1.jpg
+  img: assets/proj/magbunyi/oonah-1.jpg
+- name: Oonah 02
+  category: pages
+  collection: oonah
+  link: assets/proj/magbunyi/oonah-2.jpg
+  img: assets/proj/magbunyi/oonah-2.jpg
+- name: Oonah 03
+  category: pages
+  collection: oonah
+  link: assets/proj/magbunyi/oonah-3.jpg
+  img: assets/proj/magbunyi/oonah-3.jpg
+- name: Oonah 04
+  category: pages
+  collection: oonah
+  link: assets/proj/magbunyi/oonah-4.jpg
+  img: assets/proj/magbunyi/oonah-4.jpg
+- name: Oonah 05
+  category: pages
+  collection: oonah
+  link: assets/proj/magbunyi/oonah-5.jpg
+  img: assets/proj/magbunyi/oonah-5.jpg
+- name: Process - Oonah 01
+  category: process
+  collection: oonah
+  link: assets/proj/magbunyi/oonah-1_process.gif
+  img: assets/proj/magbunyi/oonah-1_process.gif
+
+- name: Anne 01
+  category: pages
+  collection: anne
+  link: assets/proj/magbunyi/anne-1.jpg
+  img: assets/proj/magbunyi/anne-1.jpg
+- name: Anne 02
+  category: pages
+  collection: anne
+  link: assets/proj/magbunyi/anne-2.jpg
+  img: assets/proj/magbunyi/anne-2.jpg
+- name: Anne 03
+  category: pages
+  collection: anne
+  link: assets/proj/magbunyi/anne-3.jpg
+  img: assets/proj/magbunyi/anne-3.jpg
+- name: Anne 04
+  category: pages
+  collection: anne
+  link: assets/proj/magbunyi/anne-4.jpg
+  img: assets/proj/magbunyi/anne-4.jpg
+
+- name: Maria 01
+  category: pages
+  collection: maria
+  link: assets/proj/magbunyi/maria-1.jpg
+  img: assets/proj/magbunyi/maria-1.jpg
+- name: Maria 02
+  category: pages
+  collection: maria
+  link: assets/proj/magbunyi/maria-2.jpg
+  img: assets/proj/magbunyi/maria-2.jpg

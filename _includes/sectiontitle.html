@@ -1,0 +1,36 @@
+<!-- ======= Section Title =======  -->
+<section class="section text-center pt-5 pb-5">
+  <div class="container">
+    <h1 class="m-0 p-0">{{ item.name }}</h1>
+
+    {% if item.desc != `` or item.link3 != `` and page.layout != "read-vert" %}
+    <div class="py-3">
+    {% endif %}
+
+      {% if item.desc != `` %}
+        <a class="btn btn2" data-bs-toggle="collapse" href="#collapseProjInfo" role="button" aria-expanded="false" aria-controls="collapseProjInfo">
+          <i class="bi bi-info-circle-fill"></i>&nbsp;about
+        </a>
+      {% endif %}
+
+      {% if item.link3 != `` and page.layout != "read-vert" %}
+      <a href="{{ item.link3 }}" class="btn btn1" role="button">
+          <i class="bi bi-view-stacked"></i>&nbsp; vertical gallery
+      </a>
+      {% endif %}
+
+      {% if item.desc != `` %}
+      <div class="collapse" id="collapseProjInfo">
+        <div class="card card-body mt-2 m-auto col-10 col-sm-6">
+          {{ item.desc }}
+        </div>
+      </div>
+      {% endif %}
+
+    {% if item.desc != `` or item.link3 != `` or page.layout != "read-vert" %}
+    </div>
+    {% endif %}
+
+  </div>
+</section>
+<!-- End Section -->

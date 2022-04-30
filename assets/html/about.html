@@ -1,0 +1,38 @@
+---
+title: About
+permalink: /about
+redirect_from:
+- /assets/html/about
+- /assets/html/about.html
+description:
+keywords:
+---
+
+{% for item in site.data.navigation %}
+{% if item.name == "About" %}
+  {% include sectiontitle.html %}
+{% endif %}
+{% endfor %}
+
+<section class="section pb-5">
+  <div class="container">
+
+    <div class="row justify-content-center">
+
+      <div class="order-2 col-lg-4 col-md-7 col-10">
+        <h3 class="h3 mb-4">Hi, I'm Anabelle. I draw stories.</h3>
+        <p>Optio consectetur culpa nemo, fugit pariatur veniam voluptate laudantium rerum fuga dolor in maiores eanisi voluptatibus. Minus?</p>
+        <p>After graduating with a degree in Multimedia Arts, she has done freelance work for games, animation, comics and book illustration, with a focus on children's media.</p>
+        <p>She posts most of her work on the internet under the moniker "anonabelle".</p>
+          
+        <p><a href="#" class="readmore">Download my CV</a></p>
+        
+      </div>
+      <div class="col-md-auto mb-5">
+        <img src="assets/img/about.jpg" alt="Image" class="img-fluid">
+      </div>
+
+    </div> <!-- end row2 -->
+
+  </div> <!-- end container -->
+</section>

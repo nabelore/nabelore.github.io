@@ -1,0 +1,87 @@
+---
+title: Comic Therapy (mobile gallery)
+permalink: /comictherapy-read
+redirect_from:
+- /assets/html/comictherapy-read
+- /assets/html/comictherapy-read.html
+layout: read-vert
+description:
+keywords:
+---
+{% for item in site.data.nav-proj %}
+  {% if item.name == "Comic Therapy" %}
+  {% include sectiontitle.html %}
+  {% endif %}
+{% endfor %}
+
+<section class="section py-10 my-0">
+  <div class="container text-center">
+    <p class="">
+      <a href="/comictherapy" class="btn btn1" role="button">go back</a>
+    </p>
+    <p class="m-0 p-0">
+      <a href="#ct2021" class="btn btn2" role="button">2021 comics</a>
+      <a href="#ct2020" class="btn btn2" role="button">2020 comics</a>
+    </p>
+  </div>
+</section>
+
+<section class="section" id="ct2021">
+  <div class="container-sm">
+
+    <div class="row justify-content-center">
+      <div class="col item web text-center py-5 mb-0">
+        <h2>2021 comics</h2>
+      </div>
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="item web col-sm-7 col-lg-5">
+        {% for item in site.data.gallery-ct %}
+        {% if item.category == 2021 %}
+          <img class="read-img-vert img-fluid rounded mx-auto d-block mb-4" src="{{ item.img }}">
+        {% endif %}
+        {% endfor %}  
+      </div>
+    </div>
+
+    {% include arrowUpDown.html %}
+    
+  </div>
+</section>
+
+<hr>
+
+<section class="section" id="ct2020">
+  <div class="container-sm">
+
+    <div class="row justify-content-center">
+      <div class="col item web text-center py-5 mb-0">
+        <h2>2020 comics</h2>
+      </div>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="item web col-sm-10 col-xlg-4">
+        {% for item in site.data.gallery-ct %}
+        {% if item.category == 2020 %}
+          <img class="read-img-vert img-fluid rounded mx-auto d-block mb-4" src="{{ item.img }}">
+        {% endif %}
+        {% endfor %}  
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section py-5">
+  <div class="container text-center">
+    <p class="">
+      <a href="#ct2021" class="btn btn2" role="button">2021 comics</a>
+      <a href="#ct2020" class="btn btn2" role="button">2020 comics</a>
+    </p>
+    <p>
+      <a href="/comictherapy" class="btn btn1" role="button">go back</a>
+    </p>
+  </div>
+</section>

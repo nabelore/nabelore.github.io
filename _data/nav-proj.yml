@@ -1,0 +1,62 @@
+# site.data.nav-proj
+
+- name: Comic Therapy
+  category: comics
+  link: /comictherapy
+  link2: /assets/html/comictherapy.html
+  link3: /comictherapy-read
+  desc: >
+    <p>Bite-sized comics in which I muse about life, work and/or the family dog.</p>
+  img: assets/proj/comictherapy/CT2021_cover-sq.jpg
+
+- name: Dita Sows A Good Deed
+  category: kidlit
+  link: /dita
+  link2: /assets/html/dita.html
+  link3:
+  desc: >
+    <p>Illustrations and cover design for a childrens' book about the dita tree, written by Melissa Salva.</p>
+    <p>This book is part of <i>Tata Oskie’s Collection of Children’s Books on Philippine Native Trees</i> produced by Green Convergence, with the goal of introducing kids to trees that are native to the Philippines.</p>
+    <p>Apart from illustrating Dita, I also prepare all five books for print and designed the series' mascot character, Tata Oskie.</p>
+  img: /assets/proj/dita/cover.jpg
+
+- name: Magbunyi Comics
+  category: comics
+  link: /magbunyi
+  link2: /assets/html/magbunyi.html
+  link3: /magbunyi-read.html
+  desc: >
+    <p>Biographical comics about the Sisters of Notre Dame de Sion and their missionary work in the Philippines.</p>
+    <p>Part of <i>Magbunyi: 30 Taon ng Notre Dame de Sion sa Pilipinas</i>. This comics anthology put together by Gantala Press honors the missionary work that the Sisters of Notre Dame De Sion have been doing in the Philippines for the last 30 years.</p>
+  img: /assets/proj/magbunyi/cover.jpg
+
+- name: IFM Comics
+  category: comics
+  link: /ifm
+  link2: /assets/html/ifm.html
+  link3:
+  desc: >
+    <p>Comic collaborations with <a href="https://www.islandfishermanmagazine.com/">Island Fisherman Magazine</a>. I designed the main character (IFM guy) and handled the art for these gag-style comic strips aimed towards people with a fishy sense of humor.</p>
+    <p>Sketched and cleaned up in Clipstudio Paint, converted to vector, and then colored in Affinity Designer.</p>
+  img: /assets/proj/ifm/cover.jpg
+
+- name: Camera Shy
+  category: fancomic
+  link: /camshy
+  link2: /assets/html/camshy.html
+  link3:
+  desc: >
+    <p>A <i>Mob Psycho 100</i> fancomic, created for the Broccoli Bomb fanzine.</p>
+    <p>Manga-style, traditionally inked, finished in Clipstudio Paint. Limited print & digital release.</p>
+    <p>Specs: 10 pages | A5 | black & white with tones</p>
+  img: /assets/proj/camshy/cover.jpg
+
+- name: Linesmitheri
+  category: zine
+  link: /linesmitheri
+  link2: /assets/html/linesmitheri.html
+  link3:
+  desc: >
+    <p>A curated collection of pen & ink landscape illustrations in e-book form. Features places from the Philippines, Switzerland and Italy.</p>
+    <p>Drawn traditionally, with dip pen, brush and calligraphy ink.</p>
+  img: /assets/proj/linesmitheri/cover.jpg

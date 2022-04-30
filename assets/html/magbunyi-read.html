@@ -1,0 +1,104 @@
+---
+title: Magbunyi! comics (mobile gallery)
+permalink: /magbunyi-read
+redirect_from:
+- /assets/html/magbunyi-read
+- /assets/html/magbunyi-read.html
+layout: read-vert
+description:
+keywords:
+---
+{% for item in site.data.nav-proj %}
+  {% if item.name == "Magbunyi Comics" %}
+  {% include sectiontitle.html %}
+  {% endif %}
+{% endfor %}
+
+<section class="section pt-1 pb-5 my-0">
+  <div class="container text-center">
+    <p>
+      <a href="/magbunyi" class="btn btn1" role="button">go back</a>
+    </p>
+    <p class="m-0 p-0">
+      <a href="#oonah" class="btn btn2" role="button">Sr Oonah</a>
+      <a href="#anne" class="btn btn2" role="button">Sr Anne</a>
+      <a href="#maria" class="btn btn2" role="button">Sr Maria</a>
+    </p>
+  </div>
+</section>
+
+<section class="section" id="oonah">
+  <div class="container-sm">
+    <div class="row justify-content-center">
+      <div class="col item web text-center py-5 mb-0">
+        <h2>Sister Oonah</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="item web col-sm-10 col-lg-6">
+        {% for item in site.data.gallery-magbunyi %}
+        {% if item.collection == "oonah" and item.category != "process" %}
+          <img class="read-img-vert img-fluid rounded mx-auto d-block mb-4" src="{{ item.img }}">
+        {% endif %}
+        {% endfor %}  
+      </div>
+    </div>
+
+    {% include arrowUpDown.html %}
+
+  </div>
+</section>
+
+<section class="section" id="anne">
+  <div class="container-sm">
+    <div class="row justify-content-center">
+      <div class="col item web text-center py-5 mb-0">
+        <h2>Sister Anne</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="item web col-sm-10 col-lg-6">
+        {% for item in site.data.gallery-magbunyi %}
+        {% if item.collection == "anne" %}
+          <img class="read-img-vert img-fluid rounded mx-auto d-block mb-4" src="{{ item.img }}">
+        {% endif %}
+        {% endfor %}  
+      </div>
+    </div>
+
+    {% include arrowUpDown.html %}
+
+  </div>
+</section>
+
+<section class="section" id="maria">
+  <div class="container-sm">
+    <div class="row justify-content-center">
+      <div class="col item web text-center py-5 mb-0">
+        <h2>Sister Maria</h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="item web col-sm-10 col-lg-6">
+        {% for item in site.data.gallery-magbunyi %}
+        {% if item.collection == "maria" %}
+          <img class="read-img-vert img-fluid rounded mx-auto d-block mb-4" src="{{ item.img }}">
+        {% endif %}
+        {% endfor %}  
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section py-5">
+  <div class="container text-center">
+    <p class="">
+      <a href="#oonah" class="btn btn2" role="button">Sr Oonah</a>
+      <a href="#anne" class="btn btn2" role="button">Sr Anne</a>
+      <a href="#maria" class="btn btn2" role="button">Sr Maria</a>
+    </p>
+    <p>
+      <a href="/magbunyi" class="btn btn1" role="button">go back</a>
+    </p>
+  </div>
+</section>

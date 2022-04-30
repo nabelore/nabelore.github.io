@@ -1,0 +1,35 @@
+---
+title: Dita Sows A Good Deed
+permalink: /dita
+redirect_from:
+- /assets/html/dita
+- /assets/html/dita.html
+description:
+keywords:
+---
+{% for item in site.data.nav-proj %}
+{% if item.name == "Dita Sows A Good Deed" %}
+  {% include sectiontitle.html %}
+{% endif %}
+{% endfor %}
+
+
+{% include gallery1.html %}
+	{% for item in site.data.gallery-dita %}
+	{% if item.category == "cover" or item.category == "pages" %}
+		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
+		{% include gallery2a.html %}
+		</div>
+	{% endif %}
+	{% endfor %}
+{% include gallery3.html %}
+
+{% include gallery1.html %}
+	{% for item in site.data.gallery-dita %}
+	{% if item.category == "spreads" %}
+		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery2">
+		{% include gallery2a.html %}
+		</div>
+	{% endif %}
+	{% endfor %}
+{% include gallery3.html %}

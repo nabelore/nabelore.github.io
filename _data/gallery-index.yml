@@ -1,0 +1,18 @@
+# site.data.gallery-index
+
+- name: Comic Therapy
+  category: comics
+  link: /comictherapy
+  img: assets/proj/comictherapy/CT2021_cover-sq.jpg
+- name: Magbunyi! comics
+  category: comics
+  link: /magbunyi
+  img: assets/proj/magbunyi/cover.jpg
+- name: Cocooil
+  category: Branding
+  link: assets/img/img_3.jpg
+  img: assets/img/img_3.jpg
+- name: Nike Shoe
+  category: Design
+  link: assets/img/img_4.jpg
+  img: assets/img/img_4.jpg

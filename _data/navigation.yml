@@ -1,0 +1,11 @@
+# site.data.navigation
+
+- name: Home
+  link: /
+  permalink: /
+- name: About
+  permalink: /about
+  link: /assets/html/about.html
+- name: Contact
+  permalink: /contact
+  link: /assets/html/contact.html
