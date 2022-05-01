@@ -6,6 +6,7 @@ redirect_from:
 - /assets/html/magbunyi.html
 description:
 keywords:
+my_data: _data/gallery_magbunyi.yml
 ---
 
 {% for item in site.data.nav-proj %}
@@ -13,6 +14,15 @@ keywords:
   {% include sectiontitle.html %}
 {% endif %}
 {% endfor %}
+
+<div class="text-center py-5 mb-0"><h2>New gallery test</h2></div>
+{% include gallery.html 
+	gallery_tag="gallery4" 
+	siteData = site.data.gallery-magbunyi 
+	data_filter="data.category" 
+	data_filter_name="pages" %}
+
+<hr>
 
 <div class="text-center py-5 mb-0"><h2>Sr. Oonah</h2></div>
 {% include gallery1.html %}
