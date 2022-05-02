@@ -1,28 +1,35 @@
-			<!-- ======= Footer ======= -->
-			<footer class="footer mt-auto pt-3{% if page.layout == "read-vert" %} text-center{% endif %}" role="contentinfo" id="footer">
-			  <div class="container">
-			    <div class="row">
-			      <div class="{% if page.layout != "read-vert" %}col-sm-6{% else %}col{% endif %}">
-			        <p class="mb-1 footertxt">&copy; Anabelle Laureola / anonabelle. All Rights Reserved.</p>
-			        <div class="credits footertxt">
-			          <!--
-			          All the links in the footer should remain intact.
-			          You can delete the links only if you purchased the pro version.
-			          Licensing information: https://bootstrapmade.com/license/
-			          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
-			        -->
-			          Original design by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-			        </div>
-			      </div>
-			      {% if page.layout != "read-vert" %}
-			      <div class="col-sm-6 social text-md-end pt-2 pt-sm-0">
-			        <a href="https://ko-fi.com/anonabelle"><span class="bi bi-cup-fill"></span></a>
-			        <a href="https://twitter.com/anonabelle"><span class="bi bi-twitter"></span></a>
-			        <a href="https://instagram.com/anonabelle"><span class="bi bi-instagram"></span></a>
-			      </div>
-			      {% endif %}
-			    </div>
-			  </div>
-			</footer>
-			
-			<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!-- ======= Footer ======= -->
+<footer class="footer{% if page.layout != "post" %} mt-auto{%endif%} pt-3{% if page.layout == "read-vert" or page.layout == "post" %} text-center{% endif %}" role="contentinfo" id="footer">
+	<div class="container">
+    
+    <div class="row">
+
+      <div class="
+      	{% if page.layout <> "read-vert"%}
+      		{% if page.layout <> "post"%}
+      			col-sm-6
+      			{%endif%}
+      	{% else %}col{% endif %}">
+	        <p class="mb-1 footertxt">&copy; Anabelle Laureola / anonabelle. All Rights Reserved.</p>
+	        
+	        {% if page.layout != "read-vert" %}
+	        	{% if page.layout != 'post' %}
+        	<div class="credits footertxt">
+        		Original design by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        	</div>
+	        {% endif %}{% endif %}
+      </div>
+
+      {% if page.layout != "read-vert" %}{% if page.layout != 'post' %}
+      <div class="col-sm-6 social text-md-end pt-2 pt-sm-0">
+        <a href="https://ko-fi.com/anonabelle"  data-bs-toggle="tooltip" data-bs-placement="top" title="Ko-fi"><span class="bi bi-cup-fill"></span></a>
+        <a href="https://twitter.com/anonabelle"  data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><span class="bi bi-twitter"></span></a>
+        <a href="https://instagram.com/anonabelle" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><span class="bi bi-instagram"></span></a>
+      </div>
+      {% endif %}{% endif %}
+    </div>
+
+	</div>
+</footer>
+
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
