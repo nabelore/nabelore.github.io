@@ -6,21 +6,32 @@ redirect_from:
 - /assets/html/blog.html
 description:
 keywords:
+
 ---
 <section class="section text-center pt-5 pb-5">
-<div class="container">
-	<h1>Anabelle's Comic Journal</h1>
-</div>
+	<div class="container">
+		<h2>Comic Blog</h2>
+		<p>2022</p>
+	</div>
 </section>
-<section class="section">
-<div class="container">
-	<ul>
-		{% for post in site.posts %}
-			<li>
-				<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-				{{post.excerpt}}
-			</li>
-		{% endfor %}
-	</ul>
-</div>
+
+<section class="section site-portfolio">
+  <div class="container">
+    
+    <div id="portfolio-grid" class="row no-gutter justify-content-center">
+      {% for post in site.posts %}
+        <div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
+
+          <a href="{{ post.url }}" class="item-wrap item-wrap3 fancybox">
+		    <div class="work-info work-info3">
+		      <h3>{{ post.title }}</h3>
+		      <span>{{ post.categories | first }} <br> {{ post.date | date:"%m/%d" }}</span>
+		    </div>
+		    <span class="helper"></span><img class="img-fluid p-0 m-0" src="{{ post.img }}" title="{{ post.title }}">
+		  </a>
+        </div>
+      {% endfor %}
+    </div>
+
+  </div>
 </section>

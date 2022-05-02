@@ -2,25 +2,9 @@
 
 
 // colors
-//$colo-dark: #1F271B; /* pine tree */
-//$colo-mid: #757780; /* sonic silver */
-//$colo-accent: #96A13A; /* citron */
-//$colo-accent2: #750D37; /* claret */
-//$colo-light: #f7f7f9; /* cultured */
+
 $font-1: Fredoka, sans-serif;
 $font-2: 'Philosopher', sans-serif;
-
-//$colo-dark: #363636; /* jet */
-//$colo-mid: #242f40; /* gunmetal */
-//$colo-accent2: #cca43b; /* satin-sheen-gold */
-//$colo-accent: #e5e5e5; /* platinum */
-//$colo-light: #ffffff; /* white */
-
-//$colo-dark: #1e1e24; /* raisin-black */
-//$colo-mid: #444140; /* jet */
-//$colo-accent: #daddd8; /* gainsboro */
-//$colo-accent2: #ecebe4; /* alabaster */
-//$colo-light: #eef0f2; /* cultured */
 
 $colo-dark: #0A0908; /* rich black FOGRA 39 */
 $colo-dark2: #22333B; /* gunmetal */
@@ -76,6 +60,17 @@ $btn-border-radius:1px;
 		font-size: 2rem;
 	}
 
+	section.section.breadcrumb {background-color:$colo-accent2;}
+	li.breadcrumb-item, 
+	li.breadcrumb-item + .breadcrumb-item::before, 
+	li.breadcrumb-item.active{ color: $colo-dark2; }
+	.section.breadcrumb a {color:$colo-light;}
+	.section.breadcrumb a:hover {color:$colo-mid;}
+
+	.readmore{ font-weight: 400 } //contact, submit button
+
+	.blogtext { background-color: $colo-light; }
+	.blogtext p:last-child { margin-bottom:0; }
 /////////////// modifications to style.css
 	
 	b, strong { font-weight: 600; }
@@ -211,12 +206,12 @@ $btn-border-radius:1px;
 
 	.item .item-wrap3 img {
 	  transform: scale(1.05);
-	  margin-bottom:10px;
+	  // margin-bottom:10px;
 	}
 	.item .item-wrap3:hover img {
 	  transform: scale(1.07);
 	}
-	.item .item-wrap3{ height: 15rem; }
+	.item-wrap3 .itemUniform{ height: 15rem; }
 
 /////////////// simple lightbox customize
 

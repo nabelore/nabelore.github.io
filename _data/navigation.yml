@@ -9,3 +9,6 @@
 - name: Contact
   permalink: /contact
   link: /assets/html/contact.html
+- name: Blog
+  permalink: /blog
+  link: /assets/html/blog.html
