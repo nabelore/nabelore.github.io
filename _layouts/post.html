@@ -1,19 +1,93 @@
 ---
-layout: default
+layout: base
 ---
-<section class="section pb-5">
-<div class="container">
-  <h1>{{ page.title }}</h1>
+<section class="section breadcrumb">
+  <div class="container py-3">
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb p-0 m-0 justify-content-center">
+      <li class="breadcrumb-item"><a href="/">Home</a></li>
+      <li class="breadcrumb-item"><a href="/blog">Blog</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ page.title}}</li>
+    </ol>
+  </nav>
+  
+  <hr>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb p-0 m-0 justify-content-center">
 
-  <p>
-    {{ page.date | date_to_string }}
-    {% assign author = site.authors | where: 'short_name', page.author | first %}
-    {% if author %}
-      - <a href="{{ author.url }}">{{ author.name }}</a>
-    {% endif %}
-  </p>
+      <li class="breadcrumb-item">
+        {% if page.next != nil %}
+          <a href="{{ page.next | relative_url }}">Next</a>
+        {% else %}
+          Next
+        {% endif %}
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#footer"><i class="bi bi-arrow-down-square-fill"></i></a>
+      </li>
+       <li class="breadcrumb-item">
+        {% if page.previous != nil %}
+          <a href="{{ page.previous | relative_url }}">Previous</a>
+        {% else %}
+          Previous
+        {% endif %}
+      </li>
 
-  {{ content }}
+    </ol>
+  </nav>
+  
+  </div>
+</section>
+
+<section class="section pt-5 pb-5">
+<div class="container ">
+  <div class="row text-center justify-content-center">
+    <div class="col-auto">
+      <h1 class="m-0 p-0">{{ page.title }}</h1>
+
+      <p>
+        {{ page.date | date_to_string }}
+        {% assign author = site.authors | where: 'short_name', page.author | first %}
+        {% if author %}
+          - <a href="{{ author.url }}">{{ author.name }}</a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-10 col-md-8">
+      {{ content }}
+    </div>
+  </div>
 
 </div>
 </section>
+
+<section class="section breadcrumb mb-0 mt-auto">
+  <div class="container py-3">
+  
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb p-0 m-0 justify-content-center">
+      <li class="breadcrumb-item">
+        {% if page.next != nil %}
+          <a href="{{ page.next | relative_url }}">Next</a>
+        {% else %}
+          Next
+        {% endif %}
+      </li>
+       <li class="breadcrumb-item">
+        {% if page.previous != nil %}
+          <a href="{{ page.previous | relative_url }}">Previous</a>
+        {% else %}
+          Previous
+        {% endif %}
+      </li>
+    </ol>
+  </nav>
+  
+  </div>
+</section>
+
+{% include footer.html %}

@@ -13,6 +13,7 @@
   category: 2021
   link: assets/proj/comictherapy/CT_20210220.jpg
   img: assets/proj/comictherapy/CT_20210220.jpg
+
 - name: Mar 03
   category: 2021
   link: assets/proj/comictherapy/CT_20210303.jpg
@@ -26,27 +27,28 @@
   link: assets/proj/comictherapy/CT_20210319.jpg
   img: assets/proj/comictherapy/CT_20210319.jpg
 
+# comic therapy 2020
 - name: Mar 21
   category: 2020
-  link: assets/proj/comictherapy/4pnl-01.jpg
-  img: assets/proj/comictherapy/4pnl-01.jpg
+  link: assets/proj/comictherapy/CT2020/01.jpg
+  img: assets/proj/comictherapy/CT2020/01.jpg
 - name: Mar 23
   category: 2020
-  link: assets/proj/comictherapy/4pnl-02.jpg
-  img: assets/proj/comictherapy/4pnl-02.jpg
+  link: assets/proj/comictherapy/CT2020/02.jpg
+  img: assets/proj/comictherapy/CT2020/02.jpg
 - name: Mar 28
   category: 2020
-  link: assets/proj/comictherapy/4pnl-03.jpg
-  img: assets/proj/comictherapy/4pnl-03.jpg
+  link: assets/proj/comictherapy/CT2020/03.jpg
+  img: assets/proj/comictherapy/CT2020/03.jpg
 - name: Apr 17
   category: 2020
-  link: assets/proj/comictherapy/4pnl-04.jpg
-  img: assets/proj/comictherapy/4pnl-04.jpg
+  link: assets/proj/comictherapy/CT2020/04.jpg
+  img: assets/proj/comictherapy/CT2020/04.jpg
 - name: Apr 24
   category: 2020
-  link: assets/proj/comictherapy/4pnl-05.jpg
-  img: assets/proj/comictherapy/4pnl-05.jpg
+  link: assets/proj/comictherapy/CT2020/05.jpg
+  img: assets/proj/comictherapy/CT2020/05.jpg
 - name: May 01
   category: 2020
-  link: assets/proj/comictherapy/4pnl-06.jpg
-  img: assets/proj/comictherapy/4pnl-06.jpg
+  link: assets/proj/comictherapy/CT2020/06.jpg
+  img: assets/proj/comictherapy/CT2020/06.jpg
