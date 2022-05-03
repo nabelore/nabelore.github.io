@@ -1,11 +1,6 @@
 # site.data.gallery-camshy
 # camera shy
 
-- name: "Process for Page 01"
-  category: process
-  link: /assets/proj/camshy/01_process.gif
-  img: /assets/proj/camshy/01_process.gif
-
 - name: Page 01
   category: pages
   link: /assets/proj/camshy/01.jpg
@@ -19,11 +14,7 @@
   link: /assets/proj/camshy/03.jpg
   img: /assets/proj/camshy/03.jpg
 
-- name: "panel 1, page 1"
-  category: panels
-  link: /assets/proj/camshy/01_p1.jpg
-  img: /assets/proj/camshy/01_p1.jpg
-- name: "panel 5, page 3"
-  category: panels
-  link: /assets/proj/camshy/03_p5.jpg
-  img: /assets/proj/camshy/03_p5.jpg
+- name: "Process for Page 01"
+  category: process
+  link: /assets/proj/camshy/01_process.gif
+  img: /assets/proj/camshy/01_process.gif

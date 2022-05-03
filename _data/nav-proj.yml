@@ -1,15 +1,59 @@
 # site.data.nav-proj
 
 - name: Comic Therapy
+  status: ongoing
   category: comics
   link: /comictherapy
   link2: /assets/html/comictherapy.html
   link3: /comictherapy-read
   desc: >
-    <p>Bite-sized comics in which I muse about life, work and/or the family dog.</p>
-  img: assets/proj/comictherapy/CT2021_cover-sq.jpg
+    <p>Bite-sized comics in which I muse about life, work and/or the family dog. Updates semi-regularly on my comic blog.</p>
+    <hr>
+    <i><h4>On Comic Therapy (2021)</h4>
+    <p>Drawn in between Feb to Aug 2021, Comic Therapy is a collection of (mostly) single-panel journal comics by Anabelle Laureola (anonabelle). Most of the content - text included - is handdrawn/written, and captures her idle musings on life, work and the family dog.</p>
+    <p><ul>
+    <li>54 pages</li>
+    <li>A5</li>
+    <li>black & white, with halftones</li></ul></p></i>
+
+  img: assets/proj/comictherapy/cover.jpg
+  
+- name: Camera Shy
+  status: complete
+  category: fancomic
+  link: /camshy
+  link2: /assets/html/camshy.html
+  link3:
+  desc: >
+    <p>A <i>Mob Psycho 100</i> fancomic, created for the Broccoli Bomb fanzine.</p>
+    <p>Manga-style, traditionally inked, finished in Clipstudio Paint. Limited print & digital release.</p>
+    <hr>
+    <p><ul>
+    <li>10 pages</li>
+    <li>A5</li>
+    <li>black & white, with halftones</li></ul></p>
+  img: /assets/proj/camshy/cover.jpg
+
+- name: Linesmitheri
+  status: complete
+  category: zine
+  link: /linesmitheri
+  link2: /assets/html/linesmitheri.html
+  link3:
+  desc: >
+    <p>A curated collection of pen & ink landscape illustrations in e-book form. Features places from the Philippines, Switzerland and Italy.</p>
+    <p>Drawn traditionally, with dip pen, brush and calligraphy ink.</p>
+    <hr>
+    <p><ul>
+    <li>28 pages</li>
+    <li>A5</li>
+    <li>black & white, with ink wash</li></ul></p>
+  img: /assets/proj/linesmitheri/cover.jpg
+  actiontxt: View Illustrations
+  actionlink: /ink#ink2019
 
 - name: Dita Sows A Good Deed
+  status: complete
   category: kidlit
   link: /dita
   link2: /assets/html/dita.html
@@ -21,6 +65,7 @@
   img: /assets/proj/dita/cover.jpg
 
 - name: Magbunyi Comics
+  status: complete
   category: comics
   link: /magbunyi
   link2: /assets/html/magbunyi.html
@@ -31,6 +76,7 @@
   img: /assets/proj/magbunyi/cover.jpg
 
 - name: IFM Comics
+  status: ongoing
   category: comics
   link: /ifm
   link2: /assets/html/ifm.html
@@ -39,24 +85,3 @@
     <p>Comic collaborations with <a href="https://www.islandfishermanmagazine.com/">Island Fisherman Magazine</a>. I designed the main character (IFM guy) and handled the art for these gag-style comic strips aimed towards people with a fishy sense of humor.</p>
     <p>Sketched and cleaned up in Clipstudio Paint, converted to vector, and then colored in Affinity Designer.</p>
   img: /assets/proj/ifm/cover.jpg
-
-- name: Camera Shy
-  category: fancomic
-  link: /camshy
-  link2: /assets/html/camshy.html
-  link3:
-  desc: >
-    <p>A <i>Mob Psycho 100</i> fancomic, created for the Broccoli Bomb fanzine.</p>
-    <p>Manga-style, traditionally inked, finished in Clipstudio Paint. Limited print & digital release.</p>
-    <p>Specs: 10 pages | A5 | black & white with tones</p>
-  img: /assets/proj/camshy/cover.jpg
-
-- name: Linesmitheri
-  category: zine
-  link: /linesmitheri
-  link2: /assets/html/linesmitheri.html
-  link3:
-  desc: >
-    <p>A curated collection of pen & ink landscape illustrations in e-book form. Features places from the Philippines, Switzerland and Italy.</p>
-    <p>Drawn traditionally, with dip pen, brush and calligraphy ink.</p>
-  img: /assets/proj/linesmitheri/cover.jpg

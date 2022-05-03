@@ -1,0 +1,52 @@
+<section class="section py-5">
+
+  <div class="site-section pb-0">
+    <div class="container">
+      <div class="row {% if img01 %} align-items-stretch{% else %} justify-content-center{% endif %}">
+
+        {% if img01 %}<div class="col-md-7 {% if img01_link %} galleryProj{% endif %}">
+          
+          {% if img01_link %}<a href="{{ img01_link | relative_url }}">{% endif %}
+          {% if img01 %}<img src="{{ img01 | relative_url }}" alt="Image" class="img-fluid mb-2">{% endif %}
+          {% if img01_link %}</a>{% endif %}
+
+          {% if img02_link %}<a href="{{ img02_link | relative_url }}">{% endif %}
+          {% if img02 %}<img src="{{ img02 | relative_url }}" alt="Image" class="img-fluid mb-2">{% endif %}
+          {% if img01_link %}</a>{% endif %}
+
+          {% if img03_link %}<a href="{{ img03_link | relative_url }}">{% endif %}
+          {% if img03 %}<img src="{{ img03 | relative_url }}" alt="Image" class="img-fluid mb-2">{% endif %}
+          {% if img03_link %}</a>{% endif %}
+
+          {% if img04_link %}<a href="{{ img04_link | relative_url }}">{% endif %}
+          {% if img04 %}<img src="{{ img04 | relative_url }}" alt="Image" class="img-fluid mb-2">{% endif %}
+          {% if img04_link %}</a>{% endif %}
+        </div>{% endif %}
+
+        <div class="{% if img01 %}col-md-4 ml-auto py-md-0 py-3{% else %} col-md-6{% endif %}">
+          <div class="sticky-content">
+            <h2 class="h2">{{ item.name }}</h2>
+            <p class="mb-4"><span class="text-muted">{{ item.category }} | {{ item.status }}</span></p>
+
+            <div class="mb-5">
+              <p>{{ item.desc }}</p>
+
+            </div>
+            {% if read_link %}<a href="{{ read_link | relative_url }}" class="btn btn1 mb-1" role="button"><i class="bi bi-book"></i>&nbsp; {% if read_txt %} {{ read_txt}} {% else%}read{% endif %}</a>{% endif %}
+
+            {% if readvert_link %}<a href="{{ readvert_link | relative_url }}" class="btn btn1 mb-1" role="button"><i class="bi bi-view-stacked"></i>&nbsp; {% if readvert_txt %} {{ readvert_txt}} {% else%}vertical gallery{% endif %}</a>{% endif %}
+
+            {% if get_link %}<a href="{{ get_link }}" target="_blank" class="btn btn1 mb-1" role="button"><i class="bi bi-bag"></i>&nbsp; {% if get_txt %} {{ get_txt}} {% else%}get a copy{% endif %}</a>{% endif %}
+
+            {% if action_link %}<p><a href="{{action_link}}" class="readmore mb-1">{{ action_txt }}</a></p>{% endif %}
+            {% if action_link2 %}<p><a href="{{action_link2}}" class="readmore mb-1">{{ action_txt2 }}</a></p>{% endif %}
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+ 

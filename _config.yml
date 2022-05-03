@@ -4,8 +4,15 @@ description: The collected works of Anabelle Laureola (anonabelle), a Filipino c
 collections:
   authors:
     output: true
+  catalog:
+    output: true
 
 defaults:
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
   - scope:
       path: ""
       type: "authors"

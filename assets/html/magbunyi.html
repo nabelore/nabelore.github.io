@@ -5,44 +5,19 @@ redirect_from:
 - /assets/html/magbunyi
 - /assets/html/magbunyi.html
 description:
-keywords:
+keywords: project
 ---
+
+{% assign img01 = "/assets/proj/magbunyi/oonah/01.jpg" %}
+{% assign img02 = "/assets/proj/magbunyi/anne/01.jpg" %}
+{% assign img03 = "/assets/proj/magbunyi/maria/01.jpg" %}
+
+{% assign readvert_link = "/magbunyi-read" %}
+{% assign get_link = "https://www.notredamedesion.org/news/get-to-know-the-sion-philippines-community/" %}
+
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Magbunyi Comics" %}
-  {% include sectiontitle.html %}
+	{% include project.html %}
 {% endif %}
 {% endfor %}
-
-<div class="text-center py-5 mb-0"><h2>Sr. Oonah</h2></div>
-{% include gallery1.html %}
-	{% for item in site.data.gallery-magbunyi %}
-	{% if item.collection == "oonah" %}
-		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
-    	{% include gallery2a.html %}
-    	</div>
-  {%endif%}
-  {% endfor %}
-{% include gallery3.html %}
-
-<div class="text-center py-5 mb-0"><h2>Sr. Anne</h2></div>
-{% include gallery1.html %}
-	{% for item in site.data.gallery-magbunyi %}
-	{% if item.collection == "anne" %}
-		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery2">
-		{% include gallery2a.html %}
-		</div>
-	{%endif%}
-	{% endfor %}
-{% include gallery3.html %}
-
-<div class="text-center py-5 mb-0"><h2>Sr. Maria</h2></div>
-{% include gallery1.html %}
-	{% for item in site.data.gallery-magbunyi %}
-	{% if item.collection == "maria" %}
-		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery3">
-		{% include gallery2a.html %}
-		</div>
-	{%endif%}
-	{% endfor %}
-{% include gallery3.html %}

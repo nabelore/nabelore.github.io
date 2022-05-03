@@ -69,11 +69,15 @@ $btn-border-radius:1px;
 
 	.readmore{ font-weight: 400 } //contact, submit button
 
-	.blogtext { background-color: $colo-light; }
+	.blogtext { 
+		background-color: $colo-light;
+		padding: 3rem; //same as p-5
+	}
 	.blogtext p:last-child { margin-bottom:0; }
+
 /////////////// modifications to style.css
 	
-	b, strong { font-weight: 600; }
+	b, strong { font-weight: 400; }
 	body { 
 		color: $colo-dark; 
 		font-family: $font-1; 
@@ -211,7 +215,7 @@ $btn-border-radius:1px;
 	.item .item-wrap3:hover img {
 	  transform: scale(1.07);
 	}
-	.item-wrap3 .itemUniform{ height: 15rem; }
+	// .item-wrap3 .itemUniform{ height: 15rem; }
 
 /////////////// simple lightbox customize
 
@@ -340,13 +344,10 @@ span.navbar-toggler-icon.bi.bi-list {
 .styleGallery{
  	white-space: nowrap;
 }
-.styleItem{
-    // object-fit: cover;
-	height:10rem;
-}
+// .styleItem{	height:10rem; }
 .helper {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
-.styleItem img.img-fluid{ vertical-align:middle; }
+// .styleItem img.img-fluid{ vertical-align:middle; }

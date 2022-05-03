@@ -3,52 +3,171 @@
 
 - name: Feb 02
   category: 2021
-  link: assets/proj/comictherapy/CT_20210202.jpg
-  img: assets/proj/comictherapy/CT_20210202.jpg
+  collection: feb
+  link: /assets/proj/comictherapy/CT2021/02/CT_20210202.jpg
+  img: /assets/proj/comictherapy/CT2021/02/CT_20210202.jpg
 - name: Feb 10
   category: 2021
-  link: assets/proj/comictherapy/CT_20210210.jpg
-  img: assets/proj/comictherapy/CT_20210210.jpg
+  collection: feb
+  link: /assets/proj/comictherapy/CT2021/02/CT_20210210.jpg
+  img: /assets/proj/comictherapy/CT2021/02/CT_20210210.jpg
+- name: Feb 11
+  category: 2021
+  collection: feb
+  link: /assets/proj/comictherapy/CT2021/02/CT_20210211.jpg
+  img: /assets/proj/comictherapy/CT2021/02/CT_20210211.jpg
+- name: Feb 13
+  category: 2021
+  collection: feb
+  link: /assets/proj/comictherapy/CT2021/02/CT_20210213.jpg
+  img: /assets/proj/comictherapy/CT2021/02/CT_20210213.jpg
 - name: Feb 20
   category: 2021
-  link: assets/proj/comictherapy/CT_20210220.jpg
-  img: assets/proj/comictherapy/CT_20210220.jpg
+  collection: feb
+  link: /assets/proj/comictherapy/CT2021/02/CT_20210220.jpg
+  img: /assets/proj/comictherapy/CT2021/02/CT_20210220.jpg
+- name: Feb 22
+  category: 2021
+  collection: feb
+  link: /assets/proj/comictherapy/CT2021/02/CT_20210222.jpg
+  img: /assets/proj/comictherapy/CT2021/02/CT_20210222.jpg
 
 - name: Mar 03
   category: 2021
-  link: assets/proj/comictherapy/CT_20210303.jpg
-  img: assets/proj/comictherapy/CT_20210303.jpg
+  collection: mar
+  link: /assets/proj/comictherapy/CT2021/03/CT_20210303.jpg
+  img: /assets/proj/comictherapy/CT2021/03/CT_20210303.jpg
+- name: Mar 04
+  category: 2021
+  collection: mar
+  link: /assets/proj/comictherapy/CT2021/03/CT_20210304.jpg
+  img: /assets/proj/comictherapy/CT2021/03/CT_20210304.jpg
 - name: Mar 07
   category: 2021
-  link: assets/proj/comictherapy/CT_20210307.jpg
-  img: assets/proj/comictherapy/CT_20210307.jpg
+  collection: mar
+  link: /assets/proj/comictherapy/CT2021/03/CT_20210307.jpg
+  img: /assets/proj/comictherapy/CT2021/03/CT_20210307.jpg
+- name: Mar 13
+  category: 2021
+  collection: mar
+  link: /assets/proj/comictherapy/CT2021/03/CT_20210313.jpg
+  img: /assets/proj/comictherapy/CT2021/03/CT_20210313.jpg
 - name: Mar 19
   category: 2021
-  link: assets/proj/comictherapy/CT_20210319.jpg
-  img: assets/proj/comictherapy/CT_20210319.jpg
+  collection: mar
+  link: /assets/proj/comictherapy/CT2021/03/CT_20210319.jpg
+  img: /assets/proj/comictherapy/CT2021/03/CT_20210319.jpg
+- name: Mar 28
+  category: 2021
+  collection: mar
+  link: /assets/proj/comictherapy/CT2021/03/CT_20210328.jpg
+  img: /assets/proj/comictherapy/CT2021/03/CT_20210328.jpg
+
+- name: Apr 07
+  category: 2021
+  collection: apr
+  link: /assets/proj/comictherapy/CT2021/04/CT_20210407.jpg
+  img: /assets/proj/comictherapy/CT2021/04/CT_20210407.jpg
+- name: Apr 12
+  category: 2021
+  collection: apr
+  link: /assets/proj/comictherapy/CT2021/04/CT_20210412.jpg
+  img: /assets/proj/comictherapy/CT2021/04/CT_20210412.jpg
+- name: Apr 19
+  category: 2021
+  collection: apr
+  link: /assets/proj/comictherapy/CT2021/04/CT_20210419.jpg
+  img: /assets/proj/comictherapy/CT2021/04/CT_20210419.jpg
+- name: Apr 22
+  category: 2021
+  collection: apr
+  link: /assets/proj/comictherapy/CT2021/04/CT_20210422.jpg
+  img: /assets/proj/comictherapy/CT2021/04/CT_20210422.jpg
+- name: Apr 25
+  category: 2021
+  collection: apr
+  link: /assets/proj/comictherapy/CT2021/04/CT_20210425.jpg
+  img: /assets/proj/comictherapy/CT2021/04/CT_20210425.jpg
+- name: Apr 28
+  category: 2021
+  collection: apr
+  link: /assets/proj/comictherapy/CT2021/04/CT_20210428.jpg
+  img: /assets/proj/comictherapy/CT2021/04/CT_20210428.jpg
+
+- name: May 07
+  category: 2021
+  collection: may
+  link: /assets/proj/comictherapy/CT2021/05/CT_20210507.jpg
+  img: /assets/proj/comictherapy/CT2021/05/CT_20210507.jpg
+- name: May 17
+  category: 2021
+  collection: may
+  link: /assets/proj/comictherapy/CT2021/05/CT_20210517.jpg
+  img: /assets/proj/comictherapy/CT2021/05/CT_20210517.jpg
+- name: May 19
+  category: 2021
+  collection: may
+  link: /assets/proj/comictherapy/CT2021/05/CT_20210519.jpg
+  img: /assets/proj/comictherapy/CT2021/05/CT_20210519.jpg
+- name: May 25
+  category: 2021
+  collection: may
+  link: /assets/proj/comictherapy/CT2021/05/CT_20210525.jpg
+  img: /assets/proj/comictherapy/CT2021/05/CT_20210525.jpg
+- name: May 27
+  category: 2021
+  collection: may
+  link: /assets/proj/comictherapy/CT2021/05/CT_20210527.jpg
+  img: /assets/proj/comictherapy/CT2021/05/CT_20210527.jpg
+- name: May 29
+  category: 2021
+  collection: may
+  link: /assets/proj/comictherapy/CT2021/05/CT_20210529.jpg
+  img: /assets/proj/comictherapy/CT2021/05/CT_20210529.jpg
+
+- name: Jun 02
+  category: 2021
+  collection: jun
+  link: /assets/proj/comictherapy/CT2021/06/CT_20210602.jpg
+  img: /assets/proj/comictherapy/CT2021/06/CT_20210602.jpg
+- name: Jun 09
+  category: 2021
+  collection: jun
+  link: /assets/proj/comictherapy/CT2021/06/CT_20210609.jpg
+  img: /assets/proj/comictherapy/CT2021/06/CT_20210609.jpg
+- name: Jun 14
+  category: 2021
+  collection: jun
+  link: /assets/proj/comictherapy/CT2021/06/CT_20210614.jpg
+  img: /assets/proj/comictherapy/CT2021/06/CT_20210614.jpg
+- name: Jun 19
+  category: 2021
+  collection: jun
+  link: /assets/proj/comictherapy/CT2021/06/CT_20210619.jpg
+  img: /assets/proj/comictherapy/CT2021/06/CT_20210619.jpg
 
 # comic therapy 2020
 - name: Mar 21
   category: 2020
-  link: assets/proj/comictherapy/CT2020/01.jpg
-  img: assets/proj/comictherapy/CT2020/01.jpg
+  link: /assets/proj/comictherapy/CT2020/01.jpg
+  img: /assets/proj/comictherapy/CT2020/01.jpg
 - name: Mar 23
   category: 2020
-  link: assets/proj/comictherapy/CT2020/02.jpg
-  img: assets/proj/comictherapy/CT2020/02.jpg
+  link: /assets/proj/comictherapy/CT2020/02.jpg
+  img: /assets/proj/comictherapy/CT2020/02.jpg
 - name: Mar 28
   category: 2020
-  link: assets/proj/comictherapy/CT2020/03.jpg
-  img: assets/proj/comictherapy/CT2020/03.jpg
+  link: /assets/proj/comictherapy/CT2020/03.jpg
+  img: /assets/proj/comictherapy/CT2020/03.jpg
 - name: Apr 17
   category: 2020
-  link: assets/proj/comictherapy/CT2020/04.jpg
-  img: assets/proj/comictherapy/CT2020/04.jpg
+  link: /assets/proj/comictherapy/CT2020/04.jpg
+  img: /assets/proj/comictherapy/CT2020/04.jpg
 - name: Apr 24
   category: 2020
-  link: assets/proj/comictherapy/CT2020/05.jpg
-  img: assets/proj/comictherapy/CT2020/05.jpg
+  link: /assets/proj/comictherapy/CT2020/05.jpg
+  img: /assets/proj/comictherapy/CT2020/05.jpg
 - name: May 01
   category: 2020
-  link: assets/proj/comictherapy/CT2020/06.jpg
-  img: assets/proj/comictherapy/CT2020/06.jpg
+  link: /assets/proj/comictherapy/CT2020/06.jpg
+  img: /assets/proj/comictherapy/CT2020/06.jpg

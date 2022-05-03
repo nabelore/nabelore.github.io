@@ -5,31 +5,31 @@ redirect_from:
 - /assets/html/comictherapy
 - /assets/html/comictherapy.html
 ---
+
+{% assign img01 = "/assets/proj/comictherapy/CT2021_cover-book.jpg" %}
+
+{% assign readvert_link = "/comictherapy-read" %}
+{% assign readvert_txt = "read 2020 comics" %}
+
+{% assign get_link = "https://ko-fi.com/s/1bbf1f96ce" %}
+{% assign get_txt = "get the e-book (2021 comics)" %}
+
+{% assign action_link = "/blog" %}
+{% assign action_txt = "Read the latest comic" %}
+
 {% for item in site.data.nav-proj %}
 {% if item.name == "Comic Therapy" %}
-  {% include sectiontitle.html %}
+  {% include project.html %}
 {% endif %}
 {% endfor %}
 
 <!-- ======= Gallery current =======  -->
-<div class="text-center py-5 mb-0"><h2>2021</h2></div>
+<div class="text-center py-5 mb-0"><h2>Selected Comics</h2></div>
 {% include gallery1.html %}
-  {% for item in site.data.gallery-ct %}
-  {% if item.category == 2021 %}
+{% assign data = site.data.gallery-ct | sample:9 %}
+  {% for item in data  %}
     <div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">  
     {% include gallery2a.html %}
     </div>
-  {% endif %}
-  {% endfor %}
-{% include gallery3.html %}
-
-<div class="text-center py-5 mb-0"><h2>2020</h2></div>
-{% include gallery1.html %}
-  {% for item in site.data.gallery-ct %}
-  {% if item.category == 2020 %}
-    <div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery2">  
-    {% include gallery2a.html %}
-    </div>
-  {% endif %}
   {% endfor %}
 {% include gallery3.html %}

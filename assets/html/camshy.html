@@ -5,12 +5,13 @@ redirect_from:
 - /assets/html/camshy
 - /assets/html/camshy.html
 description:
-keywords:
+keywords: project
 ---
+{% assign img01 = "/assets/proj/camshy/cover2.jpg" %}
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Camera Shy" %}
-  {% include sectiontitle.html %}
+	{% include project.html %}
 {% endif %}
 {% endfor %}
 

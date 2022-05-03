@@ -42,8 +42,6 @@
 		{% feed_meta %}
 		{% seo %}
 
-		<script src="/assets/js/gallery.js"></script>
-
 	</head>
 	<body>
 
@@ -78,6 +76,9 @@
 			
 			var lightboxCap = new SimpleLightbox('.galleryCap a', { captions:true, captionPosition:'outside' });
 			var lightboxCap2 = new SimpleLightbox('.galleryCap2 a', { captions:true, captionPosition:'outside' });
+			
+			var lightboxProj = new SimpleLightbox('.galleryProj a', { captions:false });
+			
 		</script>
 		<script type="text/javascript">
 			var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))

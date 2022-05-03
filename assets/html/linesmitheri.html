@@ -5,38 +5,21 @@ redirect_from:
 - /assets/html/linesmitheri
 - /assets/html/linesmitheri.html
 description:
-keywords:
+keywords: project
 ---
+
+{% assign get_link = "https://gum.co/wNUZQe" %}
+{% assign get_txt = "get the e-book" %}
+
+{% assign img01 = "/assets/proj/linesmitheri/book06.jpg" %}
+{% assign img02 = "/assets/proj/linesmitheri/book01.jpg" %}
+{% assign img03 = "/assets/proj/linesmitheri/book02.jpg" %}
+
+{% assign read_link = "/ink" %}
+{% assign read_txt = "View Illustrations (Landscapes & Locations)" %}
+
 {% for item in site.data.nav-proj %}
 {% if item.name == "Linesmitheri" %}
-  {% include sectiontitle.html %}
+	{% include project.html %}
 {% endif %}
 {% endfor %}
-
-<!-- <div class="text-center py-5 mb-0"><h2>Book - Linesmitheri (2019)</h2></div> -->
-{% include gallery1.html %}
-	{% for item in site.data.gallery-ink %}
-	{% if item.category == "book" and item.collection != "photos" %}
-		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
-		{% include gallery2a.html %}
-		</div>
-	{% endif %}
-	{% endfor %}
-{% include gallery3.html %}
-
-<div class="text-center py-5 mb-0"><h2>Book - Linesmitheri (2019)</h2></div>
-{% include gallery1.html %}
-	{% for item in site.data.gallery-ink %}
-	{% if item.category == "book" and item.collection == "photos" %}
-		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
-		{% include gallery2a.html %}
-		</div>
-	{% endif %}
-	{% endfor %}
-{% include gallery3.html %}
-
-<section>
-	<div class="container">
-
-	</div>
-</section>

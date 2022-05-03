@@ -7,23 +7,36 @@
   img: /assets/proj/dita/dita-cover.jpg
 
 - name: Title page
-  category: pages
+  category: extra
   link: /assets/proj/dita/dita-title.jpg
-  img: /assets/proj/dita/dita-title.jpg
-- name: Spread 03a (textless)
+  img: /assets/proj/dita/thumbs/dita-title.jpg
+
+- name: Page 03a (textless)
   category: pages
-  link: /assets/proj/dita/sp03.jpg
-  img: /assets/proj/dita/sp03.jpg
-- name: Spread 03a (textless)
+  link: /assets/proj/dita/03a.jpg
+  img: /assets/proj/dita/03a.jpg
+- name: Page 04a (textless)
   category: pages
-  link: /assets/proj/dita/sp03b.jpg
-  img: /assets/proj/dita/sp03b.jpg
+  link: /assets/proj/dita/04a.jpg
+  img: /assets/proj/dita/04a.jpg
+- name: Page 04b (textless)
+  category: pages
+  link: /assets/proj/dita/04b.jpg
+  img: /assets/proj/dita/04b.jpg
+- name: Page 11a (textless)
+  category: pages
+  link: /assets/proj/dita/11a.jpg
+  img: /assets/proj/dita/11a.jpg
 
 - name: Spread 06 (textless)
   category: spreads
-  link: /assets/proj/dita/sp06.jpg
-  img: /assets/proj/dita/sp06.jpg
+  link: /assets/proj/dita/06.jpg
+  img: /assets/proj/dita/06.jpg
 - name: Spread 07 (textless)
   category: spreads
-  link: /assets/proj/dita/sp07.jpg
-  img: /assets/proj/dita/sp07.jpg
+  link: /assets/proj/dita/07.jpg
+  img: /assets/proj/dita/07.jpg
+- name: Spread 15 (textless)
+  category: spreads
+  link: /assets/proj/dita/15.jpg
+  img: /assets/proj/dita/15.jpg

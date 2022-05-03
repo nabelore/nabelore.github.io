@@ -5,11 +5,15 @@ redirect_from:
 - /assets/html/ifm
 - /assets/html/ifm.html
 description:
-keywords:
+keywords: project
 ---
+{% assign comic = site.data.gallery-ifm | where: "category", "pages" |sample %}
+{% assign img01 = comic.img %}
+
+
 {% for item in site.data.nav-proj %}
 {% if item.name == "IFM Comics" %}
-  {% include sectiontitle.html %}
+  {% include project.html %}
 {% endif %}
 {% endfor %}
 

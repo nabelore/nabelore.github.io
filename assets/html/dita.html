@@ -5,18 +5,22 @@ redirect_from:
 - /assets/html/dita
 - /assets/html/dita.html
 description:
-keywords:
+keywords: project
 ---
+{% assign img01 = "/assets/proj/dita/11a.jpg" %}
+{% assign img02 = "/assets/proj/dita/book-01.jpg" %}
+{% assign img03 = "/assets/proj/dita/book-02.jpg" %}
+
 {% for item in site.data.nav-proj %}
 {% if item.name == "Dita Sows A Good Deed" %}
-  {% include sectiontitle.html %}
+	{% include project.html %}
 {% endif %}
 {% endfor %}
 
-
+<div class="text-center py-3 mb-0"><h3>Pages</h3></div>
 {% include gallery1.html %}
 	{% for item in site.data.gallery-dita %}
-	{% if item.category == "cover" or item.category == "pages" %}
+	{% if item.category == "pages" %}
 		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
 		{% include gallery2a.html %}
 		</div>
@@ -24,6 +28,7 @@ keywords:
 	{% endfor %}
 {% include gallery3.html %}
 
+<div class="text-center py-3 mb-0"><h3>Spreads</h3></div>
 {% include gallery1.html %}
 	{% for item in site.data.gallery-dita %}
 	{% if item.category == "spreads" %}
