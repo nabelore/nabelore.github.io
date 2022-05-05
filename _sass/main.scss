@@ -90,7 +90,9 @@ $container-max-widths: (
 		padding: 3rem; //same as p-5
 	}
 	.blogtext p:last-child { margin-bottom:0; }
-	.indexStyleGallery {background-color: $colo-dark2; }
+	.indexStyleGallery {
+		background-color: $colo-dark2;
+	}
 	.indexLatestComicImg {
 		height:10rem;
 		box-shadow: 5px 5px $colo-accent2;
