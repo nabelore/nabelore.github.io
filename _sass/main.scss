@@ -91,7 +91,10 @@ $container-max-widths: (
 	}
 	.blogtext p:last-child { margin-bottom:0; }
 	.indexStyleGallery {background-color: $colo-dark2; }
-	.indexLatestComicImg {height:10rem;}
+	.indexLatestComicImg {
+		height:10rem;
+		box-shadow: 5px 5px $colo-accent2;
+	}
 	a.opacity80 > *:hover {opacity:.8; color: $colo-accent2; }
 	a.opacity80 { color: $colo-light; transition: 0.2s ease-in-out; }
 
