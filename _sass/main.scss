@@ -31,6 +31,13 @@ $container-max-widths: (
 
 	a.h1, a.h2, a.h3, a.h4{ color: $colo-mid; }
 
+	blockquote { 
+		padding-left: .5rem;
+		font-style: italic;
+		border-left: 2px dotted $colo-accent;
+		color: $colo-accent;
+		font-family: $font-1;
+	}
 	.active, .current,
 	.current.dropdown-item,
 	.offcanvas-end .current { color: $colo-accent; }
@@ -223,11 +230,12 @@ $container-max-widths: (
 
 	.item .item-wrap3 img {
 	  transform: scale(1.05);
+	  // margin-bottom:10px;
 	}
 	.item .item-wrap3:hover img {
 	  transform: scale(1.07);
 	}
-
+	// .item-wrap3 .itemUniform{ height: 15rem; }
 
 /////////////// simple lightbox customize
 
@@ -356,9 +364,10 @@ span.navbar-toggler-icon.bi.bi-list {
 .styleGallery{
  	white-space: nowrap;
 }
-
+// .styleItem{	height:10rem; }
 .helper {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
+// .styleItem img.img-fluid{ vertical-align:middle; }

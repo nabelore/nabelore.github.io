@@ -6,8 +6,9 @@ title: Home
 
 {% for post in site.posts reversed %}
   {% if post.first %}
-    {% assign post_img = post.img%}
-    {% assign post_date = post.date | date:"%m/%d"%}
+    {% assign post_img = post.img %}
+    {% assign post_date = post.date | date:"%d %b %Y" %}
+    {% assign post_title = post.title %}
   {% endif %}
 {%endfor%}
 <a href="{{ latestcomic }}" class="opacity80">
@@ -20,10 +21,10 @@ title: Home
           <img src="{{ post_img }}" class="img-fluid indexLatestComicImg">
         </div>
 
-        <div class="col-auto">
-          <p>{{ post_date }}</p>
-          <h1 class="p-0 m-o">Latest Comic</h1>
-          <span class="text-muted">Comic Therapy</span>
+        <div class="col-auto pt-sm-0 pt-3">
+          <h5><p class="text-muted mb-2">comic blog update</p></h5>
+          <h1 class="p-0 m-0">{{ post_title }}</h1>
+          <span class="text-muted">posted on {{ post_date }}</p>
         </div>
       </div>
 
