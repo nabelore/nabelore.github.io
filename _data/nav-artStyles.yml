@@ -7,20 +7,6 @@
   link3: 
   img: /assets/proj/ink/cover.jpg
   desc: 
-# - name: Ink Illustrations (2019)
-#   category: style
-#   link: /ink#2019
-#   link2: /assets/html/ink#2019.html
-#   link3: 
-#   img: /assets/proj/ink-2019/1003.jpg
-#   desc: 
-# - name: Ink Illustrations (2020)
-#   category: style
-#   link: /ink#2020
-#   link2: /assets/html/ink#2020.html
-#   link3: 
-#   img: /assets/proj/ink-2020/1013.jpg
-#   desc: 
 
 - name: Paintings
   category: style
@@ -29,17 +15,3 @@
   link3: 
   img: /assets/proj/paint/cover.jpg
   desc: 
-# - name: Paintings (2019)
-#   category: style
-#   link: /paintings#2019
-#   link2: /assets/html/paintings#2019.html
-#   link3: 
-#   img: /assets/proj/paint-2019/0730.jpg
-#   desc: 
-# - name: Paintings (2020)
-#   category: style
-#   link: /paintings#2020
-#   link2: /assets/html/paintings#2020.html
-#   link3: 
-#   img: /assets/proj/paint-2020/1029.jpg
-#   desc: 

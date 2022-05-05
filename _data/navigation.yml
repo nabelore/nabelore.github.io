@@ -6,12 +6,6 @@
 - name: About
   permalink: /about
   link: /assets/html/about.html
-# - name: Contact
-#   permalink: /contact
-#   link: /assets/html/contact.html
 - name: Blog
   permalink: /blog
   link: /assets/html/blog.html
-# - name: Staff
-#   permalink: /staff
-#   link: /assets/html/staff.html

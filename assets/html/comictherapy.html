@@ -14,7 +14,9 @@ redirect_from:
 {% assign get_link = "https://ko-fi.com/s/1bbf1f96ce" %}
 {% assign get_txt = "get the e-book (2021 comics)" %}
 
-{% assign action_link = "/blog" %}
+{% assign latestcomic = site.posts | first | relative_url | where:"category", "comic therapy"%}
+
+{% assign action_link = latestcomic %}
 {% assign action_txt = "Read the latest comic" %}
 
 {% for item in site.data.nav-proj %}

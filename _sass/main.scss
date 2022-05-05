@@ -18,6 +18,15 @@ $sl-overlay-background: $colo-dark;
 $btn-focus-width: 1px;
 $btn-border-radius:1px;
 
+// container classes
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 720px,
+  xl: 720px,
+  xxl: 720px
+);
+
 // additional divs
 
 	a.h1, a.h2, a.h3, a.h4{ color: $colo-mid; }
@@ -75,6 +84,10 @@ $btn-border-radius:1px;
 	}
 	.blogtext p:last-child { margin-bottom:0; }
 	.indexStyleGallery {background-color: $colo-dark2; }
+	.indexLatestComicImg {height:10rem;}
+	a.opacity80 > *:hover {opacity:.8; color: $colo-accent2; }
+	a.opacity80 { color: $colo-light; transition: 0.2s ease-in-out; }
+
 /////////////// modifications to style.css
 	
 	b, strong { font-weight: 400; }
@@ -210,12 +223,11 @@ $btn-border-radius:1px;
 
 	.item .item-wrap3 img {
 	  transform: scale(1.05);
-	  // margin-bottom:10px;
 	}
 	.item .item-wrap3:hover img {
 	  transform: scale(1.07);
 	}
-	// .item-wrap3 .itemUniform{ height: 15rem; }
+
 
 /////////////// simple lightbox customize
 
@@ -344,10 +356,9 @@ span.navbar-toggler-icon.bi.bi-list {
 .styleGallery{
  	white-space: nowrap;
 }
-// .styleItem{	height:10rem; }
+
 .helper {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
-// .styleItem img.img-fluid{ vertical-align:middle; }

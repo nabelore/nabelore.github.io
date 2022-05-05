@@ -7,10 +7,10 @@
   link2: /assets/html/comictherapy.html
   link3: /comictherapy-read
   desc: >
-    <p>Bite-sized comics in which I muse about life, work and/or the family dog. Updates semi-regularly on my comic blog.</p>
+    <p>Bite-sized journal comics. Updates semi-regularly on my <a href="/blog">comic blog</a>.</p>
     <hr>
     <i><h4>On Comic Therapy (2021)</h4>
-    <p>Drawn in between Feb to Aug 2021, Comic Therapy is a collection of (mostly) single-panel journal comics by Anabelle Laureola (anonabelle). Most of the content - text included - is handdrawn/written, and captures her idle musings on life, work and the family dog.</p>
+    <blockquote>Drawn in between Feb to Aug 2021, <b>Comic Therapy</b> is a collection of (mostly) single-panel journal comics by Anabelle Laureola (anonabelle). Most of the content - text included - is handdrawn/written, and captures her idle musings on life, work and the family dog.</blockquote>
     <p><ul>
     <li>54 pages</li>
     <li>A5</li>
@@ -25,6 +25,7 @@
   link2: /assets/html/camshy.html
   link3:
   desc: >
+    <blockquote>Mob approaches Mezato with a little request.</blockquote>
     <p>A <i>Mob Psycho 100</i> fancomic, created for the Broccoli Bomb fanzine.</p>
     <p>Manga-style, traditionally inked, finished in Clipstudio Paint. Limited print & digital release.</p>
     <hr>
@@ -41,8 +42,8 @@
   link2: /assets/html/linesmitheri.html
   link3:
   desc: >
-    <p>A curated collection of pen & ink landscape illustrations in e-book form. Features places from the Philippines, Switzerland and Italy.</p>
-    <p>Drawn traditionally, with dip pen, brush and calligraphy ink.</p>
+    <p>A curated collection of pen & ink landscape illustrations. Features places from the Philippines, Switzerland and Italy.</p>
+    <p>Each illustration was drawn traditionally with dip pen, brush and calligraphy ink.</p>
     <hr>
     <p><ul>
     <li>28 pages</li>
@@ -59,9 +60,14 @@
   link2: /assets/html/dita.html
   link3:
   desc: >
-    <p>Illustrations and cover design for a childrens' book about the dita tree, written by Melissa Salva.</p>
-    <p>This book is part of <i>Tata Oskie’s Collection of Children’s Books on Philippine Native Trees</i> produced by Green Convergence, with the goal of introducing kids to trees that are native to the Philippines.</p>
-    <p>Apart from illustrating Dita, I also prepare all five books for print and designed the series' mascot character, Tata Oskie.</p>
+    <p>Illustrations and cover design for a childrens' book about the dita tree. Story written by Melissa Salva.</p>
+    <p>This book is part of <i>Tata Oskie’s Collection of Children’s Books on Philippine Native Trees</i>. Produced by Green Convergence, this book series is part of their goal of introducing kids to trees that are native to the Philippines.</p>
+    <p>Apart from illustrating Dita, I also prepare all five books for print and designed the series' mascot character, Tata Oskie, who is featured on the back cover of each book.</p>
+    <hr>
+    <p><ul>
+    <li>33 pages</li>
+    <li>vertical spreads</li>
+    <li>full color, digital render</li></ul></p>
   img: /assets/proj/dita/cover.jpg
 
 - name: Magbunyi Comics
@@ -73,10 +79,14 @@
   desc: >
     <p>Biographical comics about the Sisters of Notre Dame de Sion and their missionary work in the Philippines.</p>
     <p>Part of <i>Magbunyi: 30 Taon ng Notre Dame de Sion sa Pilipinas</i>. This comics anthology put together by Gantala Press honors the missionary work that the Sisters of Notre Dame De Sion have been doing in the Philippines for the last 30 years.</p>
+    <hr>
+    <p><ul>
+    <li>11 pages</li>
+    <li>full color, digital render</li></ul></p>
   img: /assets/proj/magbunyi/cover.jpg
 
 - name: IFM Comics
-  status: ongoing
+  status: complete
   category: comics
   link: /ifm
   link2: /assets/html/ifm.html

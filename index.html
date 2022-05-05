@@ -2,6 +2,34 @@
 title: Home
 ---
 
+{% assign latestcomic = site.posts | first | relative_url | where:"category", "comic therapy" %}
+
+{% for post in site.posts reversed %}
+  {% if post.first %}
+    {% assign post_img = post.img%}
+    {% assign post_date = post.date | date:"%m/%d"%}
+  {% endif %}
+{%endfor%}
+<a href="{{ latestcomic }}" class="opacity80">
+  <section class="section indexStyleGallery py-5">
+  
+  <div class="container">    
+
+      <div class="row justify-content-center align-items-center">
+        <div class="col-auto">
+          <img src="{{ post_img }}" class="img-fluid indexLatestComicImg">
+        </div>
+
+        <div class="col-auto">
+          <p>{{ post_date }}</p>
+          <h1 class="p-0 m-o">Latest Comic</h1>
+          <span class="text-muted">Comic Therapy</span>
+        </div>
+      </div>
+
+  </div>
+</section></a>
+
 {% include gallery1.html %}
   {% for item in site.data.nav-proj %}
     <div class="item col-6 col-sm-6 col-md-4 mb-4 gallery">

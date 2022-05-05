@@ -6,10 +6,14 @@
   link: /assets/proj/dita/dita-cover.jpg
   img: /assets/proj/dita/dita-cover.jpg
 
-- name: Title page
-  category: extra
-  link: /assets/proj/dita/dita-title.jpg
-  img: /assets/proj/dita/thumbs/dita-title.jpg
+- name: Leaf Designs
+  category: extras
+  link: /assets/proj/dita/dita-designs.jpg
+  img: /assets/proj/dita/dita-designs.jpg
+- name: Tata Oskie
+  category: extras
+  link: /assets/proj/dita/tata-oskie.jpg
+  img: /assets/proj/dita/tata-oskie.jpg
 
 - name: Page 03a (textless)
   category: pages
