@@ -4,18 +4,19 @@ title: Home
 
 {% include gallery1.html %}
   {% for item in site.data.nav-proj %}
-    <div class="item web col-6 col-sm-6 col-md-4 mb-4 gallery">
+    <div class="item col-6 col-sm-6 col-md-4 mb-4 gallery">
     {% include gallery2a.html %}
     </div>
   {% endfor %}
 {% include gallery3.html %}
 
 
-<!-- <div class="text-center py-5 mb-0"><h2>Style Galleries</h2></div> -->
+<div class="indexStyleGallery">
 {% include gallery1.html %}
   {% for item in site.data.nav-artStyles %}
-    <div class="item web col-10 col-sm-6 mb-4 styleGallery gallery2">
+    <div class="item col-12 col-md-6 mb-4 styleGallery gallery2">
     {% include gallery2c.html %}
     </div>
   {% endfor %}
 {% include gallery3.html %}
+</div>
