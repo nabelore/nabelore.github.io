@@ -286,8 +286,8 @@ $container-max-widths: (
 }
 .dropdown-menu{ background-color: $colo-dark; }
 
-.navbar-brand h1{ font-size: 1.3rem; }
-.navbar-brand p{ font-size: .75rem; }
+.navbar-brand h1{ font-size: 1.5rem;}
+.navbar-brand p{ font-size: .9rem; }
 
 .offcanvas-end{ width: 50%; }
 
@@ -326,8 +326,8 @@ span.navbar-toggler-icon.bi.bi-list {
   	.dropdown-menu, .dropdown { visibility: visible; }
   	.navbar-proj { visibility: collapse;  }
 
-  	
   	.navbar-brand h1{font-size: 2rem; }
+  	.navbar-brand p{ font-size: 1rem; }
 
 }
 
