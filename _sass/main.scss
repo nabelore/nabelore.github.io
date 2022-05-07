@@ -115,8 +115,13 @@ $container-max-widths: (
 	a:hover { color: $colo-mid;	}
 	h1, h2, h3, h4, h5, h6, .font-heading { font-family: $font-2; }
 	nav a, .nav-link a { color: $colo-mid; }
-	.nav-link:hover, nav a:hover, .social a:hover { color: $colo-accent;	}
+
+	.nav-link, .nav-link:focus,	.nav-link:hover, 
+	a.nav-link, a.nav-link:focus,	a.nav-link:hover, 
+	nav a:hover, .social a:hover { color: $colo-accent;	}
+	
 	.social a:hover{ background-color: $colo-dark; }
+	
 	nav p{ color: $colo-mid; }
 	.card{ background-color: $colo-light; color: $colo-dark; }
 
@@ -139,7 +144,6 @@ $container-max-widths: (
 	.card {
 		border: 0;
 		text-align: left;
-		// width: fit-content;
 	}
 	.card p:last-child { margin-bottom:0; }
 
@@ -235,12 +239,11 @@ $container-max-widths: (
 
 	.item .item-wrap3 img {
 	  transform: scale(1.05);
-	  // margin-bottom:10px;
 	}
 	.item .item-wrap3:hover img {
 	  transform: scale(1.07);
 	}
-	// .item-wrap3 .itemUniform{ height: 15rem; }
+
 
 /////////////// simple lightbox customize
 
@@ -276,7 +279,7 @@ $container-max-widths: (
 	background-color: $colo-dark;
 	color: $colo-light;
 }
-.offcanvas-header .btn-close { background-color: $colo-light; }
+.dropdown-item.active, .dropdown-item:active, .offcanvas-header .btn-close { background-color: $colo-light; }
 .navbar-toggler{
 	background-color: $colo-accent;
 	color: $colo-light;
@@ -307,35 +310,35 @@ span.navbar-toggler-icon.bi.bi-list {
 
 @media (min-width: 576px){ 
 
-	.offcanvas-body .offcanvas-title {
+	.navbar-mobile{
 		visibility: collapse; 	
 		z-index:0;
+		display: none;
 	}
 
-	.navbar-nav {
+	.navbar-expand-sm .navbar-nav {
   		gap: 0 1rem;
   		font-size: 1rem;
   		align-items: flex-end;
   		flex-wrap: wrap;
-  		flex-direction: row;
-  		width:100%;
   	}
 
   	.dropdown-menu, .dropdown { visibility: visible; }
   	.navbar-proj { visibility: collapse;  }
+
   	
   	.navbar-brand h1{font-size: 2rem; }
 
 }
+
 ///////// art style gallery
 
 .styleGallery{
  	white-space: nowrap;
 }
-// .styleItem{	height:10rem; }
+
 .helper {
     display: inline-block;
     height: 100%;
     vertical-align: middle;
 }
-// .styleItem img.img-fluid{ vertical-align:middle; }
