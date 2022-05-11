@@ -24,7 +24,7 @@ layout: base
 					<li>Anabelle's Website</li>
 				</a>
 
-				{% assign latestcomic = site.posts | first | absolute_url | where:"category", "comic therapy" %}
+				{% assign latestcomic = site.posts | first | relative_url | where:"category", "comic therapy" %}
 
 				<a href="{{latestcomic}}" target="" class="button primary">
 					<li>Latest Comics</li>
