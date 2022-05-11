@@ -2,7 +2,7 @@
 title:
 ---
 
-{% assign latestcomic = site.posts | first | relative_url | where:"category", "comic therapy" %}
+{% assign latestcomic = site.posts | first | absolute_url | where:"category", "comic therapy" %}
 
 {% for post in site.posts reversed %}
   {% if post.first %}
