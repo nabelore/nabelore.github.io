@@ -100,9 +100,43 @@ $container-max-widths: (
 	a.opacity80 > *:hover {opacity:.8; color: $colo-accent2; }
 	a.opacity80 { color: $colo-light; transition: 0.2s ease-in-out; }
 
+	.linksH3{
+		color: $colo-accent2;
+		text-align: center;
+	}
+
+	ul.linksPage{
+		list-style-type: none;
+		color: $colo-dark2;
+		text-align:center;
+		padding-left:0;
+	}
+
+	ul.linksPage > a.button.primary li:hover,
+	ul.linksPage a > li{
+		padding: .5rem;
+		background-color: $colo-light;
+		margin-bottom:.5rem;
+		color: $colo-accent2;
+	}
+
+	div.linksUpdate > ul.linksPage > a.button li:hover,
+	ul.linksPage > a.button.primary li, 
+	ul.linksPage a > li:hover {
+		background-color: $colo-dark2;
+		color:$colo-light;
+		transition: 0.2s ease-in-out;
+	}
+
+	div.linksUpdate > ul.linksPage > a.button li{
+		
+		color:$colo-accent;
+		transition: 0.2s ease-in-out;
+	}
+
 /////////////// modifications to style.css
 	
-	b, strong { font-weight: 400; }
+	b, strong { font-weight: 500; }
 	body { 
 		color: $colo-dark; 
 		font-family: $font-1; 
