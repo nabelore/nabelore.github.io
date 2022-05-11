@@ -93,6 +93,21 @@ $container-max-widths: (
 	.indexStyleGallery {
 		background-color: $colo-dark2;
 	}
+
+	.blogtipjar { 
+		background-color: none;
+		color: $colo-accent2;
+		font-size: 10pt;
+		margin-bottom:0
+	}
+
+	.blogtipjar a{
+		font-style:bold;
+		font-weight:500;
+		color: $colo-mid;
+	}
+	.blogtipjar a:hover{ color: $colo-accent2;}
+
 	.indexLatestComicImg {
 		height:10rem;
 		box-shadow: 5px 5px $colo-accent2;
