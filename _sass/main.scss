@@ -97,16 +97,16 @@ $container-max-widths: (
 	.blogtipjar { 
 		background-color: none;
 		color: $colo-accent2;
-		font-size: 10pt;
+		font-size: .75rem;
 		margin-bottom:0
 	}
 
-	.blogtipjar a{
+	div.blogtipjar a{
 		font-style:bold;
 		font-weight:500;
 		color: $colo-mid;
 	}
-	.blogtipjar a:hover{ color: $colo-accent2;}
+	div.blogtipjar a:hover{ color: $colo-accent2;}
 
 	.indexLatestComicImg {
 		height:10rem;

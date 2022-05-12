@@ -9,9 +9,16 @@
       		{% if page.layout <> "post"%}
       			col-sm-6
       			{%endif%}
-      	{% else %}col{% endif %}">
-	        <p class="mb-1 footertxt">&copy; Anabelle Laureola / anonabelle. All Rights Reserved.</p>
+      	  {% else %}col{% endif %}">
 	        
+          {% if page.layout == "post" %}
+          <div class="blogtipjar text-center mb-1">
+            Feeling generous? I accept tips at my <a href="https://ko-fi.com/anonabelle">Ko-Fi page</a>.
+          </div>
+          {% endif %}
+
+          <p class="mb-1 footertxt">&copy; Anabelle Laureola / anonabelle. All Rights Reserved.</p>
+
 	        {% if page.layout != "read-vert" %}
 	        	{% if page.layout != 'post' %}
         	<div class="credits footertxt">
