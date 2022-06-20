@@ -1,7 +1,7 @@
 # site.data.nav-proj
 
 - name: Comic Therapy
-  status: ongoing
+  status: ongoing, sporadic
   category: comics
   link: /comictherapy
   link2: /assets/html/comictherapy.html
@@ -88,7 +88,7 @@
   img: /assets/proj/magbunyi/cover.jpg
 
 - name: IFM Comics
-  status: complete
+  status: ongoing, sporadic
   category: comics
   link: /ifm
   link2: /assets/html/ifm.html

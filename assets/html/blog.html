@@ -10,27 +10,36 @@ keywords: blog
 ---
 <section class="section text-center pt-5 pb-5">
 	<div class="container">
-		<h2>Comic Blog</h2>
+		<h2>Artist's Blog</h2>
 	</div>
 </section>
 
 <section class="section site-portfolio">
   <div class="container">
-    
-    <div id="portfolio-grid" class="row no-gutter justify-content-center">
-      {% for post in site.posts %}
-        <div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
 
-          <a href="{{ post.url }}" class="item-wrap item-wrap3 fancybox">
-		    <div class="work-info work-info3">
-		      <h3>{{ post.title }}</h3>
-		      <span>{{ post.categories | first }}</span>
-		    </div>
-		    <span class="helper"></span><img class="img-fluid p-0 m-0" src="{{ post.img }}" title="{{ post.title }}">
+    <div id="blog-posts" class="">
+      {% for post in site.posts %}
+      <hr class="my-0">
+      <a href="{{ post.url }}" class="">
+      	<div class="row justify-content-center py-4 align-items-center">
+
+					  <div class="col-4 col-sm-4 col-md-3 col-lg-2">
+			    		<img class="img-fluid imgShadow p-0 m-0" src="{{ post.img }}" title="{{ post.title }}">
+	        	</div>
+					  <div class="col-8 col-sm-6">
+							<p class="mb-2">{{ post.date | date:"%d %b '%y" }}</p>
+					    <h3 class="mb-0">{{ post.title }}</h3>
+					    <p class="mb-0">{{ post.categories | first }}</p>
+					  </div>
+
+      	</div>
 		  </a>
-        </div>
       {% endfor %}
     </div>
+    
+    <hr class="my-0">
+
+    <p class="text-center my-5">~ Nothing Further ~</p>
 
   </div>
 </section>

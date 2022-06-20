@@ -2,12 +2,12 @@
 title:
 ---
 
-{% assign latestcomic = site.posts | first | relative_url | where:"category", "comic therapy" %}
+{% assign latestcomic = site.posts | first | relative_url | where:"categories", "comic therapy" %}
 
 {% for post in site.posts reversed %}
   {% if post.first %}
     {% assign post_img = post.img %}
-    {% assign post_date = post.date | date:"%d %b %Y" %}
+    {% assign post_date = post.date | date:"%d %b '%y" %}
     {% assign post_title = post.title %}
   {% endif %}
 {%endfor%}
@@ -17,12 +17,12 @@ title:
   <div class="container">    
 
       <div class="row justify-content-center align-items-center">
-        <div class="col-auto">
-          <img src="{{ post_img }}" class="img-fluid indexLatestComicImg">
+        <div class="col-3 col-sm-3 col-md-2">
+          <img src="{{ post_img }}" class="img-fluid imgShadow">
         </div>
 
         <div class="col-auto pt-sm-0 pt-3">
-          <h5><p class="text-muted mb-2">comic blog update</p></h5>
+          <h5><p class="text-muted mb-2">latest post</p></h5>
           <h1 class="p-0 m-0">{{ post_title }}</h1>
           <span class="text-muted">posted on {{ post_date }}</span>
         </div>

@@ -1,6 +1,8 @@
 ---
 layout: base
 ---
+<a href="#footer" class="go-to-bottom d-flex align-items-center justify-content-center"><i class="bi bi-arrow-down-short"></i></a>
+
 <section class="section breadcrumb">
   <div class="container py-3">
   
@@ -23,9 +25,7 @@ layout: base
           Next
         {% endif %}
       </li>
-      <li class="breadcrumb-item">
-        <a href="#footer"><i class="bi bi-arrow-down-square-fill"></i></a>
-      </li>
+     
        <li class="breadcrumb-item">
         {% if page.previous != nil %}
           <a href="{{ page.previous | relative_url }}">Previous</a>

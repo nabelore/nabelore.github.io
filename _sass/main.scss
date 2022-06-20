@@ -30,7 +30,9 @@ $container-max-widths: (
 // additional divs
 
 	a.h1, a.h2, a.h3, a.h4{ color: $colo-mid; }
-
+	.textaccent{ color:$colo-accent; }
+	.textaccent2{ color:$colo-accent2; }
+	
 	blockquote { 
 		padding-left: .5rem;
 		font-style: italic;
@@ -108,8 +110,8 @@ $container-max-widths: (
 	}
 	div.blogtipjar a:hover{ color: $colo-accent2;}
 
-	.indexLatestComicImg {
-		height:10rem;
+	.imgShadow {
+		// height:10rem;
 		box-shadow: 5px 5px $colo-accent2;
 	}
 	a.opacity80 > *:hover {opacity:.8; color: $colo-accent2; }
@@ -148,6 +150,26 @@ $container-max-widths: (
 		color:$colo-accent;
 		transition: 0.2s ease-in-out;
 	}
+
+.postimg{
+	border: 2px solid $colo-light;
+	box-shadow: 0px 0px 10px 1px $colo-light;
+}
+
+#blog-posts {
+	
+
+}
+#blog-posts a div.row:hover{
+	background-color: $colo-light;
+	transition: 0.2s ease-in-out;
+}
+
+#blog-posts h3{ color: $colo-dark; }
+#blog-posts a div.row:hover h3{ 
+	color: $colo-accent;
+	transition: 0.2s ease-in-out;
+}
 
 /////////////// modifications to style.css
 	
@@ -195,6 +217,7 @@ $container-max-widths: (
 		text-align: left;
 	}
 	.card p:last-child { margin-bottom:0; }
+
 
 /////////////// gallery 2b effects
 	.item .work-info-2 {	
