@@ -13,6 +13,34 @@
   category: pages
   link: /assets/proj/camshy/03.jpg
   img: /assets/proj/camshy/03.jpg
+- name: Page 04
+  category: pages
+  link: /assets/proj/camshy/04.jpg
+  img: /assets/proj/camshy/04.jpg
+- name: Page 05
+  category: pages
+  link: /assets/proj/camshy/05.jpg
+  img: /assets/proj/camshy/05.jpg
+- name: Page 06
+  category: pages
+  link: /assets/proj/camshy/06.jpg
+  img: /assets/proj/camshy/06.jpg
+- name: Page 07
+  category: pages
+  link: /assets/proj/camshy/07.jpg
+  img: /assets/proj/camshy/07.jpg
+- name: Page 08
+  category: pages
+  link: /assets/proj/camshy/08.jpg
+  img: /assets/proj/camshy/08.jpg
+- name: Page 09
+  category: pages
+  link: /assets/proj/camshy/09.jpg
+  img: /assets/proj/camshy/09.jpg
+- name: Page 10
+  category: pages
+  link: /assets/proj/camshy/10.jpg
+  img: /assets/proj/camshy/10.jpg
 
 - name: "Process for Page 01"
   category: process

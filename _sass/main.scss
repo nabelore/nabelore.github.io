@@ -171,6 +171,11 @@ $container-max-widths: (
 	transition: 0.2s ease-in-out;
 }
 
+.projectBit{
+	background-color: $colo-light;
+}
+.projectBit h3{ font-size: 1.3rem; }
+.projectBit blockquote{ font-size: .8rem;}
 /////////////// modifications to style.css
 	
 	b, strong { font-weight: 500; }
