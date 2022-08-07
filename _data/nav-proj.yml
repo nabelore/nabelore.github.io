@@ -1,5 +1,5 @@
 # site.data.nav-proj
-  
+
 - name: Comic Therapy
   status: ongoing, sporadic
   category: comics
@@ -27,15 +27,17 @@
   link2: /assets/html/camshy.html
   link3: /camshy-read
   desc: >
-    <blockquote>Mob approaches Mezato with a little request.</blockquote>
     <p>A <i>Mob Psycho 100</i> fancomic, created for the Broccoli Bomb fanzine.</p>
     <p>Manga-style, traditionally inked, finished in Clipstudio Paint. Limited print release.</p>
-    <div class="projectBit p-2">
-      <p><ul>
-      <li>Rating: G / General Audiences</li>
-      <li>10 pages</li>
-      <li>A5</li>
-      <li>black & white, with halftones</li></ul></p>
+    <div class="projectBit p-3">
+      <i><h3>Comic summary</h3></i>
+      <blockquote>Mob approaches Mezato with a little request.</blockquote>
+      <ul class="mb-0">
+        <li>Rating: G / General Audiences</li>
+        <li>10 pages</li>
+        <li>A5</li>
+        <li>black & white, with halftones</li>
+      </ul>
     </div>
   img: /assets/proj/camshy/cover.jpg
 
@@ -49,10 +51,11 @@
     <p>A curated collection of pen & ink landscape illustrations. Features places from the Philippines, Switzerland and Italy.</p>
     <p>Each illustration was drawn traditionally with dip pen, brush and calligraphy ink.</p>
     <div class="projectBit p-3">
-      <p><ul>
-      <li>28 pages</li>
-      <li>A5</li>
-      <li>black & white, with ink wash</li></ul></p>
+      <ul class="mb-0">
+        <li>28 pages</li>
+        <li>A5</li>
+        <li>black & white, with ink wash</li>
+      </ul>
     </div>
   img: /assets/proj/linesmitheri/cover.jpg
   actiontxt: View Illustrations
@@ -69,10 +72,11 @@
     <p>This book is part of <i>Tata Oskie’s Collection of Children’s Books on Philippine Native Trees</i>, a series produced by Green Convergence that aims to introduce kids to trees that are native to the Philippines.</p>
     <p>Apart from illustrating <i>Dita</i>, I also prepare all five books for print and designed the series' mascot character, Tata Oskie, who is featured on the back cover of each book.</p>
     <div class="projectBit p-3">
-      <p><ul>
-      <li>33 pages</li>
-      <li>vertical spreads</li>
-      <li>full color, digital render</li></ul></p>
+      <ul class="mb-0">
+        <li>33 pages</li>
+        <li>vertical spreads</li>
+        <li>full color, digital render</li>
+      </ul>
     </div>
   img: /assets/proj/dita/cover.jpg
 
@@ -86,9 +90,10 @@
     <p>Biographical comics about the Sisters of Notre Dame de Sion and their missionary work in the Philippines.</p>
     <p>Part of <i>Magbunyi: 30 Taon ng Notre Dame de Sion sa Pilipinas</i>. This comics anthology put together by Gantala Press honors the missionary work that the Sisters of Notre Dame De Sion have been doing in the Philippines for the last 30 years.</p>
     <div class="projectBit p-3">
-      <p><ul>
-      <li>11 pages</li>
-      <li>full color, digital render</li></ul></p>
+      <ul class="mb-0">
+        <li>11 pages</li>
+        <li>full color, digital render</li>
+      </ul>
     </div>
   img: /assets/proj/magbunyi/cover.jpg
 
