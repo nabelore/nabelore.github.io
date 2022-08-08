@@ -14,7 +14,11 @@ redirect_from:
 {% assign get_link = "https://ko-fi.com/s/1bbf1f96ce" %}
 {% assign get_txt = "get the e-book (2021 comics)" %}
 
-{% assign latestcomic = site.posts | first | relative_url | where:"category", "comic therapy"%}
+<!-- {% assign latestcomic = site.posts | first | relative_url | where:"category", "comic therapy"%} -->
+
+{% for post in site.categories['comic therapy'] limit:1 %}
+      {% assign latestcomic = post.url | prepend: site.baseurl %}   
+{% endfor %}
 
 {% assign action_link = latestcomic %}
 {% assign action_txt = "Read the latest comic" %}

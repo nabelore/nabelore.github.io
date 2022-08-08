@@ -78,23 +78,51 @@ $container-max-widths: (
 		font-size: 2rem;
 	}
 
-	section.section.breadcrumb {background-color:$colo-accent2;}
-	li.breadcrumb-item, 
-	li.breadcrumb-item + .breadcrumb-item::before, 
-	li.breadcrumb-item.active{ color: $colo-dark2; }
-	.section.breadcrumb a {color:$colo-light;}
-	.section.breadcrumb a:hover {color:$colo-mid;}
+	// li.breadcrumb-item, 
+	// li.breadcrumb-item + .breadcrumb-item::before, 
+	// li.breadcrumb-item.active{ color: $colo-dark2; }
+	.breadcrumb-item.active { color: $colo-light; }
+	.section.breadcrumb a { color:$colo-accent2;}
+	.section.breadcrumb a:hover {color:$colo-accent; font-weight:300;}
 
 	.readmore{ font-weight: 400 } //contact, submit button
 
 	.blogtext { 
-		background-color: $colo-light;
+		background-color: $colo-dark2;
+		color: $colo-light;
+		font-weight: 300;
 		padding: 3rem; //same as p-5
 	}
 	.blogtext p:last-child { margin-bottom:0; }
-	.indexStyleGallery {
-		background-color: $colo-dark2;
+	
+	.bgColoDark { 
+		background-color: $colo-dark;
+		color: $colo-light;
 	}
+	
+	.bgColoDark2 { 
+		background-color: $colo-dark2;
+		color: $colo-light;
+	}
+
+	.bgColoLight { 
+		background-color: $colo-light;
+		color: $colo-dark2;
+	}
+	
+	.bgColoMid { 
+		background-color: $colo-mid;
+		color: $colo-light;
+	}
+
+	.bgColoDark2 a,
+	.bgColoLight a { color: $colo-accent;}
+
+	.bgColoDark a,
+	.bgColoMid a { color: $colo-accent2; }
+
+	.bgColoDark2 a:hover,
+	.bgColoMid a:hover { color: $colo-accent2;}
 
 	.blogtipjar { 
 		background-color: none;
@@ -110,12 +138,26 @@ $container-max-widths: (
 	}
 	div.blogtipjar a:hover{ color: $colo-accent2;}
 
-	.imgShadow {
-		// height:10rem;
-		box-shadow: 5px 5px $colo-accent2;
+	.imgShadowMid {
+		box-shadow: 5px 5px rgba(94, 80, 63, .75); //umber
 	}
-	a.opacity80 > *:hover {opacity:.8; color: $colo-accent2; }
-	a.opacity80 { color: $colo-light; transition: 0.2s ease-in-out; }
+	.imgShadowAccent {
+		box-shadow: 5px 5px rgba(169, 146, 125, .75); //grullo
+	}
+	.imgShadowAccent2 {
+		box-shadow: 5px 5px rgba(138, 148, 151, .75); //spanish grey
+	}
+
+	.opacity80:hover, .opacity80 > *:hover {
+		opacity:.8; 
+		color: $colo-accent2; 
+		cursor: pointer;
+	}
+	.opacity80 { 
+		color: $colo-light; 
+		background-color: $colo-dark;
+		transition: 0.2s ease-in-out;
+	}
 
 	.linksH3{
 		color: $colo-accent2;
@@ -152,8 +194,7 @@ $container-max-widths: (
 	}
 
 .postimg{
-	border: 2px solid $colo-light;
-	box-shadow: 0px 0px 10px 1px $colo-light;
+	box-shadow: 0px 0px 5px 1px rgba(138, 148, 151, .25); //spanish grey
 }
 
 #blog-posts {
@@ -165,7 +206,7 @@ $container-max-widths: (
 	transition: 0.2s ease-in-out;
 }
 
-#blog-posts h3{ color: $colo-dark; }
+#blog-posts h3{ color: $colo-light; }
 #blog-posts a div.row:hover h3{ 
 	color: $colo-accent;
 	transition: 0.2s ease-in-out;
@@ -174,8 +215,58 @@ $container-max-widths: (
 .projectBit{
 	background-color: $colo-light;
 }
+
 .projectBit h3{ font-size: 1.3rem; }
 .projectBit blockquote{ font-size: .8rem;}
+
+.imgFeatured {
+	height: 10rem;
+	width:100%;
+	object-fit: cover;
+}
+
+.featured .linkFeatured{
+	display: block;
+  position: relative;
+}
+
+.featured .linkFeatured > .txtFeatured{
+	z-index: 3;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+  color: #ffffff;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s all ease;
+  transform: translateY(-50%);
+  top: 50%;
+  margin-top:0;
+}
+
+.featured .linkFeatured:after {
+	  z-index: 2;
+	  position: absolute;
+	  content: "";
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  background: rgba(94, 80, 63, 0.9); //umber
+	  visibility: visible;
+	  opacity: 1;
+	  transition: 0.3s all ease-in-out;
+	}
+.featured .linkFeatured:hover .txtFeatured {
+	  margin-top: 30px;
+	}
+
+.featured .linkFeatured:hover:after {
+	  background: rgba(138, 148, 151, 0.85); //spanish grey
+	}
+.featured .linkFeatured:hover .txtFeatured .textaccent{ color:$colo-dark2; }
+
+
 
 /////////////// modifications to style.css
 	
@@ -188,8 +279,9 @@ $container-max-widths: (
 	a, .footer a{ 
 		color: $colo-accent2;
 		transition: 0.2s ease-in-out;
+		text-decoration-line: none;
 	}
-	a:hover { color: $colo-mid;	}
+	a:hover { color: $colo-mid;	text-decoration-line: underline; }
 	h1, h2, h3, h4, h5, h6, .font-heading { font-family: $font-2; }
 	nav a, .nav-link a { color: $colo-mid; }
 
@@ -227,7 +319,7 @@ $container-max-widths: (
 
 /////////////// gallery 2b effects
 	.item .work-info-2 {	
-	  	color: $colo-dark2;
+	  color: $colo-dark2;
 		background-color: $colo-light;
 	}
 	.item .work-info-2 span { color: $colo-accent2; }

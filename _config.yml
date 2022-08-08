@@ -12,7 +12,7 @@ collections:
     output: true
   posts:
     output: true
-    permalink: /:collection/:title
+    permalink: /:collection/:title/
 
 defaults:
   - scope:

@@ -11,41 +11,50 @@ title:
     {% assign post_title = post.title %}
   {% endif %}
 {%endfor%}
-<a href="{{ latestcomic }}" class="opacity80">
-  <section class="section indexStyleGallery py-5">
+
+  <section class="section bgColoMid">
   
-  <div class="container">    
+  <div class="container-fluid p-0">
 
-      <div class="row justify-content-center align-items-center">
-        <div class="col-3 col-sm-3 col-md-2">
-          <img src="{{ post_img }}" class="img-fluid imgShadow">
+    <div class="row justify-content-center align-items-center text-center g-2 m-0">
+     
+        <div class="col mt-0 featured">
+
+          <a href="{{ latestcomic }}" class="linkFeatured">
+            <div class="txtFeatured">
+              <h3 class="p-0 m-0">{{ post_title }}</h3>
+              <span class="textaccent">
+                latest post | posted on {{ post_date }}
+              </span>
+            </div>
+            <img src="{{ post_img }}" class="imgFeatured p-0 m-0">
+          </a>
         </div>
 
-        <div class="col-auto pt-sm-0 pt-3">
-          <h5><p class="text-muted mb-2">latest post</p></h5>
-          <h1 class="p-0 m-0">{{ post_title }}</h1>
-          <span class="text-muted">posted on {{ post_date }}</span>
-        </div>
-      </div>
+    </div>
 
   </div>
-</section></a>
+  </section>
+
+
+{% assign bgColo = "bgColoLight" %}
+{% assign imgShadow = "imgShadowMid" %}
 
 {% include gallery1.html %}
   {% for item in site.data.nav-proj %}
-    <div class="item col-6 col-sm-6 col-md-4 mb-4 gallery">
+    <div class="item col-6 col-sm-4 col-md-3 mb-4 gallery">
     {% include gallery2a.html %}
     </div>
   {% endfor %}
 {% include gallery3.html %}
 
 
-<div class="indexStyleGallery">
-{% include gallery1.html %}
-  {% for item in site.data.nav-artStyles %}
-    <div class="item col-12 col-md-6 mb-4 styleGallery gallery2">
-    {% include gallery2c.html %}
-    </div>
-  {% endfor %}
+<section class="section bgColoDark2 my-auto py-sm-3{% if page.keywords <> "artstyle" %} pt-sm-4{%endif%}" id="gallery">
+  <div class="container p-0">
+    <div id="portfolio-grid" class="row no-gutter justify-content-center">
+      {% for item in site.data.nav-artStyles %}
+        <div class="item col-sm-6 col-lg-4 m-0 styleGallery gallery2">
+        {% include gallery2c.html %}
+        </div>
+      {% endfor %}
 {% include gallery3.html %}
-</div>

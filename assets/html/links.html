@@ -17,20 +17,36 @@ layout: base
 
 <div class="container">
 
-	<div class="row mb-3">
+	<div class="row">
 		<div class="col">
-			<ul class="actions stacked linksPage">
+			<ul class="actions stacked linksPage mb-0">
 				<a href="https://anonabelle.com/" target="" class="button primary">
 					<li>Anabelle's Website</li>
 				</a>
-
-				{% assign latestcomic = site.posts | first | relative_url | where:"category", "comic therapy" %}
-
-				<a href="{{latestcomic}}" target="" class="button primary">
-					<li>Latest Blog Post</li>
-				</a>	
 			</ul>
 		</div>
+	</div>
+
+	{% for post in site.categories['comic therapy'] limit:1 %}
+      {% assign latestcomic = post.url | prepend: site.baseurl %}   
+	{% endfor %}
+	{% assign latestblog = site.posts | first | relative_url %}
+
+	<div class="row mb-3">
+			<div class="col-sm-6">
+				<ul class="actions linksPage mb-0">
+					<a href="{{latestblog}}" target="" class="button primary">
+						<li>Latest Blog Post</li>
+					</a>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<ul class="actions linksPage mb-0">
+					<a href="{{latestcomic}}" target="" class="button primary">
+						<li>Latest Comic</li>
+					</a>
+				</ul>
+			</div>
 	</div>
 
 
@@ -82,7 +98,6 @@ layout: base
 							E-books | <i>ko-fi</i>
 						</li>
 					</a>
-					
 				</ul>
 			</div>
 		</div>

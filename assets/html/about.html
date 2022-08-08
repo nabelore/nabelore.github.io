@@ -8,19 +8,21 @@ description:
 keywords:
 ---
 
+{% assign bgColo = "bgColoDark2" %}
+
 {% for item in site.data.navigation %}
 {% if item.name == "About" %}
   {% include sectiontitle.html %}
 {% endif %}
 {% endfor %}
 
-<section class="section pb-5">
+<section class="section {{bgColo}} pb-5">
   <div class="container">
 
     <div class="row justify-content-center align-items-center">
 
       <div class="order-2 col-lg-4 col-md-7 col-10">
-        <h3 class="h2 mb-4">Hi, I'm <span class="textaccent">Anabelle</span>. <br> I'm an <span class="textaccent2">artist</span>.</h3>
+        <h3 class="h2 mb-4">Hi, I'm <span class="textaccent2">Anabelle</span>. <br> I'm an <span class="textaccent2">artist</span>.</h3>
         
         <p>This website collects my adventures in:
           <ul>
@@ -31,7 +33,7 @@ keywords:
           </ul>
         </p>
 
-        <p>After graduating in 2012 with a degree in Multimedia Arts, I started taking on creative projects for  different industries before focusing on comics and book illustration. I recently self-published a <a href="/comictherapy">collection of journal comics</a> from 2021, and am in the midst of working on an <span class="textaccent">original comic based on a Philippine folktale</span> (more details in August 2022!).</p>
+        <p>After graduating in 2012 with a degree in Multimedia Arts, I started taking on creative projects for  different industries before focusing on comics and book illustration. I recently self-published a <a href="/comictherapy">collection of journal comics</a> from 2021, and am in the midst of working on an <span class="textaccent2">original comic based on a Philippine folktale</span> (more details in August 2022!).</p>
 
         <p>You can find most of my work on the internet posted under the moniker "anonabelle".</p>
       </div>
