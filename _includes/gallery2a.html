@@ -1,8 +1,16 @@
 
-  <a href="{{ item.link }}" class="item-wrap fancybox {{ imgShadow }}">
+  <a href="{{ item.link }}" class="item-wrap fancybox {{ imgShadow }} {% if item.link == `` %}pe-none item-wrap3{%endif%}">
+    {% if item.link == `` %}
+    <div class="work-info work-info3">
+      <h3>{{ item.name }}</h3>
+      <span>{{ item.category }}</span>
+    </div>
+    
+    {% else %}
     <div class="work-info">
       <h3>{{ item.name }}</h3>
       <span>{{ item.category }}</span>
     </div>
+    {%endif%}
     <img class="img-fluid" src="{{ item.img }}" title="{{ item.name }}">
   </a>
