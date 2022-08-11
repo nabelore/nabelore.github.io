@@ -1,5 +1,23 @@
 # site.data.nav-proj
 
+- name: Sun says Moon says
+  status: in progress
+  category: comics
+  link: 
+  link2: 
+  link3:
+  desc: >
+    <p>Project for the CCP Grant.</p>
+    <div class="projectBit p-3">
+      <ul>
+        <li>specs 1</li>
+        <li>specs 2</li>
+      </ul>
+    </div>
+    <h3>Press</h3>
+    <a href="https://www.gmanetwork.com/lifestyle/news/90936/ccp-names-winners-of-content-creation-grants/story">GMA Lifestyle</a>
+  img: /assets/proj/sunmoon/concept art.jpg
+  
 - name: Comic Therapy
   status: ongoing, sporadic
   category: comics

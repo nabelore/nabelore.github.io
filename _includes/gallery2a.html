@@ -1,7 +1,11 @@
 
   <a href="{{ item.link }}" class="item-wrap fancybox {{ imgShadow }} {% if item.link == `` %}pe-none item-wrap3{%endif%}">
+    
     {% if item.link == `` %}
+    <!-- projects not announced yet -->
     <div class="work-info work-info3">
+      <span>~ coming soon ~</span>
+      
       <h3>{{ item.name }}</h3>
       <span>{{ item.category }}</span>
     </div>

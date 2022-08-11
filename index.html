@@ -14,30 +14,25 @@ title:
 
   <section class="section bgColoMid">
   
-  <div class="container-fluid p-0">
+  <div class="container-fluid py-1 px-0">
 
     <div class="row justify-content-center align-items-center text-center g-2 m-0">
      
-        <div class="col mt-0 featured">
-
-          <a href="{{ latestcomic }}" class="linkFeatured">
-            <div class="txtFeatured">
-              <h3 class="p-0 m-0">{{ post_title }}</h3>
-              <span class="textaccent">
-                latest post | posted on {{ post_date }}
-              </span>
-            </div>
-            <img src="{{ post_img }}" class="imgFeatured p-0 m-0">
-          </a>
-        </div>
-     
-    </div>
+      <div class="col mt-0 featured">
+        <a href="{{ latestcomic }}" class="linkFeatured">
+          <div class="txtFeatured">
+            <h3 class="p-0 m-0">{{ post_title }}</h3>
+            <span class="textaccent">
+              latest post | posted on {{ post_date }}
+            </span>
+          </div>
+          <img src="{{ post_img }}" class="imgFeatured p-0 m-0">
+        </a>
+      </div>
 
   </div>
   </section>
 
-
-{% assign bgColo = "bgColoLight" %}
 {% assign imgShadow = "imgShadowMid" %}
 
 {% include gallery1.html %}
@@ -49,7 +44,7 @@ title:
 {% include gallery3.html %}
 
 
-<section class="section bgColoDark2 my-auto py-sm-3{% if page.keywords <> "artstyle" %} pt-sm-4{%endif%}" id="gallery">
+<section class="section bgColoDark mt-auto py-sm-3" id="gallery">
   <div class="container p-0">
     <div id="portfolio-grid" class="row no-gutter justify-content-center">
       {% for item in site.data.nav-artStyles %}

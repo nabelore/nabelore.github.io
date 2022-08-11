@@ -1,6 +1,6 @@
 <!-- ======= Navbar =======  -->
 
-<nav class="bgColoLight navbar navbar-expand-sm py-3">
+<nav class="navbar navbar-expand-sm py-3">
   <div class="container align-items-end">
     <div class="navbar-brand p-0">
         <h1 class="m-0 p-0"><a href="/">Anabelle Laureola</a></h1>
@@ -21,8 +21,10 @@
       <div class="offcanvas-body align-content-end">
         <ul class="navbar-nav justify-content-end flex-grow-1">
           {% for item in site.data.navigation %}
+          
             <li class="nav-item">
               <a href="{{ item.permalink }}" class="{% if page.url == item.permalink %}current {% endif %} nav-link" aria-current="page">{{ item.name }}</a></li>
+          
           {% endfor %}
 
           <li class="nav-item dropdown">
@@ -42,7 +44,9 @@
               </a>
               <ul class="dropdown-menu dropdown-menu-end text-end" aria-labelledby="navbarScrollingDropdown">
                 {% for item in site.data.nav-proj %}
+                {% if item.link != `` %}
                 <li><a href="{{ item.link }}" class="{% if page.url == item.link %}current {% endif %}dropdown-item">{{ item.name }}</a></li>
+                {% endif %}
                 {% endfor %}
               </ul>
           </li>

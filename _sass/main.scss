@@ -1,6 +1,5 @@
 @import 'simple-lightbox.min.css';
 
-
 // colors
 
 $font-1: Fredoka, sans-serif;
@@ -14,9 +13,12 @@ $colo-accent2: #8A9497; /* spanish gray */
 $colo-light: #eef0f2; /* cultured */
 
 // elements
-$sl-overlay-background: $colo-dark;
+$sl-overlay-background: $colo-dark2;
 $btn-focus-width: 1px;
 $btn-border-radius:1px;
+$tooltip-bg: $colo-accent2;
+
+tooltip { background-color: $colo-accent2; }
 
 // container classes
 $container-max-widths: (
@@ -46,6 +48,7 @@ $container-max-widths: (
 
 	.footertxt {
 		font-size: .75rem;
+		color: $colo-accent2;
 	}
 
 	.read-img-vert{ width:100% }
@@ -78,18 +81,15 @@ $container-max-widths: (
 		font-size: 2rem;
 	}
 
-	// li.breadcrumb-item, 
-	// li.breadcrumb-item + .breadcrumb-item::before, 
-	// li.breadcrumb-item.active{ color: $colo-dark2; }
 	.breadcrumb-item.active { color: $colo-light; }
-	.section.breadcrumb a { color:$colo-accent2;}
-	.section.breadcrumb a:hover {color:$colo-accent; font-weight:300;}
+	.section.breadcrumb a { color:$colo-accent;}
+	.section.breadcrumb a:hover {color:$colo-accent2; font-weight:300;}
 
 	.readmore{ font-weight: 400 } //contact, submit button
 
 	.blogtext { 
-		background-color: $colo-dark2;
-		color: $colo-light;
+		// background-color: $colo-dark2;
+		color: $colo-dark2;
 		font-weight: 300;
 		padding: 3rem; //same as p-5
 	}
@@ -134,7 +134,7 @@ $container-max-widths: (
 	div.blogtipjar a{
 		font-style:bold;
 		font-weight:500;
-		color: $colo-mid;
+		color: $colo-accent;
 	}
 	div.blogtipjar a:hover{ color: $colo-accent2;}
 
@@ -271,27 +271,38 @@ $container-max-widths: (
 /////////////// modifications to style.css
 	
 	b, strong { font-weight: 500; }
+	
 	body { 
 		color: $colo-dark; 
 		font-family: $font-1; 
+		background-color: $colo-light;
 	}
 
 	a, .footer a{ 
-		color: $colo-accent2;
+		color: $colo-accent;
 		transition: 0.2s ease-in-out;
 		text-decoration-line: none;
 	}
 	a:hover { color: $colo-mid;	text-decoration-line: underline; }
 	h1, h2, h3, h4, h5, h6, .font-heading { font-family: $font-2; }
-	nav a, .nav-link a { color: $colo-mid; }
-
+	
+	nav a, .nav-link a { color: $colo-accent; }
+	a.current.nav-link { color: $colo-accent2; text-decoration-line: none; }
 	.nav-link, .nav-link:focus,	.nav-link:hover, 
 	a.nav-link, a.nav-link:focus,	a.nav-link:hover, 
-	nav a:hover, .social a:hover { color: $colo-accent;	}
+	nav a:hover, .social a:hover, .navbar-brand h1 a:hover { color: $colo-accent2; }
+	.social a { 
+		background-color: $colo-accent;
+		color: $colo-dark2; }
+	.social a:hover { background-color: $colo-accent2; color: $colo-light; }
 	
-	.social a:hover{ background-color: $colo-dark; }
-	
-	nav p{ color: $colo-mid; }
+	.footer, .back-to-top, .go-to-bottom, .navbar{ 
+		background-color: $colo-dark2; 
+		color: $colo-light;
+	}
+	.navbar-brand h1 a { color: $colo-light; }
+	nav p{ color: $colo-accent2; }
+
 	.card{ background-color: $colo-light; color: $colo-dark; }
 
 	#main{
@@ -308,14 +319,33 @@ $container-max-widths: (
 		nav a h1{ color: $colo-mid; }
 	}
 
-	.footer, .back-to-top, .go-to-bottom, .navbar{ 
-		background-color: $colo-light; }
+	
+	
 	.card {
 		border: 0;
 		text-align: left;
 	}
+	
 	.card p:last-child { margin-bottom:0; }
 
+
+//////////////////// tooltip divs
+	.tooltip-inner{
+		background-color: $colo-accent2;
+		color: $colo-light;
+	}
+	.bs-tooltip-top .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=top] .tooltip-arrow::before {
+	  border-top-color: $colo-accent2;
+	}
+	.bs-tooltip-start .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=left] .tooltip-arrow::before{
+	  border-left-color: $colo-accent2;
+	}
+	.bs-tooltip-end .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=right] .tooltip-arrow::before{
+	  border-right-color: $colo-accent2;
+	}
+	.bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before{
+	  border-bottom-color: $colo-accent2;
+	}
 
 /////////////// gallery 2b effects
 	.item .work-info-2 {	
@@ -377,7 +407,7 @@ $container-max-widths: (
 	  left: 0;
 	  right: 0;
 	  bottom: 0;
-	  background: rgba(34, 51, 59, 0.5); //gunmetal
+	  background: rgba(10, 9, 8, 0.5); //rich black
 	  visibility: visible;
 	  opacity: 1;
 	  transition: 0.3s all ease-in-out;
@@ -444,7 +474,7 @@ $container-max-widths: (
 /////////////////////////// navbar / navigation
 
 .dropdown-menu a { color: $colo-light; }
-.offcanvas-end a { color: $colo-accent2; }
+.offcanvas-end a { color: $colo-accent; }
 .offcanvas-end{ 
 	background-color: $colo-dark;
 	color: $colo-light;
@@ -454,7 +484,9 @@ $container-max-widths: (
 	background-color: $colo-accent;
 	color: $colo-light;
 }
-.dropdown-menu{ background-color: $colo-dark; }
+.dropdown-menu{ background-color: $colo-accent2; }
+a.dropdown-item { color: $colo-light; }
+a.current.dropdown-item { color: $colo-dark2; }
 
 .navbar-brand h1{ font-size: 1.5rem;}
 .navbar-brand p{ font-size: .9rem; }

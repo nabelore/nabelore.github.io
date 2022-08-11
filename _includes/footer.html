@@ -1,5 +1,6 @@
 <!-- ======= Footer ======= -->
-<footer class="footer{% if page.keywords == "project" or page.url "/blog" %} mt-auto{%endif%} pt-3{% if page.layout == "read-vert" or page.layout == "post" %} text-center{% endif %}" role="contentinfo" id="footer">
+<!-- <footer class="footer {% if page.keywords == "project" or page.url == "/blog" %} mt-auto{%endif%} pt-3{% if page.layout == "read-vert" or page.layout == "post" %} text-center{% endif %}" role="contentinfo" id="footer"> -->
+  <footer class="footer {% if page.url != "/" %} mt-auto{%endif%} pt-3{% if page.layout == "read-vert" or page.layout == "post" %} text-center{% endif %}" role="contentinfo" id="footer">
 	<div class="container">
     
     <div class="row">
