@@ -63,7 +63,9 @@
           <h5 class="offcanvas-title py-3" id="">Projects</h5>
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
               {% for item in site.data.nav-proj %}
+              {% if item.link != `` %}
               <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+              {% endif %}
               {% endfor %}
           </ul>
         </div>
