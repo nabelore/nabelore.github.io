@@ -8,7 +8,7 @@ img: /assets/proj/comms/aratilis-memories_final.jpg
 <div class="blogtext mb-3" markdown='1'>
 <p> Greetings and well-met! It's been a while. I have a backlog of posts I want to write so let's start things off with this one:</p>
 
-<p>This is something I worked on in August - an illustration commission for a relative who wanted a nice piece of art to decorate her home with. I did this one traditionally (for the most part) with watercolors and fineliners and assorted markers.</p>
+<p>This is something I worked on in September - an illustration commission for a relative who wanted a nice piece of art to decorate her home with. I did this one traditionally (for the most part) with watercolors and fineliners and assorted markers.</p>
 <p>I scanned it before I sent it off, and tried to adjust the colors to look as close as possible to the original. My scanner's not the greatest though so just imagine the blues are less faded than they appear below.</p>
 
 </div>
