@@ -18,12 +18,12 @@ title:
 
     <div class="row justify-content-center align-items-center text-center g-2 m-0">
      
-      <div class="col mt-0 featured">
+      <div class="mt-0 featured">
         <a href="{{ latestcomic }}" class="linkFeatured">
           <div class="txtFeatured">
             <h3 class="p-0 m-0">{{ post_title }}</h3>
             <span class="textaccent">
-              latest post | posted on {{ post_date }}
+              latest post | {{ post_date }}
             </span>
           </div>
           <img src="{{ post_img }}" class="imgFeatured p-0 m-0">
@@ -32,6 +32,7 @@ title:
 
   </div>
   </section>
+
 
 {% assign imgShadow = "imgShadowMid" %}
 

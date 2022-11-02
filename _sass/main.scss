@@ -95,6 +95,12 @@ $container-max-widths: (
 	}
 	.blogtext p:last-child { margin-bottom:0; }
 	
+	.blogimgcaption{
+		text-align: center;
+		font-style: italic;
+		font-size: 12px;
+	}
+
 	.bgColoDark { 
 		background-color: $colo-dark;
 		color: $colo-light;
