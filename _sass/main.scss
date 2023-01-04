@@ -144,15 +144,15 @@ $container-max-widths: (
 	}
 	div.blogtipjar a:hover{ color: $colo-accent2;}
 
-	.imgShadowMid {
-		box-shadow: 5px 5px rgba(94, 80, 63, .75); //umber
-	}
-	.imgShadowAccent {
-		box-shadow: 5px 5px rgba(169, 146, 125, .75); //grullo
-	}
-	.imgShadowAccent2 {
-		box-shadow: 5px 5px rgba(138, 148, 151, .75); //spanish grey
-	}
+	// .imgShadowMid {
+	// 	box-shadow: 5px 5px rgba(94, 80, 63, .75); //umber
+	// }
+	// .imgShadowAccent {
+	// 	box-shadow: 5px 5px rgba(169, 146, 125, .75); //grullo
+	// }
+	// .imgShadowAccent2 {
+	// 	box-shadow: 5px 5px rgba(138, 148, 151, .75); //spanish grey
+	// }
 
 	.opacity80:hover, .opacity80 > *:hover {
 		opacity:.8; 
