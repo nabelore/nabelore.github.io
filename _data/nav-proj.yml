@@ -1,7 +1,7 @@
 # site.data.nav-proj
 
 - name: Sun says Moon says
-  status: in progress
+  status: coming soon
   category: comics
   link: 
   link2: 
@@ -17,7 +17,17 @@
     <h3>Press</h3>
     <a href="https://www.gmanetwork.com/lifestyle/news/90936/ccp-names-winners-of-content-creation-grants/story">GMA Lifestyle</a>
   img: /assets/proj/sunmoon/concept art.jpg
-  
+
+- name: Hourly Comic Day
+  status: ever Feb 1st of the year
+  category: comics
+  link: /hcd
+  link2: /assets/html/hcd.html
+  link3:
+  desc: >
+    <p>Comics drawn for <i>Hourly Comic Day</i>, a yearly art challenge in which people draw a comic for every hour that they're awake.</p>
+  img: /assets/proj/comictherapy/hcd2023/cover.jpg
+
 - name: Comic Therapy
   status: ongoing, sporadic
   category: comics
@@ -125,3 +135,4 @@
     <p>Comic collaborations with <a href="https://www.islandfishermanmagazine.com/">Island Fisherman Magazine</a>. I designed the main character (IFM guy) and handled the art for these gag-style comic strips aimed towards people with a fishy sense of humor.</p>
     <p>Sketched and cleaned up in Clipstudio Paint, converted to vector, and then colored in Affinity Designer.</p>
   img: /assets/proj/ifm/cover.jpg
+

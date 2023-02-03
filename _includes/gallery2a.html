@@ -1,8 +1,8 @@
 
   <a href="{{ item.link }}" class="item-wrap fancybox {% if item.link == `` %}pe-none item-wrap3{%endif%}">
     
-    {% if item.link == `` %}
-    <!-- projects not announced yet -->
+    {% if item.status == "coming soon" %}
+    <!-- adds a coming soon effect on image -->
     <div class="work-info work-info3">
       <span>~ coming soon ~</span>
       

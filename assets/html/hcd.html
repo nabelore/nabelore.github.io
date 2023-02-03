@@ -1,0 +1,33 @@
+---
+title: Hourly Comic Day
+permalink: /hcd
+redirect_from:
+- /assets/html/hcd
+- /assets/html/hcd.html
+---
+
+{% assign img01 = "/assets/proj/comictherapy/hcd2023/hcd2023_00.jpg" %}
+{% assign img02 = "/assets/proj/comictherapy/hcd2023/hcd2023_01.jpg" %}
+
+{% assign readvert_link = "/hcd2023-read" %}
+{% assign readvert_txt = "read 2023 comics (vertical scrolling)" %}
+
+{% assign read_link = "/hcd#2023" %}
+{% assign read_txt = "read 2023 comics (gallery)" %}
+
+{% for item in site.data.nav-proj %}
+{% if item.name == "Hourly Comic Day" %}
+  {% include project.html %}
+{% endif %}
+{% endfor %}
+
+<!-- ======= Gallery current =======  -->
+<div class="text-center py-5 mb-0" id="2023"><h2>2023 Comics</h2></div>
+{% include gallery1.html %}
+{% assign data = site.data.gallery-hcd %}
+  {% for item in data %}
+    <div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">  
+    {% include gallery2a.html %}
+    </div>
+  {% endfor %}
+{% include gallery3.html %}

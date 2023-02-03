@@ -30,16 +30,16 @@
 
             <div class="">
               <p>{{ item.desc }}</p>
-
             </div>
-            {% if read_link %}<a href="{{ read_link | relative_url }}" class="btn btn1 mb-1" role="button"><i class="bi bi-book"></i>&nbsp; {% if read_txt %} {{ read_txt}} {% else%}read{% endif %}</a>{% endif %}
 
-            {% if readvert_link %}<a href="{{ readvert_link | relative_url }}" class="btn btn1 mb-1" role="button"><i class="bi bi-view-stacked"></i>&nbsp; {% if readvert_txt %} {{ readvert_txt}} {% else%}vertical gallery{% endif %}</a>{% endif %}
+            {% if read_link %}<a href="{{ read_link | relative_url }}" class="btn btn1 my-2" role="button"><i class="bi bi-book"></i>&nbsp; {% if read_txt %} {{ read_txt}} {% else%}read{% endif %}</a>{% endif %}
 
-            {% if get_link %}<a href="{{ get_link }}" target="_blank" class="btn btn1 mb-1" role="button"><i class="bi bi-bag"></i>&nbsp; {% if get_txt %} {{ get_txt}} {% else%}get a copy{% endif %}</a>{% endif %}
+            {% if readvert_link %}<a href="{{ readvert_link | relative_url }}" class="btn btn1 my-2" role="button"><i class="bi bi-view-stacked"></i>&nbsp; {% if readvert_txt %} {{ readvert_txt}} {% else%}vertical gallery{% endif %}</a>{% endif %}
 
-            {% if action_link %}<p><a href="{{action_link}}" class="readmore mb-1">{{ action_txt }}</a></p>{% endif %}
-            {% if action_link2 %}<p><a href="{{action_link2}}" class="readmore mb-1">{{ action_txt2 }}</a></p>{% endif %}
+            {% if get_link %}<a href="{{ get_link }}" target="_blank" class="btn btn1 my-2" role="button"><i class="bi bi-bag"></i>&nbsp; {% if get_txt %} {{ get_txt}} {% else%}get a copy{% endif %}</a>{% endif %}
+
+            {% if action_link %}<p><a href="{{action_link}}" class="readmore my-2">{{ action_txt }}</a></p>{% endif %}
+            {% if action_link2 %}<p><a href="{{action_link2}}" class="readmore my-2">{{ action_txt2 }}</a></p>{% endif %}
 
 
           </div>
