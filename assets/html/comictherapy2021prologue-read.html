@@ -1,0 +1,44 @@
+---
+title: read prologue - Comic Therapy (2021)
+permalink: /comictherapy2021prologue-read
+redirect_from:
+- /assets/html/comictherapy2021prologue-read
+- /assets/html/comictherapy2021prologue-read.html
+layout: read-vert
+description:
+keywords:
+---
+
+<section class="section mt-5">
+  <div class="container text-center">
+    <a href="/comictherapy" class="btn btn1" role="button">go back</a>
+  </div>
+</section>
+
+<section class="section" id="ct2021prologue">
+  <div class="container-sm">
+
+    <div class="row justify-content-center">
+      <div class="col item web text-center py-5 mb-0">
+        <h2>Comic Therapy (2021) - prologue</h2>
+      </div>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="item web col-12 col-sm-10 col-lg-8 col-xlg-4 px-sm-2 px-0">
+        {% for item in site.data.gallery-ct %}
+        {% if item.collection == "prologue" %}
+          <img class="read-img-vert img-fluid rounded mx-auto d-block mb-4" src="{{ item.img }}">
+        {% endif %}
+        {% endfor %}  
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="section mb-5">
+  <div class="container text-center">
+      <a href="/comictherapy" class="btn btn1" role="button">go back</a>
+  </div>
+</section>

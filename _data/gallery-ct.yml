@@ -1,6 +1,18 @@
 # site.data.gallery-ct
 # comic therapy
 
+- name: Prologue Pt 1
+  category: 2021
+  collection: prologue
+  link: /assets/proj/comictherapy/CT2021/pgs_prologue/CT2021_01a.jpg
+  img: /assets/proj/comictherapy/CT2021/pgs_prologue/CT2021_01a.jpg
+
+- name: Prologue Pt 2
+  category: 2021
+  collection: prologue
+  link: /assets/proj/comictherapy/CT2021/pgs_prologue/CT2021_01b.jpg
+  img: /assets/proj/comictherapy/CT2021/pgs_prologue/CT2021_01b.jpg
+
 - name: Feb 02
   category: 2021
   collection: feb
