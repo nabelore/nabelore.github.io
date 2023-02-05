@@ -26,7 +26,7 @@
         <div class="{% if img01 %}col ml-auto py-md-0 py-3{% else %} col-md-6{% endif %}">
           <div class="sticky-content">
             <h2 class="h2">{{ item.name }}</h2>
-            <p class="mb-4"><span class="text-muted">{{ item.category }} | {{ item.status }}</span></p>
+            <p class="mb-4"><span class="text-muted">{%for v in item.category %} {{v}}{% if forloop.last != true %},{% endif %}{% endfor %} | {{ item.status }}</span></p>
 
             <div class="">
               <p>{{ item.desc }}</p>
