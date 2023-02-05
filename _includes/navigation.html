@@ -50,9 +50,9 @@
                 {% for item in site.data.nav-proj %}
                 {% if item.link != `` %}
                 {% if item.category != "comics" %}
-                {% if item.category != "illustration" %}
+                {% unless item.category contains "illustration" %}
                 <li><a href="{{ item.link }}" class="{% if page.url == item.link %}current {% endif %}dropdown-item">{{ item.name }}</a></li>
-                {% endif %}
+                {% endunless %}
                 {% endif %}
                 {% endif %}
                 {% endfor %}
@@ -66,7 +66,7 @@
               <ul class="dropdown-menu dropdown-menu-end text-end" aria-labelledby="navbarScrollingDropdown">
                 {% for item in site.data.nav-proj %}
                 {% if item.link != `` %}
-                {% if item.category == "illustration" %}
+                {% if item.category contains "illustration" %}
                 <li><a href="{{ item.link }}" class="{% if page.url == item.link %}current {% endif %}dropdown-item">{{ item.name }}</a></li>
                 {% endif %}
                 {% endif %}
@@ -95,9 +95,9 @@
               {% for item in site.data.nav-proj %}
               {% if item.link != `` %}
               {% if item.category != "comics" %}
-              {% if item.category != "illustration" %}
+              {% unless item.category contains "illustration" %}
               <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-              {% endif %}
+              {% endunless %}
               {% endif %}
               {% endif %}
               {% endfor %}
@@ -107,7 +107,7 @@
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
               {% for item in site.data.nav-proj %}
               {% if item.link != `` %}
-              {% if item.category == "illustration" %}
+              {% if item.category contains "illustration" %}
               <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
               {% endif %}
               {% endif %}

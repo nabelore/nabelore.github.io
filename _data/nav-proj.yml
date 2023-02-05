@@ -71,7 +71,9 @@
 
 - name: Linesmitheri
   status: complete
-  category: zine
+  category: 
+    - illustration
+    - zine
   link: /linesmitheri
   link2: /assets/html/linesmitheri.html
   link3:
