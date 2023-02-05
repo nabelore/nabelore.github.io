@@ -5,6 +5,8 @@
   </div>
   <div class="work-info-2 py-1 mt-1">
       <h3 class="mb-0">{{ item.name }}</h3>
-      <span>{{ item.category }}</span>
+      <span>
+        {%for v in item.category %} {{v}}{% if forloop.last != true %},{% endif %}{% endfor %}
+      </span>
   </div>
 </a>
