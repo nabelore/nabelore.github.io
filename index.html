@@ -2,17 +2,6 @@
 title:
 ---
 
-{% assign latestcomic = site.posts | first | relative_url | where:"categories", "comic therapy" %}
-
-{% for post in site.posts reversed %}
-  {% if post.first %}
-    {% assign post_img = post.img %}
-    {% assign post_date = post.date | date:"%d %b '%y" %}
-    {% assign post_title = post.title %}
-  {% endif %}
-{%endfor%}
-
-
 {% include gallery1.html %}
   {% for item in site.data.nav-proj %}
     <div class="item col-6 col-sm-4 col-md-3 mb-4 gallery {% if item.link == empty %}featured{%endif%}">
