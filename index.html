@@ -12,27 +12,6 @@ title:
   {% endif %}
 {%endfor%}
 
-  <section class="section bgColoMid">
-  
-  <div class="container-fluid py-1 px-0">
-
-    <div class="row justify-content-center align-items-center text-center g-2 m-0">
-     
-      <div class="mt-0 featured">
-        <a href="{{ latestcomic }}" class="linkFeatured">
-          <div class="txtFeatured">
-            <h3 class="p-0 m-0">{{ post_title }}</h3>
-            <span class="textaccent">
-              latest post | {{ post_date }}
-            </span>
-          </div>
-          <img src="{{ post_img }}" class="imgFeatured p-0 m-0">
-        </a>
-      </div>
-
-  </div>
-  </section>
-
 
 {% include gallery1.html %}
   {% for item in site.data.nav-proj %}
