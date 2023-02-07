@@ -3,7 +3,7 @@
   <footer class="footer {% if page.url != "/" %} mt-auto{%endif%} pt-3{% if page.layout == "read-vert" or page.layout == "post" %} text-center{% endif %}" role="contentinfo" id="footer">
 	<div class="container">
     
-    <div class="row">
+    <div class="row text-center text-sm-start">
 
       <div class="
       	{% if page.layout <> "read-vert"%}
@@ -18,7 +18,8 @@
           </div>
           {% endif %}
 
-          <p class="mb-1 footertxt"> 2022-2023 &copy; Anabelle Laureola / anonabelle. All Rights Reserved. [<a href="/tou">Terms of Use</a>]</p>
+          <p class="mb-1 footertxt"> 2022-2023 &copy; Anabelle Laureola / anonabelle.
+          All Rights Reserved. [<a href="/tou">Terms of Use</a>]</p>
 
 	        {% if page.layout != "read-vert" %}
 	        	{% if page.layout != 'post' %}
@@ -29,7 +30,7 @@
       </div>
 
       {% if page.layout != "read-vert" %}{% if page.layout != 'post' %}
-      <div class="col-sm-6 social text-md-end pt-2 pt-sm-0">
+      <div class="col-sm-6 social text-md-end pt-2 pt-sm-0 align-self-center">
         <a href="https://ko-fi.com/anonabelle"  data-bs-toggle="tooltip" data-bs-placement="top" title="Ko-fi"><span class="bi bi-cup-fill"></span></a>
         <a href="https://twitter.com/anonabelle"  data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter"><span class="bi bi-twitter"></span></a>
         <a href="https://instagram.com/anonabelle" data-bs-toggle="tooltip" data-bs-placement="top" title="Instagram"><span class="bi bi-instagram"></span></a>
