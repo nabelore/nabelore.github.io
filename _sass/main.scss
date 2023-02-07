@@ -262,7 +262,16 @@ $container-max-widths: (
 	}
 .featured .linkFeatured:hover .txtFeatured .textaccent{ color:$colo-dark2; }
 
+// hide navbar on mobile
+@media screen and (max-width: 768px){
+  ::-webkit-scrollbar {
+      -webkit-appearance: none;
+  }
+  main {
+  overflow: hidden;
+	}
 
+}
 
 /////////////// modifications to style.css
 	
@@ -495,7 +504,7 @@ a.current.dropdown-item { color: $colo-dark2; }
 	border: none;
 	font-size:2rem;
 	top:1rem;
-	right:1.5rem;
+	right:1rem;
 	left: unset;
 	line-height: .5;
 }
@@ -533,8 +542,8 @@ span.navbar-toggler-icon.bi.bi-list {
   margin-top: unset;
   margin-right: unset;
   margin-bottom: unset;
-  right: 1.5rem;
-  position: fixed;
+  right: 1rem;
+
 }
 
 ///////// art style gallery
