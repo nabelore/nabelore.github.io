@@ -1,8 +1,8 @@
 <!-- ======= Navbar =======  -->
 
-<nav class="navbar navbar-expand-sm py-3">
+<nav class="navbar navbar-expand-sm py-3" style="flex-wrap: wrap;">
   <div class="container align-items-end">
-    <div class="navbar-brand p-0">
+    <div class="navbar-brand my-auto p-0">
         <h1 class="m-0 p-0"><a href="/">Anabelle Laureola</a></h1>
         <p class="m-0 p-0">Cartoonist + Illustrator</p>
     </div>
@@ -27,6 +27,55 @@
           
           {% endfor %}
 
+        <!-- mobile navigation -->
+        <div class="navbar-mobile">
+          <h5 class="offcanvas-title py-3" id="">Comics</h5>
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
+              {% for item in site.data.nav-proj %}
+              {% if item.link != `` %}
+              {% if item.category == "comics" %}
+              <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+          </ul>
+          <h5 class="offcanvas-title py-3" id="">Other Sequential Art</h5>
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
+              {% for item in site.data.nav-proj %}
+              {% if item.link != `` %}
+              {% if item.category != "comics" %}
+              {% unless item.category contains "illustration" %}
+              <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+              {% endunless %}
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+          </ul>
+
+          <h5 class="offcanvas-title py-3" id="">Illustrations & Paintings</h5>
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
+              {% for item in site.data.nav-proj %}
+              {% if item.link != `` %}
+              {% if item.category contains "illustration" %}
+              <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+              {% endif %}
+              {% endif %}
+              {% endfor %}
+
+              {% for item in site.data.nav-artStyles %}
+              <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
+              {% endfor %}
+          </ul>
+        </div>
+        <!-- mobile nav end -->
+      </ul>
+
+      </div>
+
+      <!-- second nav bar for works -->
+      <div class="offcanvas-body align-content-end">
+        <ul class="navbar-nav justify-content-end flex-grow-1">
+          
           <li class="nav-item dropdown">
               <a class="dropdown-toggle nav-link dropdown-item" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Comics
@@ -78,49 +127,10 @@
               </ul>
           </li>
 
-        <!-- mobile navigation -->
-        <div class="navbar-mobile">
-          <h5 class="offcanvas-title py-3" id="">Comics</h5>
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
-              {% for item in site.data.nav-proj %}
-              {% if item.link != `` %}
-              {% if item.category == "comics" %}
-              <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-              {% endif %}
-              {% endif %}
-              {% endfor %}
-          </ul>
-          <h5 class="offcanvas-title py-3" id="">Other Sequential Art</h5>
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
-              {% for item in site.data.nav-proj %}
-              {% if item.link != `` %}
-              {% if item.category != "comics" %}
-              {% unless item.category contains "illustration" %}
-              <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-              {% endunless %}
-              {% endif %}
-              {% endif %}
-              {% endfor %}
-          </ul>
-
-          <h5 class="offcanvas-title py-3" id="">Illustrations & Paintings</h5>
-          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 navbar-proj">
-              {% for item in site.data.nav-proj %}
-              {% if item.link != `` %}
-              {% if item.category contains "illustration" %}
-              <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-              {% endif %}
-              {% endif %}
-              {% endfor %}
-
-              {% for item in site.data.nav-artStyles %}
-              <li><a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a></li>
-              {% endfor %}
-          </ul>
-          
-        </div>
-
+        </ul>
       </div>
+
     </div>
+
   </div>
 </nav>

@@ -495,7 +495,7 @@ a.current.dropdown-item { color: $colo-dark2; }
 	border: none;
 	font-size:2rem;
 	top:1rem;
-	right:1rem;
+	right:1.5rem;
 	left: unset;
 	line-height: .5;
 }
@@ -527,6 +527,14 @@ span.navbar-toggler-icon.bi.bi-list {
   	.navbar-brand h1{font-size: 2rem; }
   	.navbar-brand p{ font-size: 1rem; }
 
+}
+
+.offcanvas-header .btn-close {
+  margin-top: unset;
+  margin-right: unset;
+  margin-bottom: unset;
+  right: 1.5rem;
+  position: fixed;
 }
 
 ///////// art style gallery
