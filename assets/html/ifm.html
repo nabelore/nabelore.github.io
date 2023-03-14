@@ -13,7 +13,7 @@ keywords: project
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "IFM Comics" %}
-  {% include project.html %}
+  {% include projecttitle.html %}
 {% endif %}
 {% endfor %}
 
@@ -38,3 +38,9 @@ keywords: project
   {% endif %}
   {% endfor %}
 {% include gallery3.html %}
+
+{% for item in site.data.nav-proj %}
+{% if item.name == "IFM Comics" %}
+  {% include project.html %}
+{% endif %}
+{% endfor %}

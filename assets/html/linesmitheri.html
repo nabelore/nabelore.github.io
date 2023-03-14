@@ -20,6 +20,12 @@ keywords: project
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Linesmitheri" %}
+	{% include projecttitle.html %}
+{% endif %}
+{% endfor %}
+
+{% for item in site.data.nav-proj %}
+{% if item.name == "Linesmitheri" %}
 	{% include project.html %}
 {% endif %}
 {% endfor %}

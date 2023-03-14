@@ -1,0 +1,30 @@
+<section class="section py-5">
+
+  <div class="site-section pb-0">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-12">
+          <div class="sticky-content">
+            <h2 class="h2">{{ item.name }}</h2>
+            <p class="mb-4"><span class="text-muted">{%for v in item.category %} {{v}}{% if forloop.last != true %},{% endif %}{% endfor %} | {{ item.status }}</span></p>
+
+            {% if read_link %}<a href="{{ read_link | relative_url }}" class="btn btn1 my-2" role="button"><i class="bi bi-book"></i>&nbsp; {% if read_txt %} {{ read_txt}} {% else%}read{% endif %}</a>{% endif %}
+
+            {% if readvert_link %}<a href="{{ readvert_link | relative_url }}" class="btn btn1 my-2" role="button"><i class="bi bi-view-stacked"></i>&nbsp; {% if readvert_txt %} {{ readvert_txt}} {% else%}vertical gallery{% endif %}</a>{% endif %}
+
+            {% if get_link %}<a href="{{ get_link }}" target="_blank" class="btn btn1 my-2" role="button"><i class="bi bi-bag"></i>&nbsp; {% if get_txt %} {{ get_txt}} {% else%}get a copy{% endif %}</a>{% endif %}
+
+            {% if get2_link %}<a href="{{ get2_link }}" target="_blank" class="btn btn1 my-2" role="button"><i class="bi bi-bag"></i>&nbsp; {% if get2_txt %} {{ get2_txt}} {% else%}get a copy{% endif %}</a>{% endif %}
+
+            {% if action_link %}<p><a href="{{action_link}}" class="readmore my-2">{{ action_txt }}</a></p>{% endif %}
+            {% if action_link2 %}<p><a href="{{action_link2}}" class="readmore my-2">{{ action_txt2 }}</a></p>{% endif %}
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+
+ 

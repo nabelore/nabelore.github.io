@@ -10,7 +10,25 @@ keywords: project
 {% assign img01 = "/assets/proj/camshy/cover2.jpg" %}
 
 {% assign readvert_link = "/camshy-read" %}
-{% assign readvert_txt = "Read the comic" %}
+{% assign readvert_txt = "Read (mobile-friendly)" %}
+
+
+{% for item in site.data.nav-proj %}
+{% if item.name == "Camera Shy" %}
+	{% include projecttitle.html %}
+{% endif %}
+{% endfor %}
+
+{% include gallery1.html %}
+	{% for item in site.data.gallery-camshy %}
+	{% if item.category == "pages" or item.category == "process" %}
+		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
+		{% include gallery2a.html %}
+		</div>
+	{% endif %}
+	{% endfor %}
+{% include gallery3.html %}
+
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Camera Shy" %}
@@ -19,13 +37,4 @@ keywords: project
 {% endfor %}
 
 
-{% include gallery1.html %}
-	{% for item in site.data.gallery-camshy %}
-	{% if item.name == "Page 01" or item.category == "process" %}
-		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
-		{% include gallery2a.html %}
-		</div>
-	{% endif %}
-	{% endfor %}
-{% include gallery3.html %}
 

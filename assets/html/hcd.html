@@ -9,14 +9,14 @@ redirect_from:
 {% assign img01 = "/assets/proj/comictherapy/HCD2023/hcd2023_00.jpg" %}
 
 {% assign readvert_link = "/hcd2023-read" %}
-{% assign readvert_txt = "read 2023 comics (vertical scrolling)" %}
+{% assign readvert_txt = "read 2023 comics (mobile-friendly)" %}
 
 {% assign read_link = "/hcd#2023" %}
 {% assign read_txt = "read 2023 comics (gallery)" %}
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Hourly Comic Day" %}
-  {% include project.html %}
+  {% include projecttitle.html %}
 {% endif %}
 {% endfor %}
 
@@ -30,3 +30,9 @@ redirect_from:
     </div>
   {% endfor %}
 {% include gallery3.html %}
+
+{% for item in site.data.nav-proj %}
+{% if item.name == "Hourly Comic Day" %}
+  {% include project.html %}
+{% endif %}
+{% endfor %}

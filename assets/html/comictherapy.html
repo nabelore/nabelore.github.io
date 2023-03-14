@@ -12,12 +12,10 @@ redirect_from:
 {% assign read_txt = "2021 comics - prologue" %}
 
 {% assign readvert_link = "/comictherapy-read" %}
-{% assign readvert_txt = "2020 comics" %}
+{% assign readvert_txt = "2020 comics (mobile-friendly)" %}
 
 {% assign get_link = "https://ko-fi.com/s/1bbf1f96ce" %}
 {% assign get_txt = "get the e-book (2021 comics)" %}
-
-<!-- {% assign latestcomic = site.posts | first | relative_url | where:"category", "comic therapy"%} -->
 
 {% for post in site.categories['comic therapy'] limit:1 %}
       {% assign latestcomic = post.url | prepend: site.baseurl %}   
@@ -28,7 +26,7 @@ redirect_from:
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Comic Therapy" %}
-  {% include project.html %}
+  {% include projecttitle.html %}
 {% endif %}
 {% endfor %}
 
@@ -47,7 +45,7 @@ redirect_from:
 
 <!-- ======= Gallery - CT2021 prologue =======  -->
 <div class="text-center py-5 mb-0" id="2021"><h2>2021 Comics - prologue</h2>
-<a href="/comictherapy2021prologue-read">read (vertical scrolling)</a> or view below</div>
+<a href="/comictherapy2021prologue-read">read (mobile-friendly)</a> or view below</div>
 {% include gallery1.html %}
 {% assign data = site.data.gallery-ct %}
   {% for item in data  %}
@@ -58,3 +56,9 @@ redirect_from:
   {% endif %}
   {% endfor %}
 {% include gallery3.html %}
+
+{% for item in site.data.nav-proj %}
+{% if item.name == "Comic Therapy" %}
+  {% include project.html %}
+{% endif %}
+{% endfor %}
