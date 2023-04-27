@@ -69,6 +69,11 @@ $container-max-widths: (
 		border-color: $colo-dark2;
 	}
 	
+	.btnabout{
+		background-color: $colo-accent2;
+		border-color: $colo-accent2;
+	}
+
 	.btn-check:focus + .btn, .btn:focus, .btn:hover{	
 		color: $colo-light;
 		box-shadow: 0 0 0 .2rem $colo-light;
@@ -135,6 +140,14 @@ $container-max-widths: (
 		color: $colo-accent2;
 		font-size: .75rem;
 		margin-bottom:0
+	}
+
+	.textNav{
+		background-color: $colo-dark2;
+		color: $colo-light;
+		margin: auto;
+		padding: 1rem;
+		width: 75%;
 	}
 
 	div.blogtipjar a{

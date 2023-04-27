@@ -1,0 +1,17 @@
+# site.data.gallery-sunmoon
+# sun says moon says
+
+- name: art 01
+  category: art
+  link: /assets/proj/sunmoon/concept art.jpg
+  img: /assets/proj/sunmoon/concept art.jpg
+
+
+- name: Concept - Page 01
+  category: concept
+  link: /assets/proj/sunmoon/SunMoon_01-02.jpg
+  img: /assets/proj/sunmoon/SunMoon_01-02.jpg
+- name: Concept - Page 02
+  category: concept
+  link: /assets/proj/sunmoon/SunMoon_02-02.jpg
+  img: /assets/proj/sunmoon/SunMoon_02-02.jpg

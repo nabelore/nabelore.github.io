@@ -1,0 +1,25 @@
+<!-- gallery item: title & desc - overlay, clear on hover - square images -->
+  <a href="{{ item.link }}" class="item-wrap item-wrap3 fancybox {% if item.link == `` %}pe-none item-wrap3{%endif%}">
+
+    {% if item.status == "coming soon" %}
+    <!-- adds a coming soon effect on image -->
+    <div class="work-info work-info3">
+      <span>~ coming soon ~</span>
+      
+      <h3>{{ item.name }}</h3>
+      <span>
+        {%for v in item.category %} {{v}}{% if forloop.last != true %},{% endif %}{% endfor %}
+      </span>
+    </div>
+    
+    {% else %}
+    <div class="work-info work-info3">
+      <h3>{{ item.name }}</h3>
+      <span>
+        {%for v in item.category %} {{v}}{% if forloop.last != true %},{% endif %}{% endfor %}
+      </span>
+    </div>
+    {%endif%}
+    <img class="img-fluid" src="{{ item.img }}" title="{{ item.name }}">
+
+  </a>

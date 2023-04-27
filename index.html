@@ -2,15 +2,16 @@
 title:
 ---
 
+<!-- Projects gallery -->
 {% include gallery1.html %}
   {% for item in site.data.nav-proj %}
-    <div class="item col-6 col-sm-4 col-md-3 mb-4 gallery {% if item.link == empty %}featured{%endif%}">
-    {% include gallery2a.html %}
+    <div class="item col-6 col-sm-4 col-md-3 mb-0 p-0 gallery {% if item.link == empty %}featured{%endif%}">
+    {% include gallery2d.html %}
     </div>
   {% endfor %}
 {% include gallery3.html %}
 
-
+<!-- Art Style Galleries -->
 <section class="section bgColoDark mt-auto py-sm-3" id="gallery">
   <div class="container p-0">
     <div id="portfolio-grid" class="row no-gutter justify-content-center">

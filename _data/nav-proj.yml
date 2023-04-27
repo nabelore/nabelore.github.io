@@ -1,26 +1,29 @@
 # site.data.nav-proj
 
 - name: Sun says Moon says
-  status: coming soon
+  status: work-in-progress
   category: comics
-  link: 
-  link2: 
+  category2: personal
+  link: /sunmoon
+  link2: /assets/html/sunmoon.html
   link3:
   desc: >
-    <p>Project for the CCP Grant.</p>
-    <div class="projectBit p-3">
-      <ul>
-        <li>specs 1</li>
-        <li>specs 2</li>
-      </ul>
-    </div>
+    <blockquote>The celestial drama that created the cycle of night and day.</blockquote>
+    <p>A loose retelling of the Philippine folktale, <i>The Sun and the Moon</i>. This project is in development with the aid of the CCP Comics Grant.</p>
+    <p>I am currently developing the script and visual elements in my free time; this page is where I'll collect my progress.</p>
     <h3>Press</h3>
-    <a href="https://www.gmanetwork.com/lifestyle/news/90936/ccp-names-winners-of-content-creation-grants/story">GMA Lifestyle</a>
+    <a href="https://culturalcenter.gov.ph/ccp-launches-grants-for-filipino-animators-artists-and-game-developers/">CCP | press release</a>
+    <br />
+    <a href="https://www.gmanetwork.com/lifestyle/news/90936/ccp-names-winners-of-content-creation-grants/story">GMA Lifestyle | CCP names winners of content creation grants</a>
+    <br />
+    <a href=" https://www.bworldonline.com/arts-and-leisure/2022/07/27/463770/arts-culture-07-27-22/">BusinessWorld | CCP names winners of content creation grants</a>
   img: /assets/proj/sunmoon/concept art.jpg
+
 
 - name: Hourly Comic Day
   status: every Feb 1st of the year
   category: comics
+  category2: personal
   link: /hcd
   link2: /assets/html/hcd.html
   link3:
@@ -28,9 +31,11 @@
     <p>Comics drawn for <i>Hourly Comic Day</i>, a yearly art challenge in which people draw a comic for every hour that they're awake.</p>
   img: /assets/proj/comictherapy/HCD2023/cover.jpg
 
+
 - name: Comic Therapy
   status: ongoing, sporadic
   category: comics
+  category2: personal
   link: /comictherapy
   link2: /assets/html/comictherapy.html
   link3: /comictherapy-read
@@ -51,15 +56,16 @@
 - name: Camera Shy
   status: complete
   category: fancomic
+  category2: personal
   link: /camshy
   link2: /assets/html/camshy.html
   link3: /camshy-read
   desc: >
+    <blockquote>Mob approaches Mezato with a little request.</blockquote>
     <p>A <i>Mob Psycho 100</i> fancomic, created for the Broccoli Bomb fanzine.</p>
     <p>Manga-style, traditionally inked, finished in Clipstudio Paint. Limited print release.</p>
     <div class="projectBit p-3">
-      <i><h3>Comic summary</h3></i>
-      <blockquote>Mob approaches Mezato with a little request.</blockquote>
+      <i><h3>Details</h3></i> 
       <ul class="mb-0">
         <li>Rating: G / General Audiences</li>
         <li>10 pages</li>
@@ -74,6 +80,7 @@
   category: 
     - illustration
     - zine
+  category2: personal
   link: /linesmitheri
   link2: /assets/html/linesmitheri.html
   link3:
@@ -94,6 +101,7 @@
 - name: Dita Sows A Good Deed
   status: complete
   category: kidlit
+  category2: client
   link: /dita
   link2: /assets/html/dita.html
   link3:
@@ -117,6 +125,7 @@
 - name: Magbunyi Comics
   status: complete
   category: comics
+  category2: client
   link: /magbunyi
   link2: /assets/html/magbunyi.html
   link3: /magbunyi-read.html
@@ -134,6 +143,7 @@
 - name: IFM Comics
   status: ongoing, sporadic
   category: comics
+  category2: client
   link: /ifm
   link2: /assets/html/ifm.html
   link3:

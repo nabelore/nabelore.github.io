@@ -1,4 +1,4 @@
-<section class="section py-5">
+<section class="section pt-5 pb-3">
 
   <div class="site-section pb-0">
     <div class="container">
@@ -6,7 +6,10 @@
         <div class="col-12">
           <div class="sticky-content">
             <h2 class="h2">{{ item.name }}</h2>
+            
             <p class="mb-4"><span class="text-muted">{%for v in item.category %} {{v}}{% if forloop.last != true %},{% endif %}{% endfor %} | {{ item.status }}</span></p>
+
+            <a href="#aboutProj" class="btn btnabout my-2" role="button"><i class="bi bi-info-circle-fill"></i>&nbsp; about</a>
 
             {% if read_link %}<a href="{{ read_link | relative_url }}" class="btn btn1 my-2" role="button"><i class="bi bi-book"></i>&nbsp; {% if read_txt %} {{ read_txt}} {% else%}read{% endif %}</a>{% endif %}
 

@@ -18,11 +18,23 @@ keywords: project
 {% assign read_link = "/ink" %}
 {% assign read_txt = "View Illustrations (Landscapes & Locations)" %}
 
+
 {% for item in site.data.nav-proj %}
 {% if item.name == "Linesmitheri" %}
 	{% include projecttitle.html %}
 {% endif %}
 {% endfor %}
+
+{% include gallery1.html %}
+	{% for item in site.data.gallery-ink %}
+	{% if item.collection == "ink2019" %}
+		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
+		{% include gallery2a.html %}
+		</div>
+	{% endif %}
+	{% endfor %}
+{% include gallery3.html %}
+
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Linesmitheri" %}
