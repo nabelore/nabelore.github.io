@@ -19,7 +19,7 @@ keywords: artstyle
 
 {% include gallery1.html %}
 	{% for item in site.data.gallery-paint %}
-	{% if item.category == 2019 or item.category == 2020 %}
+	{% if item.category == 2019 or item.category == 2020 or item.category == 2023 %}
 		<div class="item {{ item.galleryFilter }} {{ item.media }} col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
 		{% include gallery2a.html %}
 		</div>
