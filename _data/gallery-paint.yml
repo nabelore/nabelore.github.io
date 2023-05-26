@@ -1,9 +1,26 @@
 # site.data.gallery-paint
 # paintings
 
+# NOTE - items with multiple media, keyword has to be ONE WORD, spaced in between each keyword so that the filter reads it
+
+- name: Ninang Ging
+  category: 2023
+  media: watercolor pencils mixedmedia
+  collection: portraits
+  galleryFilter: portraits
+  link: assets/proj/paint/2023/ninang ging portrait_web.jpg
+  img: assets/proj/paint/2023/ninang ging portrait_web.jpg
+- name: Michelle
+  category: 2023
+  media: watercolor pencils mixedmedia
+  collection: portraits
+  galleryFilter: portraits
+  link: assets/proj/paint/2023/michelle portrait_web.jpg
+  img: assets/proj/paint/2023/michelle portrait_web.jpg
+
 - name: 11/12
   category: 2020
-  media: watercolor
+  media: watercolor pencils mixedmedia
   collection: stilllife
   galleryFilter: stilllife
   link: assets/proj/paint/2020/1112.jpg
@@ -17,7 +34,7 @@
   img: assets/proj/paint/2020/1102.jpg
 - name: 10/29
   category: 2020
-  media: watercolor
+  media: watercolor pencils mixedmedia
   collection: stilllife
   galleryFilter: stilllife
   link: assets/proj/paint/2020/1029.jpg

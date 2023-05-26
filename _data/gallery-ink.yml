@@ -7,6 +7,13 @@
   link: /assets/proj/linesmitheri/cover.jpg
   img: /assets/proj/linesmitheri/cover.jpg
 
+- name: Garfield (commission)
+  category: 2023
+  collection: animals2023
+  galleryFilter: animals
+  link: /assets/proj/ink/2023/garfield_final_web.jpg
+  img: /assets/proj/ink/2023/garfield_final_web.jpg
+
 - name: September Sunflowers 01
   category: 2020
   collection: nature
