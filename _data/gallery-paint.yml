@@ -3,6 +3,13 @@
 
 # NOTE - items with multiple media, keyword has to be ONE WORD, spaced in between each keyword so that the filter reads it
 
+- name: Marianne, Susan and David
+  category: 2023
+  media: watercolor pencils mixedmedia
+  collection: portraits
+  galleryFilter: portraits
+  link: assets/proj/paint/2023/marianne-susan-david portrait_web.jpg
+  img: assets/proj/paint/2023/marianne-susan-david portrait_web.jpg
 - name: Ninang Ging
   category: 2023
   media: watercolor pencils mixedmedia
