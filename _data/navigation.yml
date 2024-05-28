@@ -6,9 +6,6 @@
 - name: About
   permalink: /about
   link: /assets/html/about.html
-- name: Services
-  permalink: /services
-  link: /assets/html/services.html
 - name: Blog
   permalink: /blog
   link: /assets/html/blog.html
