@@ -11,24 +11,34 @@
     <blockquote>The celestial drama that created the cycle of night and day.</blockquote>
     <p>A loose retelling of the Philippine folktale, <i>The Sun and the Moon</i>. This project is in development with the aid of the CCP Comics Grant.</p>
     <p>I am currently developing the script and visual elements in my free time; this page is where I'll collect my progress.</p>
-    <h3>Press</h3>
-    <a href="https://culturalcenter.gov.ph/ccp-launches-grants-for-filipino-animators-artists-and-game-developers/">CCP | press release</a>
-    <br />
-    <a href="https://www.gmanetwork.com/lifestyle/news/90936/ccp-names-winners-of-content-creation-grants/story">GMA Lifestyle | CCP names winners of content creation grants</a>
-    <br />
-    <a href=" https://www.bworldonline.com/arts-and-leisure/2022/07/27/463770/arts-culture-07-27-22/">BusinessWorld | CCP names winners of content creation grants</a>
+    <h4>press</h4>
+    <ul>
+    <li>press release | <a href="https://culturalcenter.gov.ph/press-release/ccp-launches-grants-for-filipino-animators-artists-and-game-developers/">CCP LAUNCHES GRANTS FOR FILIPINO ANIMATORS, ARTISTS, AND GAME DEVELOPERS</a> (<a href="https://www.gmanetwork.com/lifestyle/news/90936/ccp-names-winners-of-content-creation-grants/story">GMA Lifestyle</a>)</li>
+    <li>press release | <a href="https://culturalcenter.gov.ph/press-release/ccp-completes-animation-comics-and-games-development-initiative-with-last-batch-of-grantees/">CCP COMPLETES ANIMATION, COMICS, AND GAMES DEVELOPMENT INITIATIVE WITH LAST BATCH OF GRANTEES</a> (<a href="https://mb.com.ph/2023/12/10/ccp-completes-animation-comics-and-games-development-initiative-with-last-batch-of-grantees">Manila Bulletin</a>)</li>
+    </ul>
   img: /assets/proj/sunmoon/concept art.jpg
 
-
-- name: Hourly Comic Day
-  status: every Feb 1st of the year
-  category: comics
+- name: kidlit
+  status: complete
+  category: kidlit
   category2: personal
-  link: /hcd
-  link2: /assets/html/hcd.html
+  link: /kidlit
+  link2: /assets/html/kidlit.html
   link3:
   desc: >
-    <p>Comics drawn for <i>Hourly Comic Day</i>, a yearly art challenge in which people draw a comic for every hour that they're awake.</p>
+    <p>Short illustration project.</p>
+  img: /assets/proj/kidlit/cover.jpg
+
+- name: Hourly Comics
+  status: updates monthly
+  category: comics
+  category2: personal
+  link: /hourlies
+  link2: /assets/html/hourlies.html
+  link3:
+  desc: >
+    <p>Collection of my hourly comics, which are comics drawn for every hour that you're awake.</p>
+    <p>Includes comics drawn for <i>Hourly Comic Day</i>, a yearly art challenge that takes place on Feb 1st.</p>
   img: /assets/proj/comictherapy/hourlies_cover.jpg
 
 
