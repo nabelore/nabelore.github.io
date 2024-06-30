@@ -18,17 +18,6 @@
     </ul>
   img: /assets/proj/sunmoon/concept art.jpg
 
-- name: kidlit
-  status: complete
-  category: kidlit
-  category2: personal
-  link: /kidlit
-  link2: /assets/html/kidlit.html
-  link3:
-  desc: >
-    <p>Short illustration project.</p>
-  img: /assets/proj/kidlit/cover.jpg
-
 - name: Hourly Comics
   status: updates monthly
   category: comics
@@ -40,7 +29,6 @@
     <p>Collection of my hourly comics, which are comics drawn for every hour that you're awake.</p>
     <p>Includes comics drawn for <i>Hourly Comic Day</i>, a yearly art challenge that takes place on Feb 1st.</p>
   img: /assets/proj/comictherapy/hourlies_cover.jpg
-
 
 - name: Comic Therapy
   status: ongoing, sporadic
