@@ -8,7 +8,7 @@ git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
 
 gem "jekyll", "~> 4.2"
 gem "webrick"
-gem "rexml", "~> 3.2", ">= 3.2.8"
+gem "rexml", ">= 3.3.2"
 gem "jekyll-redirect-from"
 
 group :jekyll_plugins do
