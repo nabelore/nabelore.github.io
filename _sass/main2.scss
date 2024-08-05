@@ -5,12 +5,12 @@
 $font-1: Fredoka, sans-serif;
 $font-2: 'Philosopher', sans-serif;
 
-$colo-dark: #0A0908; /* rich black FOGRA 39 */
-$colo-dark2: #22333B; /* gunmetal */
-$colo-mid: #5E503F; /* umber */
-$colo-accent: #A9927D; /* grullo */
-$colo-accent2: #8A9497; /* spanish gray */
-$colo-light: #eef0f2; /* cultured */
+$colo-dark: #0A0908; // rich black FOGRA 39
+$colo-dark2: #22333B; // gunmetal
+$colo-mid: #5E503F; // umber
+$colo-accent: #A9927D; // grullo
+$colo-accent2: #8A9497; // spanish gray
+$colo-light: #eef0f2; // cultured
 
 // elements
 $sl-overlay-background: $colo-dark2;
@@ -206,18 +206,19 @@ $container-max-widths: (
 	box-shadow: 0px 0px 5px 1px rgba(138, 148, 151, .25); //spanish grey
 }
 
-#blog-posts {
-	
-
+#blog-posts a{
+	color: $colo-accent2;
 }
+
 #blog-posts a div.row:hover{
-	background-color: $colo-light;
+	background-color: $colo-mid;
+	color: $colo-accent;
 	transition: 0.2s ease-in-out;
 }
 
-#blog-posts h3{ color: $colo-light; }
+#blog-posts h3{  }
 #blog-posts a div.row:hover h3{ 
-	color: $colo-accent;
+	color: $colo-light;
 	transition: 0.2s ease-in-out;
 }
 

@@ -8,13 +8,13 @@ description:
 keywords: blog
 
 ---
-<section class="section bgColoMid text-center pt-5 pb-5">
+<section class="section bgColoLight text-center pt-5 pb-5">
 	<div class="container">
 		<h2>Artist's Blog</h2>
 	</div>
 </section>
 
-<section class="section bgColoMid">
+<section class="section bgColoLight">
   <div class="container">
 
     <div id="blog-posts" class="">
@@ -27,9 +27,10 @@ keywords: blog
 			    		<img class="img-fluid imgShadow p-0 m-0" src="{{ post.img }}" title="{{ post.title }}">
 	        	</div>
 					  <div class="col-8 col-sm-6">
-							<p class="mb-2">{{ post.date | date:"%d %b '%y" }}</p>
+							<p class="mb-2"><i>{{ post.date | date:"%d %b %Y" }}</i></p>
 					    <h3 class="mb-0">{{ post.title }}</h3>
-					    <p class="mb-0">{{ post.categories | first }}</p>
+					    <!--<p class="mb-0">{{ post.categories | first }}</p> -->
+					    <p class="mb-0">{{ post.categories | array_to_sentence_string: "/" }}</p>
 					  </div>
 
       	</div>
