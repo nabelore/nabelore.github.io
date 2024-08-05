@@ -5,6 +5,7 @@ tagline: Comics and art by Anabelle Laureola
 description: The collected works of Anabelle Laureola (anonabelle), a Filipino cartoonist and illustrator.
 logo: /assets/img/favicon.png
 url: "https://anonabelle.com"
+encoding: utf-8
 collections:
   authors:
     output: true
