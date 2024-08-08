@@ -18,7 +18,7 @@
           </div>
           {% endif %}
 
-          <p class="mb-1 footertxt"> 2022-2023 &copy; Anabelle Laureola / anonabelle.
+          <p class="mb-1 footertxt {% if page.layout == "post" or page.layout == "read-vert" %}text-center{%endif%}"> 2022-2024 &copy; Anabelle Laureola / anonabelle.
           All Rights Reserved. [<a href="/tou">Terms of Use</a>]</p>
 
 	        {% if page.layout != "read-vert" %}

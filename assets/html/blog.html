@@ -30,7 +30,11 @@ keywords: blog
 							<p class="mb-2"><i>{{ post.date | date:"%d %b %Y" }}</i></p>
 					    <h3 class="mb-0">{{ post.title }}</h3>
 					    <!--<p class="mb-0">{{ post.categories | first }}</p> -->
-					    <p class="mb-0">{{ post.categories | array_to_sentence_string: "/" }}</p>
+					    <p class="mb-0">
+					    	{% for category in post.categories %}
+        					{{category}}{% unless forloop.last %}, {%endunless%}
+        				{% endfor%}
+					    </p>
 					  </div>
 
       	</div>
