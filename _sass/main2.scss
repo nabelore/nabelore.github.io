@@ -184,15 +184,15 @@ $container-max-widths: (
 	ul.linksPage a > li{
 		padding: .5rem;
 		margin-bottom:.5rem;
-		background-color: $colo-dark2;
-		color:$colo-light;
+		background-color: $colo-light;
+		color: $colo-accent2;
 	}
 
 	div.linksUpdate > ul.linksPage > a.button li:hover,
 	ul.linksPage > a.button.primary li, 
 	ul.linksPage a > li:hover {
-		background-color: $colo-light;
-		color: $colo-accent2;
+		background-color: $colo-dark2;
+		color:$colo-light;
 		transition: 0.2s ease-in-out;
 	}
 
