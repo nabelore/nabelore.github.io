@@ -181,6 +181,7 @@ $container-max-widths: (
 	}
 
 	ul.linksPage > a.button.primary li:hover,
+	div.linksUpdate > ul.linksPage > a.button li,
 	ul.linksPage a > li{
 		padding: .5rem;
 		margin-bottom:.5rem;
@@ -196,11 +197,6 @@ $container-max-widths: (
 		transition: 0.2s ease-in-out;
 	}
 
-	div.linksUpdate > ul.linksPage > a.button li{
-		
-		color:$colo-accent;
-		transition: 0.2s ease-in-out;
-	}
 
 .postimg{
 	box-shadow: 0px 0px 5px 1px rgba(138, 148, 151, .25); //spanish grey
