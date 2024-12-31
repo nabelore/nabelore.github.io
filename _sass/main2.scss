@@ -181,7 +181,6 @@ $container-max-widths: (
 	}
 
 	ul.linksPage > a.button.primary li:hover,
-	div.linksUpdate > ul.linksPage > a.button li,
 	ul.linksPage a > li{
 		padding: .5rem;
 		margin-bottom:.5rem;
@@ -189,7 +188,6 @@ $container-max-widths: (
 		color: $colo-accent2;
 	}
 
-	div.linksUpdate > ul.linksPage > a.button li:hover,
 	ul.linksPage > a.button.primary li, 
 	ul.linksPage a > li:hover {
 		background-color: $colo-dark2;
