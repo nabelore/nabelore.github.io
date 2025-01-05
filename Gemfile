@@ -14,9 +14,14 @@ gem 'bundler', '~> 2.5', '>= 2.5.17'
 gem "csv"
 gem "base64"
 gem "bigdecimal"
+gem "jekyll-remote-theme"
 
 group :jekyll_plugins do
   gem 'jekyll-sitemap'
   gem 'jekyll-feed'
   gem 'jekyll-seo-tag'
 end
+
+gem "logger", "~> 1.6"
+
+gem "ostruct", "~> 0.6.1"

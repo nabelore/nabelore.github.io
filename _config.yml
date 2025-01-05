@@ -7,6 +7,7 @@ logo: /assets/img/favicon.png
 #baseurl: "/nabelore.github.io"
 #url: "https://anonabelle.com"
 encoding: utf-8
+remote_theme: anonabelle/nabelore
 
 collections:
   authors:
@@ -43,5 +44,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-remote-theme
 whitelist:
   - jekyll-redirect-from
