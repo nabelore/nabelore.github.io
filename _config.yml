@@ -7,7 +7,7 @@ logo: /assets/img/favicon.png
 #baseurl: "/nabelore.github.io"
 #url: "https://anonabelle.com"
 encoding: utf-8
-remote_theme: anonabelle/nabelore
+#remote_theme: https://anonabelle.com
 
 collections:
   authors:
