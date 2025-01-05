@@ -4,8 +4,10 @@ email: anonabelle.art@gmail.com
 tagline: Comics and art by Anabelle Laureola
 description: The collected works of Anabelle Laureola (anonabelle), a Filipino cartoonist and illustrator.
 logo: /assets/img/favicon.png
-url: "https://anonabelle.com"
+#baseurl: "/nabelore.github.io"
+#url: "https://anonabelle.com"
 encoding: utf-8
+
 collections:
   authors:
     output: true
@@ -37,7 +39,7 @@ defaults:
       layout: "default"
 
 plugins:
-  - jekyll-feed
+  #- jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
