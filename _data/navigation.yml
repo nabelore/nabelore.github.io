@@ -8,14 +8,6 @@
   permalink: /about
   link: /assets/html/about.html
 
-# - name: Contact
-#   permalink: /contact
-#   link: /assets/html/contact.html
-
-- name: Services
-  permalink: /services
-  link: /assets/html/services.html
-
 - name: Blog
   permalink: /blog
   link: /assets/html/blog.html
