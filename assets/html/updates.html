@@ -1,0 +1,43 @@
+---
+title: Updates
+permalink: /updates
+redirect_from:
+- /assets/html/updates
+- /assets/html/updates.html
+description:
+keywords:
+---
+
+<section class="section text-center py-5">
+  <div class="container">
+    <h1 class="m-0 p-0">Updates</h1>
+  </div>
+</section>
+
+
+<section class="section pb-5">
+  <div class="container">
+
+    <div class="indexUpdates col-md-8 col-sm-12 justify-content-center align-items-center">
+
+	    <hr>
+
+	      {% for item in site.data.updates-2025 %}
+		      <div class="bodytext">
+		      	<span>
+		      		{% if item.name != null %} <b><small class="text-uppercase">{{ item.name }}</small></b> / {% endif%}{{ item.desc }}
+		      		{% if item.readmoreurl != null %}
+		      			<a href="{{ item.readmoreurl }}">read more</a>.
+		      		{% endif %}
+		      	</span>
+		      </div>
+		      <hr>
+	      {% endfor %}
+
+	    <div class="bodytext text-center mb-1">
+	        <a href="/">back to home</a>
+	    </div>
+    </div>   
+
+  </div>
+</section>

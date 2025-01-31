@@ -1,0 +1,44 @@
+---
+title: Other Work
+permalink: /galleries
+redirect_from:
+- /assets/html/galleries
+- /assets/html/galleries.html
+description:
+keywords:
+---
+<!-- assigns placeholder to thumbnail if none is available -->
+{% assign img01 = "/assets/img/temp/thumb1-coloDK.jpg" %}
+
+<section class="section text-center py-5">
+  <div class="container">
+    <h1 class="m-0 p-0">Other Work</h1>
+  </div>
+  <div class="container text-center pt-5">
+    <p class="m-0">Collections of my other work, organized by medium/style.</p>
+  </div>
+</section>
+
+<!-- Art Style Galleries -->
+<section class="section mt-auto pb-sm-5" id="gallery">
+  <div class="container p-0">
+    <div id="portfolio-grid" class="row g-0 justify-content-center">
+      {% for item in site.data.nav-artStyles %}
+      {% if item.name != "All Galleries" %}
+        <div class="item col-sm-6 col-lg-4 m-0 styleGallery gallery2">
+        {% include gallery2c.html %}
+        </div>
+      {% endif %}
+      {% endfor %}
+{% include gallery3.html %}
+
+
+<!-- Tumblr feed 2024-10-04 -->
+<section class="section bgColoDark">
+  <div class="container-fluid py-1 px-0">
+
+    <script src="https://static.elfsight.com/platform/platform.js" async></script>
+    <div class="elfsight-app-56bdc096-7cb2-45c9-baad-44aee7a069b9" data-elfsight-app-lazy></div>
+
+  </div>
+</section>

@@ -1,5 +1,13 @@
 # site.data.nav-artStyles
 
+- name: All Galleries
+  category: style
+  link: /galleries
+  link2: /assets/html/galleries.html
+  link3: 
+  img: 
+
+
 - name: Ink Illustrations
   category: style
   link: /ink
@@ -14,4 +22,12 @@
   link2: /assets/html/paint.html
   link3: 
   img: /assets/proj/paint/cover.jpg
+  desc: 
+
+- name: Digital Portraits
+  category: style
+  link: /portraits
+  link2: /assets/html/portraits.html
+  link3: 
+  img: /assets/img/temp/thumb1-coloHL.jpg
   desc: 

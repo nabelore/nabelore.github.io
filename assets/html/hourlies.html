@@ -7,8 +7,6 @@ redirect_from:
 - /hcd
 - /assets/html/hcd
 - /assets/html/hcd.html
-description:
-keywords: project
 ---
 
 {% assign img01 = "/assets/proj/comictherapy/hourlies_cover.jpg" %}
@@ -19,7 +17,7 @@ keywords: project
 {% endif %}
 {% endfor %}
 
-<!-- ======= Gallery current ======= -->
+<!-- ======= Gallery feb 2023 =======  -->
 <div class="text-center py-5 mb-0" id="feb2023">
   <h3>Hourly Comic Day 2023</h3>
   <a href="/hcd2023-read">read (mobile-friendly)</a> or view below
@@ -33,6 +31,7 @@ keywords: project
   {% endfor %}
 {% include gallery3.html %}
 
+<!-- ======= Project Description current ======= -->
 {% for item in site.data.nav-proj %}
 {% if item.name == "Hourly Comics" %}
   {% include project.html %}

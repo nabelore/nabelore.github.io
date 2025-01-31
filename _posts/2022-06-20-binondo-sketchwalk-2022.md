@@ -3,6 +3,8 @@ title: Binondo Sketchwalk
 author: anonabelle
 categories: [events]
 img: /assets/proj/urbansketch/202206_1.jpg
+comics:	0
+clients: 0
 ---
 
 <div class="blogtext mb-3" markdown='1'>

@@ -17,18 +17,7 @@
     <li>press release | <a href="https://culturalcenter.gov.ph/press-release/ccp-completes-animation-comics-and-games-development-initiative-with-last-batch-of-grantees/">CCP COMPLETES ANIMATION, COMICS, AND GAMES DEVELOPMENT INITIATIVE WITH LAST BATCH OF GRANTEES</a> (<a href="https://mb.com.ph/2023/12/10/ccp-completes-animation-comics-and-games-development-initiative-with-last-batch-of-grantees">Manila Bulletin</a>)</li>
     </ul>
   img: /assets/proj/sunmoon/concept art.jpg
-
-- name: Hourly Comics
-  status: updates every other month
-  category: comics
-  category2: personal
-  link: /hourlies
-  link2: /assets/html/hourlies.html
-  link3:
-  desc: >
-    <p>Collection of my hourly comics, which are comics drawn for every hour that you're awake.</p>
-    <p>Includes comics drawn for <i>Hourly Comic Day</i>, a yearly art challenge that takes place on Feb 1st.</p>
-  img: /assets/proj/comictherapy/hourlies_cover.jpg
+  featured: 1
 
 - name: Comic Therapy
   status: ongoing, sporadic
@@ -50,6 +39,7 @@
       </i>
     </div>
   img: assets/proj/comictherapy/cover.jpg
+  featured: 1
   
 - name: Camera Shy
   status: complete
@@ -72,6 +62,32 @@
       </ul>
     </div>
   img: /assets/proj/camshy/cover.jpg
+  featured: 1
+
+- name: oops
+  status: complete
+  category: sequential art
+  category2: client
+  link: /oops
+  link2: /assets/html/oops.html
+  link3:
+  desc: >
+    <p>A short a sequential illustration sample. A client provided the script, which called for no dialogue and broke the scenario down into 6 images. I was given free reign to design the characters, background and objects. I also decided to try out a limited color palette to help emphasize certain points of the script.</p>
+  img: /assets/proj/oops/cover.jpg
+  featured: 0
+
+- name: Hourly Comics
+  status: updates every other month
+  category: comics
+  category2: personal
+  link: /hourlies
+  link2: /assets/html/hourlies.html
+  link3:
+  desc: >
+    <p>Collection of my hourly comics, which are comics drawn for every hour that you're awake.</p>
+    <p>Includes comics drawn for <i>Hourly Comic Day</i>, a yearly art challenge that takes place on Feb 1st.</p>
+  img: /assets/proj/comictherapy/hourlies_cover.jpg
+  featured: 1
 
 - name: Linesmitheri
   status: complete
@@ -95,10 +111,11 @@
   img: /assets/proj/linesmitheri/cover.jpg
   actiontxt: View Illustrations
   actionlink: /ink#ink2019
+  featured: 0
 
 - name: Dita Sows A Good Deed
   status: complete
-  category: kidlit
+  category: [kidlit, clients]
   category2: client
   link: /dita
   link2: /assets/html/dita.html
@@ -119,6 +136,7 @@
     <a href=https://newsinfo.inquirer.net/1371354/new-books-introduce-kids-to-native-ph-trees>Inquirer | New books introduce kids to native PH trees</a>
     <hr>   
   img: /assets/proj/dita/cover.jpg
+  featured: 0
 
 - name: Magbunyi Comics
   status: complete
@@ -137,6 +155,7 @@
       </ul>
     </div>
   img: /assets/proj/magbunyi/cover.jpg
+  featured: 1
 
 - name: IFM Comics
   status: ongoing, sporadic
@@ -149,4 +168,5 @@
     <p>Comic collaborations with <a href="https://www.islandfishermanmagazine.com/">Island Fisherman Magazine</a>. I designed the main character (IFM guy) and handled the art for these gag-style comic strips aimed towards people with a fishy sense of humor.</p>
     <p>Sketched and cleaned up in Clipstudio Paint, converted to vector, and then colored in Affinity Designer.</p>
   img: /assets/proj/ifm/cover.jpg
+  featured: 1
 

@@ -1,0 +1,82 @@
+<section class="section">
+	<div class="container-fluid py-0 px-0">
+		<div class="row justify-content-center align-items-bottom g-2 m-0 featuredcontainer">
+ 		
+	 		<!-- ======= Featured Blog Posts =======  -->
+	    	<div class="col-12 col-md-6 mt-0 p-0 featured text-center">
+	    		
+	 			<!-- ======= Latest Comic Post =======  -->
+				<div class="bgColoDark">
+					<a href="{{ latestcomic.url }}" class="linkFeatured linkFeatured2">
+					  <div class="txtFeatured">
+					    <h3 class="">{{ latestcomic.title }}</h3>
+					    
+					      latest comic post 
+					      <span class="textaccent">| {{ latestcomic.date | date:"%d %b '%y" }}</span>
+					    
+					  </div>
+					  <img src="{{ latestcomic.img }}" class="imgFeatured p-0 m-0">
+					</a>
+				</div>
+				<!-- ======= Random Featured Blog Post  =======  -->
+				<div class="bgColoMid">
+					<a href="{{randomfeaturedpost.url}}" class="linkFeatured linkFeatured1">
+					  <div class="txtFeatured">
+					    <h3 class="">{{ randomfeaturedpost.title }}</h3>
+					      featured blog post 
+					      <span class="textaccent">| {{ randomfeaturedpost.date | date:"%d %b '%y" }}</span>
+					  </div>
+					  <img src="{{ randomfeaturedpost.img }}" class="imgFeatured p-0 m-0">
+					</a>
+				</div>
+	 			<!-- ======= Featured Project 
+				<div class="bgColoMid">
+					<a href="/sunmoon" class="linkFeatured linkFeatured1">
+					  <div class="txtFeatured">
+					    <h3 class="">Sun says Moon says</h3>
+					      featured project 
+					      <span class="textaccent">| funded by the CCP Comics Grant</span>
+					    </span>
+					  </div>
+					  <img src="/assets/proj/sunmoon/concept art.jpg" class="imgFeatured p-0 m-0">
+					</a>
+				</div>=======  -->
+
+		    </div>
+
+		 	<!-- ======= Updates =======  -->
+		 	<div class="bgColoLight container-fluid p-4 col-12 col-md-6 align-self-center">
+			    <div class="indexUpdates justify-content-center align-items-center">
+
+				    <div class="titletext text-center">
+				        <h3 class="my-0">UPDATES</h3>
+				    </div>
+				    <hr>
+
+					{% for item in site.data.updates-2025 limit:2 %}
+					  <div class="bodytext">
+					  	<span>
+					  		{% if item.name != null %} <b><small class="text-uppercase">{{ item.name }}</small></b> / {% endif%}{{ item.desc }}
+					  		{% if item.readmoreurl != null %}
+									<a href="{{ item.readmoreurl }}">read more</a>.
+								{% endif %}
+					  	</span>
+					  </div>
+					  <hr>
+					{% endfor %}
+
+				    {% for item in site.data.updates-2025 %}
+				    	{% if forloop.length > 2 %}
+						    <div class="bodytext text-center mb-1">
+						        <a href="/updates">view all updates</a>
+						    </div>
+						{% break %}
+				    	{% endif %}
+				    {% endfor %}
+				</div>
+		  	</div>
+
+		</div>
+	</div>
+</section>
+

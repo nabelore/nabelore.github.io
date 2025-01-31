@@ -1,0 +1,25 @@
+# site.data.gallery-temp.yml
+# temporary/placeholder images
+
+# 600 x 800px
+- name: thumb1-coloAC
+  category: thumb1
+  img: /assets/img/temp/thumb1-coloAC.jpg
+- name: thumb1-coloAC2
+  category: thumb1
+  img: /assets/img/temp/thumb1-coloAC2.jpg
+- name: thumb1-coloDK
+  category: thumb1
+  img: /assets/img/temp/thumb1-coloDK.jpg
+- name: thumb1-coloDK2
+  category: thumb1
+  img: /assets/img/temp/thumb1-coloDK2.jpg
+- name: thumb1-coloHL
+  category: thumb1
+  img: /assets/img/temp/thumb1-coloHL.jpg
+- name: thumb1-coloLT
+  category: thumb1
+  img: /assets/img/temp/thumb1-coloLT.jpg
+- name: thumb1-coloMD
+  category: thumb1
+  img: /assets/img/temp/thumb1-coloMD.jpg

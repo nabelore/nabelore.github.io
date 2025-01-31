@@ -1,0 +1,128 @@
+# site.data.gallery-comms
+# digital art commissions
+
+- name: Carla & Scotty
+  category: clientwork
+  collection: portraits
+  galleryFilter: couple
+  link: assets/proj/comms-digitalportraits/2024/carla-scotty.jpg
+  img: assets/proj/comms-digitalportraits/2024/carla-scotty.jpg
+
+- name: David & Marianne
+  category: clientwork
+  collection: portraits
+  galleryFilter: couple
+  link: assets/proj/comms-digitalportraits/2020/david-marianne.jpg
+  img: assets/proj/comms-digitalportraits/2020/david-marianne.jpg
+
+- name: Abet
+  category: clientwork
+  collection: portraits
+  galleryFilter: solo
+  link: assets/proj/comms-digitalportraits/2019/abet.jpg
+  img: assets/proj/comms-digitalportraits/2019/abet.jpg
+
+- name: Anton
+  category: clientwork
+  collection: portraits
+  galleryFilter: solo
+  link: assets/proj/comms-digitalportraits/2019/anton.jpg
+  img: assets/proj/comms-digitalportraits/2019/anton.jpg
+
+- name: CJ
+  category: clientwork
+  collection: portraits
+  galleryFilter: solo
+  link: assets/proj/comms-digitalportraits/2019/cj.jpg
+  img: assets/proj/comms-digitalportraits/2019/cj.jpg
+
+- name: Coleen
+  category: clientwork
+  collection: portraits
+  galleryFilter: solo
+  link: assets/proj/comms-digitalportraits/2019/coleen.jpg
+  img: assets/proj/comms-digitalportraits/2019/coleen.jpg
+
+- name: Eimee & Mark
+  category: clientwork
+  collection: portraits
+  galleryFilter: couple withpet
+  link: assets/proj/comms-digitalportraits/2019/eimee-mark.jpg
+  img: assets/proj/comms-digitalportraits/2019/eimee-mark.jpg
+
+- name: Gerard
+  category: clientwork
+  collection: portraits
+  galleryFilter: solo
+  link: assets/proj/comms-digitalportraits/2019/gerard.jpg
+  img: assets/proj/comms-digitalportraits/2019/gerard.jpg
+
+- name: Jong
+  category: clientwork
+  collection: portraits
+  galleryFilter: solo
+  link: assets/proj/comms-digitalportraits/2019/jong.jpg
+  img: assets/proj/comms-digitalportraits/2019/jong.jpg
+
+- name: Kaye
+  category: clientwork
+  collection: portraits
+  galleryFilter: solo withpet
+  link: assets/proj/comms-digitalportraits/2019/kaye.jpg
+  img: assets/proj/comms-digitalportraits/2019/kaye.jpg
+
+- name: Kim & Wey
+  category: clientwork
+  collection: portraits
+  galleryFilter: couple
+  link: assets/proj/comms-digitalportraits/2019/kim-wey.jpg
+  img: assets/proj/comms-digitalportraits/2019/kim-wey.jpg
+
+- name: Mavic
+  category: clientwork
+  collection: portraits
+  galleryFilter: solo
+  link: assets/proj/comms-digitalportraits/2019/mavic.jpg
+  img: assets/proj/comms-digitalportraits/2019/mavic.jpg
+
+- name: Vince
+  category: clientwork
+  collection: portraits
+  galleryFilter: solo
+  link: assets/proj/comms-digitalportraits/2019/vince.jpg
+  img: assets/proj/comms-digitalportraits/2019/vince.jpg
+
+- name: Farn
+  category: clientwork
+  collection: characterart
+  galleryFilter: fullbody
+  link: assets/proj/comms-characterart/farn.jpg
+  img: assets/proj/comms-characterart/farn.jpg
+
+- name: Teller
+  category: clientwork
+  collection: characterart
+  galleryFilter: portrait
+  link: assets/proj/comms-characterart/Teller.jpg
+  img: assets/proj/comms-characterart/Teller.jpg
+
+- name: Cinders
+  category: clientwork
+  collection: characterart
+  galleryFilter: illo
+  link: assets/proj/comms-characterart/Cinders.jpg
+  img: assets/proj/comms-characterart/Cinders.jpg
+
+- name: Fox Maiden
+  category: clientwork
+  collection: characterart
+  galleryFilter: illo
+  link: assets/proj/comms-characterart/fox-maiden.jpg
+  img: assets/proj/comms-characterart/fox-maiden.jpg
+
+- name: Aratilis Memories
+  category: clientwork
+  collection: illustration
+  galleryFilter: illo
+  link: assets/proj/comms/aratilis-memories_final.jpg
+  img: assets/proj/comms/aratilis-memories_final.jpg

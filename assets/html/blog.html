@@ -8,6 +8,10 @@ description:
 keywords: blog
 
 ---
+
+<!-- {% assign tempThumb = site.data.gallery-temp | where: "category", "thumb1" |sample %} -->
+{% assign img01 = "/assets/img/temp/thumb1-coloAC.jpg" %}
+
 <section class="section bgColoLight text-center pt-5 pb-5">
 	<div class="container">
 		<h2>Artist's Blog</h2>
@@ -21,16 +25,14 @@ keywords: blog
       {% for post in site.posts %}
       <hr class="my-0">
       <a href="{{ post.url }}" class="">
-      	<div class="row justify-content-center py-4 align-items-center">
+      	<div class="row justify-content-center py-3 align-items-center m-auto blogEntryContainer">
 
-					  <div class="col-4 col-sm-4 col-md-3 col-lg-2">
-			    		<img class="img-fluid imgShadow p-0 m-0" src="{{ post.img }}" title="{{ post.title }}">
+					  <div class="col-4 col-sm-4 col-md-3 col-lg-2 p-0 blogEntry">
+			    		<img class="img-fluid imgShadow p-0 m-0" src="{%if post.img != null %} {{ post.img }}{% else %} {{img01}} {% endif %}" title="{{ post.title }}">
 	        	</div>
 					  <div class="col-8 col-sm-6">
-							<p class="mb-2"><i>{{ post.date | date:"%d %b %Y" }}</i></p>
 					    <h3 class="mb-0">{{ post.title }}</h3>
-					    <!--<p class="mb-0">{{ post.categories | first }}</p> -->
-					    <p class="mb-0">
+					    <p class="mb-0"><small class="text-uppercase">{{ post.date | date:"%d %b %Y" }}</small> / 
 					    	{% for category in post.categories %}
         					{{category}}{% unless forloop.last %}, {%endunless%}
         				{% endfor%}
@@ -44,7 +46,7 @@ keywords: blog
     
     <hr class="my-0">
 
-    <p class="text-center my-5">~ Nothing Further ~</p>
+    <p class="text-center my-5 txtColoAccent2">~ Nothing Further ~</p>
 
   </div>
 </section>

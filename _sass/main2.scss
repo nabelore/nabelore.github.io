@@ -1,5 +1,6 @@
 @import 'simple-lightbox.min.css';
 
+
 // colors
 
 $font-1: Fredoka, sans-serif;
@@ -11,12 +12,14 @@ $colo-mid: #5E503F; // umber
 $colo-accent: #A9927D; // grullo
 $colo-accent2: #8A9497; // spanish gray
 $colo-light: #eef0f2; // cultured
+$colo-hl: #3F738C; // highlight (saturated gunmetal)
 
 // elements
 $sl-overlay-background: $colo-dark2;
 $btn-focus-width: 1px;
 $btn-border-radius:1px;
 $tooltip-bg: $colo-accent2;
+
 
 tooltip { background-color: $colo-accent2; }
 
@@ -38,8 +41,8 @@ $container-max-widths: (
 	blockquote { 
 		padding-left: .5rem;
 		font-style: italic;
-		border-left: 2px dotted $colo-accent;
-		color: $colo-accent;
+		border-left: 2px dotted $colo-accent2;
+		color: $colo-accent2;
 		font-family: $font-1;
 	}
 	.active, .current,
@@ -57,6 +60,8 @@ $container-max-widths: (
 		color: $colo-light;
 		font-size: .8rem;
 	}
+
+	.btn > i, .back-to-top > i, .go-to-bottom > i {color:inherit;}
 
 	.btn2,
 	.btn-check{
@@ -93,13 +98,15 @@ $container-max-widths: (
 	.readmore{ font-weight: 400 } //contact, submit button
 
 	.blogtext { 
-		// background-color: $colo-dark2;
 		color: $colo-dark2;
 		font-weight: 400;
 		padding: 3rem; //same as p-5
 	}
-	.blogtext p:last-child { margin-bottom:0; }
+	.blogtext li:last-child, .blogtext p:last-child { margin-bottom:0; }
 	
+	.blogtext li { margin-bottom: 0.75rem;}
+	.blogtext li:first-child{ margin-top: 1rem;} 
+	// .blogtext i, .blogtext b, .blogtext u, .blogtext strike { color: $colo-accent2; }
 	.blogimgcaption{
 		text-align: center;
 		font-style: italic;
@@ -135,6 +142,12 @@ $container-max-widths: (
 	.bgColoDark2 a:hover,
 	.bgColoMid a:hover { color: $colo-accent2;}
 
+	.txtColoAccent{ color: $colo-accent; }
+	.txtColoAccent2{ color: $colo-accent2; }
+	.txtColoLight{ color: $colo-light; }
+	.txtColoDark{ color: $colo-dark; }
+	.txtColoDark2{ color: $colo-dark2; }
+
 	.blogtipjar { 
 		background-color: none;
 		color: $colo-accent2;
@@ -143,8 +156,8 @@ $container-max-widths: (
 	}
 
 	.textNav{
-		background-color: $colo-dark2;
 		color: $colo-light;
+		text-transform: uppercase;
 		margin: auto;
 		padding: 1rem;
 		width: 75%;
@@ -200,9 +213,11 @@ $container-max-widths: (
 	box-shadow: 0px 0px 5px 1px rgba(138, 148, 151, .25); //spanish grey
 }
 
-#blog-posts a{
+#blog-posts a, #blog-posts a i{
 	color: $colo-accent2;
 }
+
+#blog-posts a div.row:hover i{ color: $colo-accent; }
 
 #blog-posts a div.row:hover{
 	background-color: $colo-mid;
@@ -210,7 +225,6 @@ $container-max-widths: (
 	transition: 0.2s ease-in-out;
 }
 
-#blog-posts h3{  }
 #blog-posts a div.row:hover h3{ 
 	color: $colo-light;
 	transition: 0.2s ease-in-out;
@@ -224,7 +238,7 @@ $container-max-widths: (
 .projectBit blockquote{ font-size: .8rem;}
 
 .imgFeatured {
-	height: 10rem;
+	height: 200px; /* hide if only 1 featured post */
 	width:100%;
 	object-fit: cover;
 }
@@ -244,8 +258,15 @@ $container-max-widths: (
   visibility: visible;
   transition: 0.3s all ease;
   transform: translateY(-50%);
-  top: 50%;
-  margin-top:0;
+  top: 50%; /*8.25rem;*/
+  /*margin-top:0;*/
+}
+
+.featured .linkFeatured1:after {
+	  background: rgba(94, 80, 63, 0.9); //umber
+}
+.featured .linkFeatured2:after {
+	  background: rgba(34, 51, 59, 0.8); //gunmetal
 }
 
 .featured .linkFeatured:after {
@@ -256,11 +277,11 @@ $container-max-widths: (
 	  left: 0;
 	  right: 0;
 	  bottom: 0;
-	  background: rgba(94, 80, 63, 0.9); //umber
 	  visibility: visible;
 	  opacity: 1;
 	  transition: 0.3s all ease-in-out;
 	}
+
 .featured .linkFeatured:hover .txtFeatured {
 	  margin-top: 30px;
 	}
@@ -283,13 +304,25 @@ $container-max-widths: (
 
 /////////////// modifications to style.css
 	
+	b, strong, i, strike { color: $colo-hl; }
 	b, strong { font-weight: 600; }
-	
+
+	.bodytext b, .bodytext strong, 
+	.blogtext b, .blogtext strong{ 
+		font-weight: 500;
+	}
+
+	.bodytext a:hover, .blogtext a:hover{	font-style: normal; }
+	.bodytext a, .blogtext a{	font-style: italic; }
+
 	body { 
 		color: $colo-dark; 
 		font-family: $font-1; 
 		background-color: $colo-light;
 	}
+
+	h1, h2, h3, h4, h5, h6, .font-heading { font-family: $font-2; }
+	h1, h2, h3, h4, h5, h6 {margin-bottom: 1rem;}
 
 	a, .footer a{ 
 		color: $colo-accent;
@@ -297,8 +330,8 @@ $container-max-widths: (
 		text-decoration-line: none;
 	}
 	a:hover { color: $colo-mid;	text-decoration-line: underline; }
-	h1, h2, h3, h4, h5, h6, .font-heading { font-family: $font-2; }
 	
+
 	nav a, .nav-link a { color: $colo-accent; }
 	a.current.nav-link { color: $colo-accent2; text-decoration-line: none; }
 	.nav-link, .nav-link:focus,	.nav-link:hover, 
@@ -313,6 +346,9 @@ $container-max-widths: (
 		background-color: $colo-dark2; 
 		color: $colo-light;
 	}
+	.back-to-top:hover,
+	.go-to-bottom:hover{ background-color: $colo-accent; }
+
 	.navbar-brand h1 a { color: $colo-light; }
 	nav p{ color: $colo-accent2; }
 
@@ -332,8 +368,6 @@ $container-max-widths: (
 		nav a h1{ color: $colo-mid; }
 	}
 
-	
-	
 	.card {
 		border: 0;
 		text-align: left;
@@ -566,3 +600,145 @@ span.navbar-toggler-icon.bi.bi-list {
     vertical-align: middle;
 }
 
+// index - updates section
+.indexUpdates{
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.indexUpdates > div {
+	width: 100%;
+	margin: 5px;
+}
+.indexUpdates .titletext{
+	font-family: $font-2;
+
+}
+.indexUpdates .bodytext{
+	font-family: $font-1;	
+}
+
+.indexUpdates hr{
+	width:100%;
+	color: $colo-accent;
+}
+
+.featured {
+
+  height: 100%;
+}
+.featured div { 
+	height: 50%; /* 50% if 2 featured, 100% if one */
+  align-content: center;
+  overflow: hidden;
+}
+.featuredcontainer{
+	display: flex;
+	align-items: end;
+}
+
+.blogEntryContainer{
+	overflow: hidden;
+	width:100%;
+}
+
+@media screen and (max-width: 768px){
+
+	.blogEntry{
+
+	}
+
+}
+
+/* Bootstrap 5 timeline */
+.pt-100 {
+  padding-top: 100px; }
+
+.pb-100 {
+  padding-bottom: 100px; }
+
+.section-title p {
+  color: #777;
+  font-size: 16px; }
+
+.section-title h2 {
+  text-transform: capitalize;
+  position: relative;
+  font-weight: 600; }
+
+ul.timeline-list {
+  position: relative;
+  margin: 0;
+  padding: 0; }
+
+ul.timeline-list:before {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 100%;
+  background-color: #8A9497;
+  left: 50%;
+  top: 0;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+ul.timeline-list li {
+  position: relative;
+  clear: both;
+  display: table; }
+
+.timeline_content {
+  border: 2px solid #8A9497;
+  background-color: #fff; }
+
+ul.timeline-list li .timeline_content {
+  width: 45%;
+  color: #333;
+  padding: 30px;
+  float: left;
+  text-align: right; }
+
+ul.timeline-list li:nth-child(2n) .timeline_content {
+  float: right;
+  text-align: left; }
+
+.timeline_content h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 10px 0; }
+
+ul.timeline-list li:before {
+  position: absolute;
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-color: #8A9497;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 50%; }
+
+.timeline_content span {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: poppins;
+  color: #8A9497; }
+
+.accordion-item,
+.accordion-button {
+  background-color: transparent; }
+
+.accordion-button:not(.collapsed) {
+  color: inherit;
+  background-color: inherit;
+  box-shadow: none; }
+
+
+.item .item-wrap > .work-info h3{ font-size: 1.5rem; }
+
+
+//////// tumblr widget
+div.WidgetTitle__Header-sc-ruy1gu-2.dudTgA{ font-weight: 500; }

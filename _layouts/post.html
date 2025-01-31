@@ -22,7 +22,7 @@ layout: base
         {% if page.next != nil %}
           <a href="{{ page.next | relative_url }}">Next</a>
         {% else %}
-          Next
+          <strike class="txtColoAccent2">Next</strike>
         {% endif %}
       </li>
      
@@ -30,7 +30,7 @@ layout: base
         {% if page.previous != nil %}
           <a href="{{ page.previous | relative_url }}">Previous</a>
         {% else %}
-          Previous
+          <strike class="txtColoAccent2">Previous</strike>
         {% endif %}
       </li>
 
@@ -44,9 +44,8 @@ layout: base
 <div class="container p-0 mx-auto">
   <div class="row text-center justify-content-center">
     <div class="col-auto">
-      <p><i>{{ page.date | date_to_string }}</i></p>
       <h1 class="m-0 p-0">{{ page.title }}</h1>
-      <p>
+      <p><small class="text-uppercase">{{ page.date | date_to_string }}</small> <span class="txtColoAccent2">/</span> 
         {% for category in page.categories %}
         {{category}}{% unless forloop.last %}, {%endunless%}
         {% endfor%}
@@ -55,7 +54,7 @@ layout: base
   </div>
 
   <div class="row justify-content-center">
-    <div class="col-12 col-md-9 col-lg-7 mt-4">
+    <div class="col-12 col-md-9 col-lg-7 mt-3">
       {{ content }}
     </div>
   </div>
@@ -72,14 +71,14 @@ layout: base
         {% if page.next != nil %}
           <a href="{{ page.next | relative_url }}">Next</a>
         {% else %}
-          Next
+          <strike class="txtColoAccent2">Next</strike>
         {% endif %}
       </li>
        <li class="breadcrumb-item">
         {% if page.previous != nil %}
           <a href="{{ page.previous | relative_url }}">Previous</a>
         {% else %}
-          Previous
+          <strike class="txtColoAccent2">Previous</strike>
         {% endif %}
       </li>
     </ol>

@@ -31,7 +31,7 @@ redirect_from:
 {% endfor %}
 
 <!-- ======= Gallery current =======  -->
-<div class="text-center py-5 mb-0"><h2>Selected Comics</h2></div>
+<div class="text-center py-5 mb-0"><h3>Selected Comics</h3></div>
 {% include gallery1.html %}
 {% assign data = site.data.gallery-ct | sample:9 %}
   {% for item in data  %}
@@ -44,8 +44,10 @@ redirect_from:
 {% include gallery3.html %}
 
 <!-- ======= Gallery - CT2021 prologue =======  -->
-<div class="text-center py-5 mb-0" id="2021"><h2>2021 Comics - prologue</h2>
-<a href="/comictherapy2021prologue-read">read (mobile-friendly)</a> or view below</div>
+<div class="text-center py-5 mb-0" id="2021">
+  <h3>2021 Comics - prologue</h3>
+  <a href="/comictherapy2021prologue-read">read (mobile-friendly)</a> or view below
+</div>
 {% include gallery1.html %}
 {% assign data = site.data.gallery-ct %}
   {% for item in data  %}

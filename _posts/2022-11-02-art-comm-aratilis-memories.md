@@ -1,8 +1,10 @@
 ---
 title: Aratilis Memories
 author: anonabelle
-categories: [commissions, fine arts]
+categories: [commissions, paintings]
 img: /assets/proj/comms/aratilis-memories_final.jpg
+comics:	0
+clients: 1
 ---
 
 <div class="blogtext mb-3" markdown='1'>

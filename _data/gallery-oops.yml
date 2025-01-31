@@ -1,0 +1,28 @@
+# site.data.gallery-oops
+# oops
+
+
+- name: Page 01
+  category: pages
+  link: /assets/proj/oops/1.jpg
+  img: /assets/proj/oops/1.jpg
+- name: Page 02
+  category: pages
+  link: /assets/proj/oops/2.jpg
+  img: /assets/proj/oops/2.jpg
+- name: Page 03
+  category: pages
+  link: /assets/proj/oops/3.jpg
+  img: /assets/proj/oops/3.jpg
+- name: Page 04
+  category: pages
+  link: /assets/proj/oops/4.jpg
+  img: /assets/proj/oops/4.jpg
+- name: Page 05
+  category: pages
+  link: /assets/proj/oops/5.jpg
+  img: /assets/proj/oops/5.jpg
+- name: Page 06
+  category: pages
+  link: /assets/proj/oops/6.jpg
+  img: /assets/proj/oops/6.jpg
