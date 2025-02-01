@@ -1,0 +1,10 @@
+<!-- redirects page names with capitalized letters to correct page -->
+<script>
+    window.onload = () => {
+        currentURL = window.location.href;
+        lowerCaseURL = currentURL.toLowerCase();
+        if (currentURL != lowerCaseURL) {
+            location.replace(lowerCaseURL);
+        }
+    };
+</script>
