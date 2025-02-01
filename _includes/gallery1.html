@@ -1,5 +1,5 @@
-<!-- ======= Gallery container ======= -->
-<section class="{{ bgColo }} section site-portfolio my-auto{% if page.keywords <> "artstyle" %} py-lg-4{%endif%}" id="gallery">
+<!-- ======= Gallery1 container ======= -->
+<section class="{{ bgColo }} section site-portfolio my-lg-auto{% if page.keywords <> "artstyle" %} py-lg-3{%endif%}" id="gallery">
   <div class="container-lg p-0">
   
   {% if page.url == "/ink" %}
@@ -35,4 +35,4 @@
     </div>
   {% endif %}
 
-    <div id="portfolio-grid" class="row no-gutter justify-content-center">
+    <div id="portfolio-grid" class="row justify-content-center{% if page.url == "/" %} g-0 {%endif%}">

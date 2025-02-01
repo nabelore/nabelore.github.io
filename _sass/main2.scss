@@ -12,7 +12,17 @@ $colo-mid: #5E503F; // umber
 $colo-accent: #A9927D; // grullo
 $colo-accent2: #8A9497; // spanish gray
 $colo-light: #eef0f2; // cultured
-$colo-hl: #3F738C; // highlight (saturated gunmetal)
+$colo-hl: #3F738C; // cerulean (saturated gunmetal)
+
+$bg-colo-dark2: rgba(34, 51, 59, 0.8); // gunmetal
+$bg-colo-mid: rgba(94, 80, 63, 0.85); //umber
+
+$postimg-colo-accent2: rgba(138, 148, 151, .25); //spanish grey
+
+$linkFeatured-colo-accent2: rgba(138, 148, 151, 0.85); //spanish grey
+
+$item-wrap-colo-transparent: rgba(0, 0, 0, 0.2);
+
 
 // elements
 $sl-overlay-background: $colo-dark2;
@@ -210,7 +220,7 @@ $container-max-widths: (
 
 
 .postimg{
-	box-shadow: 0px 0px 5px 1px rgba(138, 148, 151, .25); //spanish grey
+	box-shadow: 0px 0px 5px 1px $postimg-colo-accent2;
 }
 
 #blog-posts a, #blog-posts a i{
@@ -263,10 +273,10 @@ $container-max-widths: (
 }
 
 .featured .linkFeatured1:after {
-	  background: rgba(94, 80, 63, 0.9); //umber
+	  background: $bg-colo-mid;
 }
 .featured .linkFeatured2:after {
-	  background: rgba(34, 51, 59, 0.8); //gunmetal
+	  background: $bg-colo-dark2;
 }
 
 .featured .linkFeatured:after {
@@ -287,7 +297,7 @@ $container-max-widths: (
 	}
 
 .featured .linkFeatured:hover:after {
-	  background: rgba(138, 148, 151, 0.85); //spanish grey
+	  background: $linkFeatured-colo-accent2;
 	}
 .featured .linkFeatured:hover .txtFeatured .textaccent{ color:$colo-dark2; }
 
@@ -394,6 +404,14 @@ $container-max-widths: (
 	  border-bottom-color: $colo-accent2;
 	}
 
+/////////// gallery
+.item .item-wrap > .work-info h3{ font-size: 1.2rem; }
+
+@media only screen and (min-width: 576px){
+	.item .item-wrap > .work-info h3{ font-size: 1.5rem; }
+	.item .item-wrap > .work-info span { font-size: .85rem; }
+}
+
 /////////////// gallery 2b effects
 	.item .work-info-2 {	
 	  color: $colo-dark2;
@@ -407,7 +425,7 @@ $container-max-widths: (
 	  overflow: hidden;
 	}
 	.item .item-wrap-2:after {
-	  background: rgba(0, 0, 0, 0.2);
+	  background: $item-wrap-colo-transparent;
 	  transition: 0.3s all ease-in-out;
 	}
 	.item .item-wrap-2 img {
@@ -454,7 +472,7 @@ $container-max-widths: (
 	  left: 0;
 	  right: 0;
 	  bottom: 0;
-	  background: rgba(10, 9, 8, 0.5); //rich black
+	  background: $bg-colo-mid;
 	  visibility: visible;
 	  opacity: 1;
 	  transition: 0.3s all ease-in-out;
@@ -610,7 +628,7 @@ span.navbar-toggler-icon.bi.bi-list {
 
 .indexUpdates > div {
 	width: 100%;
-	margin: 5px;
+	margin: 5px 0;
 }
 .indexUpdates .titletext{
 	font-family: $font-2;
@@ -644,13 +662,6 @@ span.navbar-toggler-icon.bi.bi-list {
 	width:100%;
 }
 
-@media screen and (max-width: 768px){
-
-	.blogEntry{
-
-	}
-
-}
 
 /* Bootstrap 5 timeline */
 .pt-100 {
@@ -678,7 +689,7 @@ ul.timeline-list:before {
   content: "";
   width: 2px;
   height: 100%;
-  background-color: #8A9497;
+  background-color: $colo-accent2;
   left: 50%;
   top: 0;
   -webkit-transform: translateX(-50%);
@@ -690,7 +701,7 @@ ul.timeline-list li {
   display: table; }
 
 .timeline_content {
-  border: 2px solid #8A9497;
+  border: 2px solid $colo-accent2;
   background-color: #fff; }
 
 ul.timeline-list li .timeline_content {
@@ -714,7 +725,7 @@ ul.timeline-list li:before {
   content: "";
   width: 25px;
   height: 25px;
-  background-color: #8A9497;
+  background-color: $colo-accent2;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -725,7 +736,7 @@ ul.timeline-list li:before {
   font-size: 18px;
   font-weight: 500;
   font-family: poppins;
-  color: #8A9497; }
+  color: $colo-accent2; }
 
 .accordion-item,
 .accordion-button {
@@ -735,9 +746,6 @@ ul.timeline-list li:before {
   color: inherit;
   background-color: inherit;
   box-shadow: none; }
-
-
-.item .item-wrap > .work-info h3{ font-size: 1.2rem; }
 
 
 //////// tumblr widget
