@@ -1,7 +1,7 @@
 ---
 title: Binondo Sketchwalk
 author: anonabelle
-categories: [events]
+categories: [events, sketchbook]
 img: /assets/proj/urbansketch/202206_1.jpg
 comics:	0
 clients: 0
