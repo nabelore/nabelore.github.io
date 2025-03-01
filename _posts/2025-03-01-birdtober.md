@@ -28,7 +28,7 @@ clients: 0
 <hr>
 
 <!-- art post materials list-->
-<p><u>Materials</u>: 5.75" x 8.25" 4 x 5.5" sketchbook, alcohol markers, colored pencils, occasional application of fineliners and acrylic markers</p>
+<p><u>Materials</u>: 5.75" x 8.25" toned sketchbook (approx 160gsm), alcohol markers, colored pencils, occasional application of fineliners and acrylic markers</p>
 <p><u>References</u> used are collected in this <a href="https://ph.pinterest.com/alaureola/birdtober-2024/" target="_blank">pinterest board</a>.</p>
 
 </div>
