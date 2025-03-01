@@ -3,6 +3,8 @@ title: Birdtober 2024 (01-04)
 author: anonabelle
 categories: [sketchbook]
 img: /assets/proj/skbk/birdtober2024/birdtober_1-2.jpg
+comics:	0
+clients: 0
 ---
 
 
