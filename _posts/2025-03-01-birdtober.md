@@ -7,16 +7,12 @@ comics:	0
 clients: 0
 ---
 
-
-<!-- blog text -->
-<div class="blogtext mb-3" markdown='1'>
+<div class="blogtext" markdown='1'>
 <p>Some pages I did in my sketchbook, following prompts from <a href="https://www.instagram.com/p/C_X8Ui_RFQF/?img_index=1" target="_blank">Birdtober 2024</a>.</p>
-
-<p>Just needed a palette cleanser to play around with in between comic work. I'm trying this thing where I start off with an alcohol marker base and use colored pencils for the finer details. My marker collection has a wider range of colors compared to my pencils, so it's been interesting to see what combinations were working for me here. Pretty happy with how vibrant the colors are, even though they're far from accurate compared to the references I used.</p>
-</div>
+</div> 
 
 <!-- post images -->
-<div class="item gallery text-center"> 
+<div class="item gallery text-center mb-0"> 
 	<a href="{{ page.img }}" class="item-wrap fancybox mb-3">
 		<img class="img-fluid postimg" src="{{ page.img | relative_url}}">
 	</a>
@@ -25,7 +21,10 @@ clients: 0
 	</a>
 </div>
 
+<!-- blog text -->
 <div class="blogtext" markdown='1'>
+<p>Just needed a palette cleanser to play around with in between comic work. I'm trying this thing where I start off with an alcohol marker base and use colored pencils for the finer details. My marker collection has a wider range of colors compared to my pencils, so it's been interesting to see what combinations were working for me here. Pretty happy with how vibrant the colors are, even though they're far from accurate to the references I used.</p>
+
 <hr>
 
 <!-- art post materials list-->
