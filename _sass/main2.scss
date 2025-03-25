@@ -16,6 +16,7 @@ $colo-hl: #3F738C; // cerulean (saturated gunmetal)
 
 $bg-colo-dark2: rgba(34, 51, 59, 0.8); // gunmetal
 $bg-colo-mid: rgba(94, 80, 63, 0.85); //umber
+$bg-colo-hl: rgba(63, 115, 140, 0.85); //cerulean (saturated gunmetal)
 
 $postimg-colo-accent2: rgba(138, 148, 151, .25); //spanish grey
 
@@ -273,10 +274,10 @@ $container-max-widths: (
 }
 
 .featured .linkFeatured1:after {
-	  background: $bg-colo-mid;
+	  background: $bg-colo-dark2;
 }
 .featured .linkFeatured2:after {
-	  background: $bg-colo-dark2;
+	  background: $bg-colo-hl;
 }
 
 .featured .linkFeatured:after {

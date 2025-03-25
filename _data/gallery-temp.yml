@@ -23,3 +23,26 @@
 - name: thumb1-coloMD
   category: thumb1
   img: /assets/img/temp/thumb1-coloMD.jpg
+
+# 600 x 800px - blog thumbnail - text posts
+- name: thumb2-coloAC
+  category: thumb2
+  img: /assets/img/temp/thumb2-coloAC.png
+- name: thumb2-coloAC2
+  category: thumb2
+  img: /assets/img/temp/thumb2-coloAC2.png
+- name: thumb2-coloDK
+  category: thumb2
+  img: /assets/img/temp/thumb2-coloDK.png
+- name: thumb2-coloDK2
+  category: thumb2
+  img: /assets/img/temp/thumb2-coloDK2.png
+- name: thumb2-coloHL
+  category: thumb2
+  img: /assets/img/temp/thumb2-coloHL.png
+- name: thumb2-coloLT
+  category: thumb2
+  img: /assets/img/temp/thumb2-coloLT.png
+- name: thumb2-coloMD
+  category: thumb2
+  img: /assets/img/temp/thumb2-coloMD.png
