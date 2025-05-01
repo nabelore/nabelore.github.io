@@ -20,28 +20,27 @@ keywords: artstyle
 <!-- ======= Navigation for multiple comics =======  -->
 <div class="row justify-content-center">
   <div class="col-md-12 col-lg-6 text-center">
-    <a href="/portraits#solo" class="mb-1 btn btn2">Solo</a>
     <a href="/portraits#group" class="mb-1 btn btn2">Group</a>
+    <a href="/portraits#solo" class="mb-1 btn btn2">Solo</a>
   </div>
 </div>
-
-<div id="solo" class="text-center pt-5 pb-3 mb-0"><h3>Solo Portraits</h3></div>
-
-{% include gallery1.html %}
-	{% for item in site.data.gallery-comms %}
-	{% if item.galleryFilter contains "solo" %}
-		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
-		{% include gallery2a.html %}
-		</div>
-	{% endif %}
-	{% endfor %}
-{% include gallery3.html %}
 
 <div id="group" class="text-center pt-5 pb-3 mb-0"><h3>Group Portraits</h3></div>
 {% include gallery1.html %}
 	{% for item in site.data.gallery-comms %}
 	{% if item.galleryFilter contains "couple" %}
 		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery2">
+		{% include gallery2a.html %}
+		</div>
+	{% endif %}
+	{% endfor %}
+{% include gallery3.html %}
+
+<div id="solo" class="text-center pt-5 pb-3 mb-0"><h3>Solo Portraits</h3></div>
+{% include gallery1.html %}
+	{% for item in site.data.gallery-comms %}
+	{% if item.galleryFilter contains "solo" %}
+		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
 		{% include gallery2a.html %}
 		</div>
 	{% endif %}
