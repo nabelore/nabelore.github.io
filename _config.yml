@@ -9,7 +9,6 @@ url: "https://anonabelle.com"
 encoding: utf-8
 #remote_theme: https://anonabelle.com
 feed.path: "https://anonabelle.com"
-future: false
 timezone: Asia/Manila
 
 collections:
