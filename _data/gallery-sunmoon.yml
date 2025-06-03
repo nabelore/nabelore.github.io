@@ -1,11 +1,19 @@
 # site.data.gallery-sunmoon
 # sun says moon says
 
-- name: art 01
+- name: Concept Art
   category: art
   link: /assets/proj/sunmoon/concept art.jpg
   img: /assets/proj/sunmoon/concept art.jpg
-
+  
+- name: Title - Black
+  category: title
+  link: /assets/proj/sunmoon/logo_colo-blk.png
+  img: /assets/proj/sunmoon/logo_colo-blk.png
+- name: Title - White
+  category: title
+  link: /assets/proj/sunmoon/logo_colo-wht.png
+  img: /assets/proj/sunmoon/logo_colo-wht.png
 
 - name: Concept - Page 01
   category: concept
@@ -15,3 +23,46 @@
   category: concept
   link: /assets/proj/sunmoon/SunMoon_02-02.jpg
   img: /assets/proj/sunmoon/SunMoon_02-02.jpg
+
+- name: Cover - Square
+  category: cover
+  link: /assets/proj/sunmoon/SunMoon_cover-square.jpg
+  img: /assets/proj/sunmoon/SunMoon_cover-square.jpg
+- name: Cover - Front
+  category: cover
+  link: /assets/proj/sunmoon/SunMoon_cover-front.jpg
+  img: /assets/proj/sunmoon/SunMoon_cover-front.jpg
+
+- name: Sample - Page 01
+  category: pages
+  link: /assets/proj/sunmoon/SunMoon_sample-page-1.jpg
+  img: /assets/proj/sunmoon/SunMoon_sample-page-1.jpg
+- name: Sample - Page 02
+  category: pages
+  link: /assets/proj/sunmoon/SunMoon_sample-page-2.jpg
+  img: /assets/proj/sunmoon/SunMoon_sample-page-2.jpg
+- name: Sample - Page 03
+  category: pages
+  link: /assets/proj/sunmoon/SunMoon_sample-page-3.jpg
+  img: /assets/proj/sunmoon/SunMoon_sample-page-3.jpg
+- name: Sample - Page 04
+  category: pages
+  link: /assets/proj/sunmoon/SunMoon_sample-page-4.jpg
+  img: /assets/proj/sunmoon/SunMoon_sample-page-4.jpg
+- name: Sample - Page 05
+  category: pages
+  link: /assets/proj/sunmoon/SunMoon_sample-page-5.jpg
+  img: /assets/proj/sunmoon/SunMoon_sample-page-5.jpg
+- name: Sample - Page 06
+  category: pages
+  link: /assets/proj/sunmoon/SunMoon_sample-page-6.jpg
+  img: /assets/proj/sunmoon/SunMoon_sample-page-6.jpg
+- name: Sample - Page 07
+  category: pages
+  link: /assets/proj/sunmoon/SunMoon_sample-page-7.jpg
+  img: /assets/proj/sunmoon/SunMoon_sample-page-7.jpg
+
+- name: Cover - Back
+  category: cover
+  link: /assets/proj/sunmoon/SunMoon_cover-back.jpg
+  img: /assets/proj/sunmoon/SunMoon_cover-back.jpg

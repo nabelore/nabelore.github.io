@@ -14,7 +14,10 @@ keywords:
 timeline: 1
 ---
 
-{% assign img01 = "/assets/proj/sunmoon/concept art.jpg" %}
+{% assign img01 = "/assets/proj/sunmoon/SunMoon_cover-square.jpg" %}
+
+{% assign readvert_link = "/sunmoon-preview-read" %}
+{% assign readvert_txt = "Read (mobile-friendly)" %}
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Sun says Moon says" %}
@@ -22,22 +25,47 @@ timeline: 1
 {% endif %}
 {% endfor %}
 
-<div class="text-center py-5 mb-0" id="mar2023">
-  <h3>Sample pages</h3>
+<div class="text-center py-3 mb-0" id="mar2023">
+  <h3>Pages</h3>
 </div>
+
 {% include gallery1.html %}
   {% for item in site.data.gallery-sunmoon %}
-  {% if item.category == "concept" %}
-    <div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery">
+  {% if item.name == "Cover - Front" or item.category == "pages" or item.name == "Cover - Back" %}
+    <div class="item col-6 col-sm-6 col-md-4 col-lg-2 mb-4 gallery2">
     {% include gallery2a.html %}
     </div>
   {% endif %}
   {% endfor %}
 {% include gallery3.html %}
 
+<!-- Featured text -->
+<section class="section bgColoDark">
+  <div class="container my-5 justify-content-center align-items-center">
+
+      <div class="">
+        <h3><b>Sun</b> and <b>Moon</b> were sent by the Great Gods to bring light to the world of humans. When their child wonders why they are hardly at home at the same time, they decide to share <b>their story</b>.</h3>
+
+        <p><span class="textaccent2">A</span> comic book retelling <span class="textaccent2">of the origin of the day and night cycle. It is based on the Tinguian, Mandayan and Visayan versions of the Philippine Folktale, <i>The Sun and the Moon</i>, as recorded by Mabel Cook Cole in her book <i>Philippine Folk Tales</i>.</span></p>
+        
+      </div>
+
+  </div> <!-- end container -->
+</section>
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Sun says Moon says" %}
   {% include project.html %}
 {% endif %}
 {% endfor %}
+
+<!-- Project Press -->
+<section class="section {{bgColo}} pb-5">
+  <div class="container col-sm-8 col-12">
+    <h4>press</h4>
+    <ul>
+    <li>press release | <a href="https://culturalcenter.gov.ph/press-release/ccp-launches-grants-for-filipino-animators-artists-and-game-developers/">CCP LAUNCHES GRANTS FOR FILIPINO ANIMATORS, ARTISTS, AND GAME DEVELOPERS</a> (<a href="https://www.gmanetwork.com/lifestyle/news/90936/ccp-names-winners-of-content-creation-grants/story">GMA Lifestyle</a>)</li>
+    <li>press release | <a href="https://culturalcenter.gov.ph/press-release/ccp-completes-animation-comics-and-games-development-initiative-with-last-batch-of-grantees/">CCP COMPLETES ANIMATION, COMICS, AND GAMES DEVELOPMENT INITIATIVE WITH LAST BATCH OF GRANTEES</a> (<a href="https://mb.com.ph/2023/12/10/ccp-completes-animation-comics-and-games-development-initiative-with-last-batch-of-grantees">Manila Bulletin</a>)</li>
+    </ul>
+  </div> <!-- end container -->
+</section>

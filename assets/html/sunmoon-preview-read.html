@@ -1,0 +1,59 @@
+---
+title: read Sun says Moon says - Preview
+permalink: /sunmoon-preview-read
+redirect_from:
+- /assets/html/sunmoon-preview-read
+- /assets/html/sunmoon-preview-read.html
+layout: read-vert
+description:
+keywords:
+---
+
+<section class="section mt-5">
+  <div class="container text-center">
+      <a href="/sunmoon" class="btn btn1" role="button">go back</a>
+    </div>
+</section>
+
+<section class="section" id="">
+  <div class="container-sm">
+
+    <div class="row justify-content-center">
+      <div class="col item web text-center py-5 mb-0">
+        <h2>Sun says Moon says</h2>
+        <span>7-page preview</span>
+      </div>
+    </div>
+    
+    <div class="row justify-content-center">
+      <div class="item web col-12 col-sm-10 col-lg-8 px-sm-2 px-0">
+        {% for item in site.data.gallery-sunmoon %}
+        {% if item.name == "Cover - Front" or item.category == "pages" %}
+          <img class="read-img-vert img-fluid rounded mx-auto d-block mb-4" src="{{ item.img }}">
+        {% endif %}
+        {% endfor %}  
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Featured text -->
+<section class="section bgColoDark">
+  <div class="container my-2 justify-content-center align-items-center">
+
+      <div class="row justify-content-center">
+        <div class="col-10 col-sm-6 text-center py-5 mb-0">
+          <h3 class="mb-0">Thank you for reading! <span class="textaccent2">Catch the full reading experience of</span> Sun says Moon says <span class="textaccent2">at the Philippine International Comics Festival on July 5 & 6, 2025</span>.</h3>
+        </div>
+        
+      </div>
+
+  </div> <!-- end container -->
+</section>
+
+<section class="section my-5">
+  <div class="container text-center">
+      <a href="/sunmoon" class="btn btn1" role="button">go back</a>
+  </div>
+</section>

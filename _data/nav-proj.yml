@@ -1,23 +1,28 @@
 # site.data.nav-proj
 
 - name: Sun says Moon says
-  status: work-in-progress
+  status: post-production
   category: comics
   category2: personal
   link: /sunmoon
   link2: /assets/html/sunmoon.html
   link3:
   desc: >
-    <blockquote>The celestial drama that created the cycle of night and day.</blockquote>
-    <p>A retelling of <i>The Sun and the Moon</i>, a Philippine folktale.</p> 
-    <p>This project is currently in production with the aid of the <i>Cultural Center of the Philippines</i>' Animation, Comics and Game Development Grants Program.</p>
-    <h4>press</h4>
-    <ul>
-    <li>press release | <a href="https://culturalcenter.gov.ph/press-release/ccp-launches-grants-for-filipino-animators-artists-and-game-developers/">CCP LAUNCHES GRANTS FOR FILIPINO ANIMATORS, ARTISTS, AND GAME DEVELOPERS</a> (<a href="https://www.gmanetwork.com/lifestyle/news/90936/ccp-names-winners-of-content-creation-grants/story">GMA Lifestyle</a>)</li>
-    <li>press release | <a href="https://culturalcenter.gov.ph/press-release/ccp-completes-animation-comics-and-games-development-initiative-with-last-batch-of-grantees/">CCP COMPLETES ANIMATION, COMICS, AND GAMES DEVELOPMENT INITIATIVE WITH LAST BATCH OF GRANTEES</a> (<a href="https://mb.com.ph/2023/12/10/ccp-completes-animation-comics-and-games-development-initiative-with-last-batch-of-grantees">Manila Bulletin</a>)</li>
-    </ul>
+    <blockquote>The celestial drama that created night and day.</blockquote>
+    <p>This project was created with the aid of the <i>Cultural Center of the Philippines</i>' Animation, Comics and Game Development Grants Program.</p>
+    <p>It is slated to launch at the <i>Philippine International Comics Festival</i> (PICOF) on July 5 and 6, 2025.</p>
+    <div class="projectBit p-3">
+      <i><h3>Details</h3></i> 
+      <ul class="mb-0">
+        <li>Rating: G / General Audiences</li>
+        <li>70 comic pages / 76 pages total</li>
+        <li>6" x 9"</li>
+        <li>black & white, with halftones</li>
+      </ul>
+    </div>
+ 
   img: /assets/proj/sunmoon/concept art.jpg
-  featured: 1
+  featured: 0
 
 - name: Comic Therapy
   status: ongoing, sporadic
@@ -62,7 +67,7 @@
       </ul>
     </div>
   img: /assets/proj/camshy/cover.jpg
-  featured: 1
+  featured: 0
 
 - name: oops
   status: complete
@@ -87,7 +92,7 @@
     <p>Collection of my hourly comics, which are comics drawn for every hour that you're awake.</p>
     <p>Includes comics drawn for <i>Hourly Comic Day</i>, a yearly art challenge that takes place on Feb 1st.</p>
   img: /assets/proj/comictherapy/hourlies_cover.jpg
-  featured: 1
+  featured: 0
 
 - name: Linesmitheri
   status: complete
@@ -115,7 +120,7 @@
 
 - name: Dita Sows A Good Deed
   status: complete
-  category: [kidlit, clients]
+  category: kidlit
   category2: client
   link: /dita
   link2: /assets/html/dita.html
@@ -136,7 +141,7 @@
     <a href=https://newsinfo.inquirer.net/1371354/new-books-introduce-kids-to-native-ph-trees>Inquirer | New books introduce kids to native PH trees</a>
     <hr>   
   img: /assets/proj/dita/cover.jpg
-  featured: 0
+  featured: 1
 
 - name: Magbunyi Comics
   status: complete

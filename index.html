@@ -1,24 +1,47 @@
 ---
 title:
 ---
+
+<!-- Featured project: SunMoon -->
+<section class="section bgColoDark">
+  <div class="container my-5">
+
+    <div class="row justify-content-center align-items-center">
+
+      <div class="order-2 col-sm-4 col-8">
+        <span class="textaccent2">Latest Release</span>
+        <h2>Sun says Moon says</h2>
+        <blockquote>A comic book retelling of the Philippine Folktale, The Sun and the Moon.</blockquote>
+        <p><span class="textaccent2">Available at the</span> <I>Phillipine International Comics Festival</I> <span class="textaccent2">on</span> July 5 & 6, 2025.</p>
+        <a href="/sunmoon" class="btn btn1 my-2"><i class="bi bi-info-circle-fill"></i>&nbsp; about</a>
+        
+      </div>
+
+      <div class="col-md-4 col-8 mb-sm-0 mb-3">
+        <img src="assets/proj/sunmoon/SunMoon_cover-front.jpg" alt="Image" class="img-fluid">
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
 <!-- Projects gallery -->
 {% include gallery1.html %}
   {% for item in site.data.nav-proj %}
   {% if item.featured == 1 %}
-    <div class="item col-6 col-md-4 mb-0 p-0 gallery {% if item.link == empty %}featured{%endif%}">
+    <div class="item col-6 col-md-3 mb-0 p-0 gallery {% if item.link == empty %}featured{%endif%}">
     {% include gallery2d.html %}
     </div>
   {% endif %}
   {% endfor %}
 {% include gallery3.html %}
 
- <!-- ======= Updates container =======  -->
+<!-- ======= Updates container =======  -->
 <!-- Gets latest comic post from blog -->
 {% assign latestcomic = site.posts | where:"categories", "comic therapy" | first %}
 
 <!-- Gets a random, non-comics post from blog -->
 {% assign randomfeaturedpost = site.posts | where_exp:"item", "item.comics == 0" | sample %}
-
 
 <!-- Updates Columns -->
 {% include updates-index.html %}
