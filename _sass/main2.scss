@@ -72,6 +72,11 @@ $container-max-widths: (
 		font-size: .8rem;
 	}
 
+	.projectaboutitalics{
+		font-style: italic;
+		color: $colo-dark
+	}
+
 	.btn > i, .back-to-top > i, .go-to-bottom > i {color:inherit;}
 
 	.btn2,
@@ -85,6 +90,11 @@ $container-max-widths: (
 		border-color: $colo-dark2;
 	}
 	
+	.btn3{
+		background-color: $colo-accent2;
+		border-color: $colo-light;
+	}
+
 	.btnabout{
 		background-color: $colo-accent2;
 		border-color: $colo-accent2;
@@ -144,14 +154,21 @@ $container-max-widths: (
 		color: $colo-light;
 	}
 
+	.linkUnderline a {text-decoration-line: underline; }
+	.linkUnderline a:hover { text-decoration-line: none; }
+	
 	.bgColoDark2 a,
-	.bgColoLight a { color: $colo-accent;}
+	.bgColoLight a { 
+		color: $colo-accent;
+	}
 
 	.bgColoDark a,
-	.bgColoMid a { color: $colo-accent2; }
+	.bgColoMid a { 
+		color: $colo-accent2; 
+	}
 
 	.bgColoDark2 a:hover,
-	.bgColoMid a:hover { color: $colo-accent2;}
+	.bgColoMid a:hover { color: $colo-light;}
 
 	.txtColoAccent{ color: $colo-accent; }
 	.txtColoAccent2{ color: $colo-accent2; }
