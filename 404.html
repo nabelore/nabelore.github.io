@@ -1,10 +1,30 @@
-<!-- redirects page names with capitalized letters to correct page -->
-<script>
-    window.onload = () => {
-        currentURL = window.location.href;
-        lowerCaseURL = currentURL.toLowerCase();
-        if (currentURL != lowerCaseURL) {
-            location.replace(lowerCaseURL);
-        }
-    };
-</script>
+
+
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="refresh" content="0;url=/" />
+
+    <!-- redirects page names with capitalized letters to correct page -->
+    <script>
+        window.onload = () => {
+            currentURL = window.location.href;
+            lowerCaseURL = currentURL.toLowerCase();
+            if (currentURL != lowerCaseURL) {
+                location.replace(lowerCaseURL);
+            }
+        };
+    </script>
+
+    <!-- redirects nonexistent page to home -->
+    <script type="text/javascript">
+        window.location.href = "/";
+    </script>
+
+</head>
+<body>
+
+<div class="text-center justify-content-center">If you are not redirected automatically, follow <a href="/">this link</a>.</center>
+
+</body>
+</html>
