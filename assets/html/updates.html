@@ -4,8 +4,6 @@ permalink: /updates
 redirect_from:
 - /assets/html/updates
 - /assets/html/updates.html
-- /updates2025
-- /updates-2025
 description:
 keywords:
 ---
@@ -23,6 +21,18 @@ keywords:
     <div class="indexUpdates col-md-8 col-sm-12 justify-content-center align-items-center">
 
 	    <hr>
+
+	    	{% for item in site.data.updates-2026 %}
+		      <div class="bodytext">
+		      	<span>
+		      		{% if item.name != null %} <b><small class="text-uppercase">{{ item.name }}</small></b> / {% endif%}{{ item.desc }}
+		      		{% if item.readmoreurl != null %}
+		      			<a href="{{ item.readmoreurl }}">read more</a>.
+		      		{% endif %}
+		      	</span>
+		      </div>
+		      <hr>
+	      {% endfor %}
 
 	      {% for item in site.data.updates-2025 %}
 		      <div class="bodytext">

@@ -1,7 +1,7 @@
 # site.data.nav-proj
 
 - name: Sun says Moon says
-  status: post-production
+  status: complete
   category: comics
   category2: personal
   link: /sunmoon
@@ -18,7 +18,7 @@
         <li>Rating: G / General Audiences</li>
         <li>70 comic pages / 76 pages total</li>
         <li>6" x 9"</li>
-        <li>black & white, with halftones</li>
+        <li>black & white with halftones</li>
       </ul>
     </div>
  
