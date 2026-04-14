@@ -86,7 +86,7 @@ PLATFORMS
 DEPENDENCIES
   base64
   bigdecimal
-  bundler (~> 2.5, >= 2.5.17)
+  bundler (~> 4.0, >= 4.0.10)
   csv
   jekyll (~> 3.10.0)
   jekyll-feed
@@ -101,4 +101,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.7.2
+  4.0.10

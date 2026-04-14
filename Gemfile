@@ -10,7 +10,7 @@ gem "jekyll", "~> 3.10.0"
 gem "webrick"
 gem "rexml", ">= 3.3.2"
 gem "jekyll-redirect-from"
-gem 'bundler', '~> 2.5', '>= 2.5.17'
+gem 'bundler', '~> 4.0', '>= 4.0.10'
 gem "csv"
 gem "base64"
 gem "bigdecimal"
