@@ -49,3 +49,8 @@ plugins:
   - jekyll-remote-theme
 whitelist:
   - jekyll-redirect-from
+
+exclude:
+  - Gemfile
+  - vendor/
+  - gems
