@@ -42,6 +42,11 @@
   link: /assets/proj/camshy/10.jpg
   img: /assets/proj/camshy/10.jpg
 
+- name: Book cover
+  category: cover
+  link: /assets/proj/camshy/book-cover-front.jpg
+  img: /assets/proj/camshy/book-cover-front.jpg
+
 - name: "Process for Page 01"
   category: process
   link: /assets/proj/camshy/01_process.gif

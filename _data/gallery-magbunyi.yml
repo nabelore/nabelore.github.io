@@ -1,6 +1,12 @@
 # site.data.gallery-magbunyi
 # magbunyi
 
+- name: Book Cover
+  category: cover
+  collection: cover
+  link: assets/proj/magbunyi/book-cover-front.jpg
+  img: assets/proj/magbunyi/book-cover-front.jpg
+
 - name: Oonah 01
   category: pages
   collection: oonah

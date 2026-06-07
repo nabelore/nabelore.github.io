@@ -2,45 +2,111 @@
 title:
 ---
 
+
 <!-- Featured project: SunMoon -->
 <section class="section bgColoDark">
   <div class="container my-5">
 
     <div class="row justify-content-center align-items-center">
-
-      <div class="order-2 col-sm-4 col-8">
-        <span class="textaccent2">Latest Release</span>
-        <h2>Sun says Moon says</h2>
-        <blockquote>A comic book retelling of the Philippine Folktale, The Sun and the Moon.</blockquote>
-        <a href="/sunmoon" class="btn btn1 my-2"><i class="bi bi-info-circle-fill"></i>&nbsp; about</a>
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSc1hu_VFRPe5vt9dGgXi4PmGIQQ78lgdDr58RxZi_O8OPoZFQ/viewform?usp=preview" target="_blank" class="btn btn2 my-2" style="color:#eef0f2;"><i class="bi bi-bag"></i>&nbsp; Get a copy</a>
+      
+      <div class="col-sm-4 col-10 mb-md-0 mb-2">
+        <a href="/sunmoon"><img src="assets/proj/sunmoon/SunMoon_cover-front.jpg" alt="Image" class="img-fluid"></a>
       </div>
 
-      <div class="col-md-4 col-8 mb-sm-0 mb-3">
-        <a href="/sunmoon"><img src="assets/proj/sunmoon/SunMoon_cover-front.jpg" alt="Image" class="img-fluid"></a>
+      <div class="col-sm-8 col-10">
+        <div class="col-12">
+          {% include gallery1.html %}
+            {% assign featGallery1 = site.data.gallery-sunmoon | where: "category", "pages" %}
+            {% for item in featGallery1 offset: 3 limit:4 %}
+            {% if item.category == "pages" %}
+              <div class="item col-6 col-sm-3 mb-0 g-1 gallery">
+              {% include gallery2a.html %}
+              </div>
+            {% endif %}
+            {% endfor %}
+          {% include gallery3.html %}
+        </div>
+
+        <div class="col-12 mt-md-0 mt-2">
+          <h2 class="mb-0">Sun says Moon says <a href="/sunmoon" class="btn btn1 my-2"><i class="bi bi-info-circle-fill"></i>&nbsp; read more</a></h2>
+          <p><span class="textaccent2">(excerpt) - A comic book retelling of the Philippine Folktale, The Sun and the Moon. Developed with the aid of the Philippine Animation, Gaming and Comics grant program. Released July 2025.</span></p>
+        </div>
+
       </div>
 
     </div> <!-- end row -->
   </div> <!-- end container -->
 </section>
 
-<!-- Projects gallery -->
-{% include gallery1.html %}
-  {% for item in site.data.nav-proj %}
-  {% if item.featured == 1 %}
-    <div class="item col-6 col-md-3 mb-0 p-0 gallery {% if item.link == empty %}featured{%endif%}">
-    {% include gallery2d.html %}
-    </div>
-  {% endif %}
-  {% endfor %}
-{% include gallery3.html %}
 
-<!-- ======= Updates container =======  -->
-<!-- Gets latest comic post from blog -->
-{% assign latestcomic = site.posts | where:"categories", "comic therapy" | first %}
+<!-- Featured project: Comic Therapy -->
+<section class="section bgColoDark2">
+  <div class="container my-5">
 
-<!-- Gets a random, non-comics post from blog -->
-{% assign randomfeaturedpost = site.posts | where_exp:"item", "item.comics == 0" | sample %}
+    <div class="row justify-content-center align-items-center">
+      
+      <div class="col-sm-4 col-10 mb-md-0 mb-2">
+        <a href="/comictherapy"><img src="assets/proj/comictherapy/CT2021_cover-book.jpg" alt="Image" class="img-fluid"></a>
+      </div>
 
-<!-- Updates Columns -->
-{% include updates-index.html %}
+      <div class="col-sm-8 col-10">
+        <div class="col-12">
+          {% include gallery1.html %}
+            {% assign featGallery2 = site.data.gallery-ct %}
+            {% for item in featGallery2 limit:4 %}
+            {% if item.collection == "prologue" or item.collection == "pages" %}
+              <div class="item col-6 col-sm-3 mb-0 g-1 gallery2">
+              {% include gallery2a.html %}
+              </div>
+            {% endif %}
+            {% endfor %}
+          {% include gallery3.html %}
+        </div>
+
+        <div class="col-12 mt-md-0 mt-2">
+          <h2 class="mb-0">Comic Therapy <a href="/comictherapy" class="btn btn1 my-2"><i class="bi bi-info-circle-fill"></i>&nbsp; read more</a></h2>
+          <p><span class="textaccent2">(select pages) - A collection of (mostly) single-panel journal comics drawn from Feb to Aug 2021. Released 2021.</span></p>
+        </div>
+
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
+
+<!-- Featured project: Magbunyi -->
+<section class="section bgColoDark">
+  <div class="container my-5">
+
+    <div class="row justify-content-center align-items-center">
+      
+      <div class="col-sm-4 col-10 mb-md-0 mb-2">
+        <a href="/magbunyi"><img src="assets/proj/magbunyi/book-cover-front.jpg" alt="Image" class="img-fluid"></a>
+      </div>
+
+      <div class="col-sm-8 col-10">
+        <div class="col-12">
+          {% include gallery1.html %}
+            {% assign featGallery3 = site.data.gallery-magbunyi | where: "category", "pages" | sample:4 %}
+            {% for item in featGallery3 %}
+            {% if item.category == "pages" %}
+              <div class="item col-6 col-sm-3 mb-0 g-1 gallery3">
+              {% include gallery2a.html %}
+              </div>
+            {% endif %}
+            {% endfor %}
+          {% include gallery3.html %}
+        </div>
+
+        <div class="col-12 mt-md-0 mt-2">
+          <h2 class="mb-0">Magbunyi! Comics <a href="/magbunyi" class="btn btn1 my-2"><i class="bi bi-info-circle-fill"></i>&nbsp; read more</a></h2>
+          <p><span class="textaccent2">(select pages) - Biographical comics about the Sisters of Notre Dame de Sion and their missionary work in the Philippines. Drawn for an anthology organized by Gantala Press. Released 2020.</span></p>
+        </div>
+
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+

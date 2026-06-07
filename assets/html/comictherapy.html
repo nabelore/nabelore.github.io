@@ -10,9 +10,9 @@ redirect_from:
 {% assign img01 = "/assets/proj/comictherapy/CT2021_cover-book.jpg" %}
 
 {% assign read_link = "/comictherapy#2021" %}
-{% assign read_txt = "2021 comics - prologue" %}
+{% assign read_txt = "2021 comics excerpts" %}
 
-{% assign readvert_link = "/comictherapy-read" %}
+{% assign readvert_link = "/comictherapy2020-read" %}
 {% assign readvert_txt = "2020 comics (mobile-friendly)" %}
 
 {% assign get_link = "https://ko-fi.com/s/1bbf1f96ce" %}
@@ -46,13 +46,13 @@ redirect_from:
 
 <!-- ======= Gallery - CT2021 prologue =======  -->
 <div class="text-center py-5 mb-0" id="2021">
-  <h3>2021 Comics - prologue</h3>
-  <a href="/comictherapy2021prologue-read">read (mobile-friendly)</a> or view below
+  <h3>2021 Comics - prologue + excerpts</h3>
+  <a href="/comictherapy2021-read">read (mobile-friendly)</a> or view below
 </div>
 {% include gallery1.html %}
 {% assign data = site.data.gallery-ct %}
   {% for item in data  %}
-  {% if item.collection == "prologue" %}
+  {% if item.collection == "prologue" or item.collection == "pages" %}
     <div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery2">  
     {% include gallery2a.html %}
     </div>
