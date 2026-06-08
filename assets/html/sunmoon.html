@@ -14,7 +14,8 @@ keywords:
 timeline: 1
 ---
 
-{% assign img01 = "/assets/proj/sunmoon/SunMoon_cover-square.jpg" %}
+{% assign img01 = "/assets/proj/sunmoon/SunMoon_cover-front.jpg" %}
+{% assign img02 = "/assets/proj/sunmoon/SunMoon_cover-back.jpg" %}
 
 {% assign readvert_link = "/sunmoon-preview-read" %}
 {% assign readvert_txt = "Read (mobile)" %}
@@ -34,7 +35,7 @@ timeline: 1
 
 {% include gallery1.html %}
   {% for item in site.data.gallery-sunmoon %}
-  {% if item.name == "Cover - Front" or item.category == "pages" or item.name == "Cover - Back" %}
+  {% if item.category == "pages" %}
     <div class="item col-6 col-sm-4 col-md-3 my-1 g-2 gallery">
     {% include gallery2a.html %}
   {% endif %}
