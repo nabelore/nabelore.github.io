@@ -134,6 +134,12 @@ $container-max-widths: (
 		font-size: 12px;
 	}
 
+	.bgColoAccent2,
+	.bgColoAccent2 > i { 
+		background-color: $colo-accent2;
+		color: $colo-dark;
+	}
+
 	.bgColoDark { 
 		background-color: $colo-dark;
 		color: $colo-light;
@@ -167,6 +173,10 @@ $container-max-widths: (
 		color: $colo-accent2; 
 	}
 
+	.bgColoAccent2 > a {
+		color: $colo-dark2;
+	}
+
 	.bgColoDark2 a:hover,
 	.bgColoMid a:hover { color: $colo-light;}
 
@@ -175,6 +185,8 @@ $container-max-widths: (
 	.txtColoLight{ color: $colo-light; }
 	.txtColoDark{ color: $colo-dark; }
 	.txtColoDark2{ color: $colo-dark2; }
+	.txtColoHL{ color: $colo-hl; }
+	.txtColoMid{ color: $colo-mid; }
 
 	.blogtipjar { 
 		background-color: none;
