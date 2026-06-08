@@ -157,13 +157,13 @@ $container-max-widths: (
 	.linkUnderline a {text-decoration-line: underline; }
 	.linkUnderline a:hover { text-decoration-line: none; }
 	
-	.bgColoDark2 a,
-	.bgColoLight a { 
+	.bgColoDark2 > a,
+	.bgColoLight > a { 
 		color: $colo-accent;
 	}
 
-	.bgColoDark a,
-	.bgColoMid a { 
+	.bgColoDark > a,
+	.bgColoMid > a { 
 		color: $colo-accent2; 
 	}
 
@@ -220,13 +220,21 @@ $container-max-widths: (
 		text-align:center;
 		padding-left:0;
 	}
+	
+a.button li > b,
+a.button.primary li > b,
+a.button li > i,
+a.button.primary li > i{
+		color: $colo-light;
+	}
+
 
 	ul.linksPage > a.button.primary li:hover,
 	ul.linksPage a > li{
 		padding: .5rem;
 		margin-bottom:.5rem;
-		background-color: $colo-light;
-		color: $colo-accent2;
+		background-color: $colo-accent2;
+		color: $colo-dark2;
 	}
 
 	ul.linksPage > a.button.primary li, 
@@ -333,7 +341,7 @@ $container-max-widths: (
 /////////////// modifications to style.css
 	
 	b, strong, i, strike { color: $colo-hl; }
-	b, strong { font-weight: 600; }
+	b, strong { font-weight: 500; }
 
 	.bodytext b, .bodytext strong, 
 	.blogtext b, .blogtext strong{ 
@@ -389,6 +397,7 @@ $container-max-widths: (
 	}
 
 	@media (min-width: 576px) {
+	// @media (min-width: 744px) {
 		.social a {
 			width: 50px;
 	 		height: 50px;
@@ -426,6 +435,7 @@ $container-max-widths: (
 .item .item-wrap > .work-info h3{ font-size: 1.2rem; }
 
 @media only screen and (min-width: 576px){
+// @media only screen and (min-width: 744px){
 	.item .item-wrap > .work-info h3{ font-size: 1.5rem; }
 	.item .item-wrap > .work-info span { font-size: .85rem; }
 }
@@ -594,6 +604,7 @@ span.navbar-toggler-icon.bi.bi-list {
 }
 
 @media (min-width: 576px){ 
+// @media (min-width: 768px){ 
 
 	.navbar-mobile{
 		visibility: collapse; 	

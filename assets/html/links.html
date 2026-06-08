@@ -27,6 +27,23 @@ layout: base
 		</div>
 	</div>
 
+	<div class="row mb-3">
+			<div class="col-sm-6">
+				<ul class="actions linksPage mb-0">
+					<a href="mailto:anonabelle.art@gmail.com?subject=Inquiry%20from%20your%20Website" target="_blank" class="button">
+						<li><span class="bi bi-envelope-fill"></span> Email me</li>
+					</a>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<ul class="actions linksPage mb-0">
+					<a href="/contact" target="" class="button">
+						<li><span class="bi bi-list"></span> Contact Form</li>
+					</a>
+				</ul>
+			</div>
+	</div>
+
 	{% for post in site.categories['comic therapy'] limit:1 %}
       {% assign latestcomic = post.url | prepend: site.baseurl %}   
 	{% endfor %}

@@ -29,9 +29,8 @@ keywords: project
 {% include gallery1.html %}
 	{% for item in site.data.gallery-dita %}
 	{% if item.category == "pages" %}
-		<div class="item web col-6 col-sm-6 col-md-3 mb-4 gallery">
+		<div class="item web col-6 col-sm-4 col-md-3 my-1 g-2 gallery">
 		{% include gallery2a.html %}
-		</div>
 	{% endif %}
 	{% endfor %}
 {% include gallery3.html %}
@@ -40,9 +39,9 @@ keywords: project
 {% include gallery1.html %}
 	{% for item in site.data.gallery-dita %}
 	{% if item.category == "spreads" %}
-		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery2">
+		<!-- <div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery2"> -->
+		<div class="item web col-6 col-sm-4 col-md-3 my-1 g-2 gallery2">
 		{% include gallery2a.html %}
-		</div>
 	{% endif %}
 	{% endfor %}
 {% include gallery3.html %}
@@ -51,9 +50,9 @@ keywords: project
 {% include gallery1.html %}
 	{% for item in site.data.gallery-dita %}
 	{% if item.category == "extras" %}
-		<div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery3">
+		<!-- <div class="item web col-6 col-sm-6 col-md-4 col-lg-3 mb-4 gallery3"> -->
+		<div class="item web col-6 col-sm-4 col-md-3 my-1 g-2 gallery3">
 		{% include gallery2a.html %}
-		</div>
 	{% endif %}
 	{% endfor %}
 {% include gallery3.html %}

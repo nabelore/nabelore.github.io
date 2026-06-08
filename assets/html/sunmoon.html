@@ -35,9 +35,8 @@ timeline: 1
 {% include gallery1.html %}
   {% for item in site.data.gallery-sunmoon %}
   {% if item.name == "Cover - Front" or item.category == "pages" or item.name == "Cover - Back" %}
-    <div class="item col-6 col-sm-6 col-md-4 col-lg-2 mb-4 gallery2">
+    <div class="item col-6 col-sm-4 col-md-3 my-1 g-2 gallery">
     {% include gallery2a.html %}
-    </div>
   {% endif %}
   {% endfor %}
 {% include gallery3.html %}

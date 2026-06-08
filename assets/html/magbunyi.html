@@ -10,9 +10,7 @@ description:
 keywords: project
 ---
 
-{% assign img01 = "/assets/proj/magbunyi/oonah/01.jpg" %}
-{% assign img02 = "/assets/proj/magbunyi/anne/01.jpg" %}
-{% assign img03 = "/assets/proj/magbunyi/maria/01.jpg" %}
+{% assign img01 = "/assets/proj/magbunyi/book-cover-front.jpg" %}
 
 {% assign readvert_link = "/magbunyi-read" %}
 {% assign readvert_txt = "Read (Filipino, mobile-friendly)" %}
@@ -25,6 +23,15 @@ keywords: project
 	{% include projecttitle.html %}
 {% endif %}
 {% endfor %}
+
+{% include gallery1.html %}
+	{% for item in site.data.gallery-magbunyi %}
+	{% if item.category == "pages" %}
+    	<div class="item web col-6 col-sm-4 col-md-3 my-1 g-2 gallery">
+		{% include gallery2a.html %}
+	{% endif %}
+	{% endfor %}
+{% include gallery3.html %}
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Magbunyi Comics" %}
