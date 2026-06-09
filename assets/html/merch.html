@@ -1,0 +1,148 @@
+---
+title: Merch Portfolio
+permalink: /merch
+redirect_from:
+- /assets/html/merch
+- /assets/html/merch.html
+- /shop
+description:
+keywords:
+---
+
+
+<div class="row text-center mt-5" id="top">
+  <h1 class="m-0">Merchandise portfolio</h1>
+  <p><span class="textaccent2">
+    <a href="#books">Books</a> - 
+    <a href="#fanart">Fanart</a> -
+    <a href="#crafts">Handicrafts</a>
+  </span></p>
+</div> 
+
+
+<!-- section 1 -->
+<section class="section bgColoLight">
+  <div class="container my-3">
+    
+    <div class="row">
+
+      <!-- title section -->
+      <div class="row" id="books">
+        <h2 class="mb-0">Books - comics and zines</h2>
+        <p>Sun says Moon says // Comic Therapy // Linesmitheri</p> <!-- end title section -->
+      </div> 
+
+      <!-- image section -->
+      <div class="row justify-content-start">
+          {% include gallery1.html %}
+            {% assign merchGallery1 = site.data.gallery-merch | where: "category", "books" %}
+            {% for item in merchGallery1 %}
+            {% if item.category == "books" %}
+              <div class="item col-md-3 col-sm-4 col-6 m-0 p-1 gallery">
+              {% include gallery2a.html %}
+            {% endif %}
+            {% endfor %}
+          {% include gallery3.html %}
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
+
+<!-- section 3 -->
+<section class="section bgColoLight">
+  <div class="container my-3">
+    
+    <div class="row">
+
+      <!-- title section -->
+      <div class="row" id="fanart">
+        <h2 class="mb-0">Fanart</h2>
+        <span>Camera Shy (fancomic) // prints (Rise of the TMNT, Fruits Basket)</span> <!-- end title section -->
+      </div> 
+
+      <!-- image section -->
+      <div class="row justify-content-start">
+          {% include gallery1.html %}
+            {% assign merchGallery3 = site.data.gallery-merch | where: "category", "fanart" %}
+            {% for item in merchGallery3 %}
+            {% if item.category == "fanart" %}
+              <div class="item col-md-3 col-sm-4 col-6 m-0 p-1 gallery3">
+              {% include gallery2a.html %}
+            {% endif %}
+            {% endfor %}
+          {% include gallery3.html %}
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
+
+
+<!-- section 4 -->
+<section class="section bgColoLight">
+  <div class="container my-3">
+    
+    <div class="row">
+
+      <!-- title section -->
+      <div class="row" id="crafts">
+        <h2 class="mb-0">Handicrafts by <a href="https://www.instagram.com/craftsmitheri/">craftsmitheri</a></h2>
+        <span>friendship bracelets, crochet pouches, crochet coasters</span> <!-- end title section -->
+      </div> 
+
+      <!-- image section -->
+      <div class="row justify-content-start">
+          {% include gallery1.html %}
+            {% assign merchGallery4 = site.data.gallery-merch | where: "category", "handicrafts" %}
+            {% for item in merchGallery4 %}
+            {% if item.category == "handicrafts" %}
+              <div class="item col-md-3 col-sm-4 col-6 m-0 p-1 gallery4">
+              {% include gallery2a.html %}
+            {% endif %}
+            {% endfor %}
+          {% include gallery3.html %}
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
+<!-- section 5 -->
+<section class="section bgColoLight">
+  <div class="container my-3">
+    
+    <div class="row">
+
+      <!-- title section -->
+      <div class="row" id="misc">
+        <h2 class="mb-0">Previous Events</a></h2>
+        <span></span> <!-- end title section -->
+      </div> 
+
+      <!-- image section -->
+      <div class="row justify-content-start">
+          {% include gallery1.html %}
+            {% assign merchGallery5 = site.data.gallery-merch | where: "category", "misc" %}
+            {% for item in merchGallery5 %}
+            {% if item.category == "misc" %}
+              <div class="item col-md-3 col-sm-4 col-6 m-0 p-1 gallery5">
+              {% include gallery2a.html %}
+            {% endif %}
+            {% endfor %}
+          {% include gallery3.html %}
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
+<div class="row text-center m-4" id="footer">
+  <p>
+    <a href="#books">Books</a> - 
+    <a href="#fanart">Fanart</a> -
+    <a href="#crafts">Handicrafts</a>
+  </p>
+</div> 

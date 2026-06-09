@@ -1,0 +1,117 @@
+# site.data.gallery-merch
+# merch portfolio
+
+# books
+
+- name: Sun says Moon says
+  category: books
+  collection: comics
+  img: assets/proj/merch/merch-comic-sunmoon.jpg
+  link: assets/proj/merch/merch-comic-sunmoon.jpg
+- name: Sun says Moon says - interior
+  category: books
+  collection: comics
+  img: assets/proj/merch/merch-comic-sunmoon2.jpg
+  link: assets/proj/merch/merch-comic-sunmoon2.jpg
+
+- name: Comic Therapy
+  category: books
+  collection: comics
+  img: assets/proj/merch/merch-comic-comictherapy.jpg
+  link: assets/proj/merch/merch-comic-comictherapy.jpg
+- name: Comic Therapy - interior
+  category: books
+  collection: comics
+  img: assets/proj/merch/merch-comic-comictherapy2.jpg
+  link: assets/proj/merch/merch-comic-comictherapy2.jpg
+
+- name: Linesmitheri
+  category: books
+  collection: zines
+  img: assets/proj/merch/merch-zine-linesmitheri.jpg
+  link: assets/proj/merch/merch-zine-linesmitheri.jpg
+- name: Linesmitheri - interior
+  category: books
+  collection: zines
+  img: assets/proj/merch/merch-zine-linesmitheri2.jpg
+  link: assets/proj/merch/merch-zine-linesmitheri2.jpg
+
+# paper goods
+- name: Art Print
+  category: paper
+  collection: prints
+  img: assets/img/temp/thumb1-coloDK2.jpg
+  link: assets/img/temp/thumb1-coloDK2.jpg
+- name: Sticker
+  category: paper
+  collection: sticker
+  img: assets/img/temp/thumb1-coloMD.jpg
+  link: assets/img/temp/thumb1-coloMD.jpg
+
+# fanart
+- name: Camera Shy
+  category: fanart
+  collection: fancomics
+  img: assets/proj/merch/merch-fanzine-camshy.jpg
+  link: assets/proj/merch/merch-fanzine-camshy.jpg
+- name: Camera Shy - interior
+  category: fanart
+  collection: fancomics
+  img: assets/proj/merch/merch-fanzine-camshy2.jpg
+  link: assets/proj/merch/merch-fanzine-camshy2.jpg
+
+- name: Rise of the TMNT prints
+  category: fanart
+  collection: prints
+  img: assets/proj/merch/merch-fanart-RotTMNT-print.jpg
+  link: assets/proj/merch/merch-fanart-RotTMNT-print.jpg
+
+- name: Fruits Basket prints
+  category: fanart
+  collection: prints
+  img: assets/proj/merch/merch-fanart-furuba-print.jpg
+  link: assets/proj/merch/merch-fanart-furuba-print.jpg
+
+# handicrafts
+
+- name: Crochet Pouch - design 1
+  category: handicrafts
+  collection: crochet
+  img: assets/proj/merch/crafts-pouch1.jpg
+  link: assets/proj/merch/crafts-pouch1.jpg
+- name: Crochet Pouch - design 2
+  category: handicrafts
+  collection: crochet
+  img: assets/proj/merch/crafts-pouch2.jpg
+  link: assets/proj/merch/crafts-pouch2.jpg
+
+- name: Friendship Bracelets - 6 strings
+  category: handicrafts
+  collection: bracelets
+  img: assets/proj/merch/crafts-bracelets-6str.jpg
+  link: assets/proj/merch/crafts-bracelets-6str.jpg
+- name: Friendship Bracelets - 4 strings
+  category: handicrafts
+  collection: bracelets
+  img: assets/proj/merch/crafts-bracelets-4str.jpg
+  link: assets/proj/merch/crafts-bracelets-4str.jpg
+
+- name: Hexagon coasters
+  category: handicrafts
+  collection: crochet
+  img: assets/proj/merch/crafts-coasters1.jpg
+  link: assets/proj/merch/crafts-coasters1.jpg
+- name: Hexagon coasters
+  category: handicrafts
+  collection: crochet
+  img: assets/proj/merch/crafts-coasters2.jpg
+  link: assets/proj/merch/crafts-coasters2.jpg
+
+# misc
+
+- name: Komiket March 2026
+  category: misc
+  collection: display
+  img: assets/proj/merch/events-Komiket-March-2026.jpg
+  link: assets/proj/merch/events-Komiket-March-2026.jpg
+

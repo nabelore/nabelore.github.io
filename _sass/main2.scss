@@ -615,8 +615,9 @@ span.navbar-toggler-icon.bi.bi-list {
 	height: unset;
 }
 
-@media (min-width: 576px){ 
-// @media (min-width: 768px){ 
+
+// @media (min-width: 576px){ 
+@media (min-width: 768px){ 
 
 	.navbar-mobile{
 		visibility: collapse; 	
@@ -631,11 +632,11 @@ span.navbar-toggler-icon.bi.bi-list {
   		flex-wrap: wrap;
   	}
 
-  	.dropdown-menu, .dropdown { visibility: visible; }
-  	.navbar-proj { visibility: collapse;  }
+  .dropdown-menu, .dropdown { visibility: visible; }
+  .navbar-proj { visibility: collapse;  }
 
-  	.navbar-brand h1{font-size: 2.5rem; }
-  	.navbar-brand p{ font-size: 1rem; }
+  .navbar-brand h1{font-size: 2.5rem; }
+  .navbar-brand p{ font-size: 1rem; }
 
 }
 

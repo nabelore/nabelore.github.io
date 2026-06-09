@@ -35,4 +35,4 @@
     </div>
   {% endif %}
 
-    <div id="portfolio-grid" class="row justify-content-center{% if page.url == "/" %} g-0 {%endif%}">
+    <div id="portfolio-grid" class="row{% if page.url != "/merch" %} justify-content-center {%endif%}{% if page.url == "/" %} g-0{%endif%}">
