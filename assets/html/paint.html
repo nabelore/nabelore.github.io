@@ -18,12 +18,69 @@ keywords: artstyle
 {% endif %}
 {% endfor %}
 
+<div class="container text-center pb-5">
+  <p class="m-0">Paintings created with watercolors, colored pencils, and/or gouache.</p>
+  <p class="m-0">For traditionally-rendered portraits, see <a href="/portraits
+  	">here</a>.</p>
+</div>
 
+<!-- ======= Navigation for multiple comics =======  -->
+<div class="row justify-content-center">
+  <div class="col-md-12 col-lg-6 text-center">
+    <a href="/paint#2020c" class="mb-1 btn btn2">2020 oranges</a>
+    <a href="/paint#2020b" class="mb-1 btn btn2">2020 still here still life</a>
+    <a href="/paint#2020a" class="mb-1 btn btn2">2020 misc</a>
+    <a href="/paint#2019" class="mb-1 btn btn2">2019</a>
+  </div>
+</div>
+
+<div id="2020c" class="text-center pt-5 pb-3 mb-0">
+	<h3>2020 gouache studies - oranges</h3>
+	<p>Gouache studies of oranges from various pictures.</p>
+</div>
 {% include gallery1.html %}
 	{% for item in site.data.gallery-paint %}
-	{% if item.category == 2019 or item.category == 2020 or item.category == 2023 %}
+	{% if item.category == 2020 and item.collection == "oranges" %}
+		<div class="item {{ item.galleryFilter }} {{ item.media }} col-6 col-sm-4 col-md-3 mb-4 gallery2">
+		{% include gallery2a.html %}
+	{% endif %}
+	{% endfor %}
+{% include gallery3.html %}
+
+<div id="2020b" class="text-center pt-5 pb-3 mb-0">
+	<h3>2020 studies - still here still life</h3>
+	<p>Paintings based on image prompts from @stillherestilllife (instagram)</p>
+</div>
+{% include gallery1.html %}
+	{% for item in site.data.gallery-paint %}
+	{% if item.category == 2020 and item.collection == "stillherestilllife" %}
+		<div class="item {{ item.galleryFilter }} {{ item.media }} col-6 col-sm-4 col-md-3 mb-4 gallery2">
+		{% include gallery2a.html %}
+	{% endif %}
+	{% endfor %}
+{% include gallery3.html %}
+
+<div id="2020a" class="text-center pt-5 pb-3 mb-0">
+	<h3>2020 studies - miscellaneous still life</h3>
+	<p>Studies based on personal photos and still life set-ups.</p>
+</div>
+{% include gallery1.html %}
+	{% for item in site.data.gallery-paint %}
+	{% if item.category == 2020 and item.collection == "personal" %}
+		<div class="item {{ item.galleryFilter }} {{ item.media }} col-6 col-sm-4 col-md-3 mb-4 gallery2">
+		{% include gallery2a.html %}
+	{% endif %}
+	{% endfor %}
+{% include gallery3.html %}
+
+<div id="2019" class="text-center pt-5 pb-3 mb-0"><h3>2019 watercolor studies</h3></div>
+{% include gallery1.html %}
+	{% for item in site.data.gallery-paint %}
+	{% if item.category == 2019 and item.collection != "portraits" %}
 		<div class="item {{ item.galleryFilter }} {{ item.media }} col-6 col-sm-4 col-md-3 mb-4 gallery">
 		{% include gallery2a.html %}
 	{% endif %}
 	{% endfor %}
 {% include gallery3.html %}
+
+

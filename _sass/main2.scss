@@ -134,10 +134,17 @@ $container-max-widths: (
 		font-size: 12px;
 	}
 
-	.bgColoAccent2,
-	.bgColoAccent2 > i { 
+	.bgColoAccent2  { 
 		background-color: $colo-accent2;
 		color: $colo-dark;
+	}
+	.bgColoAccent2 > .textaccent {
+		color: $colo-dark2;
+	}
+	.bgColoAccent2 > .textaccent2,
+	.bgColoAccent2 > i,
+	.bgColoAccent2 p > i {
+		color: $colo-mid;
 	}
 
 	.bgColoDark { 

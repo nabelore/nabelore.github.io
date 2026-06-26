@@ -16,23 +16,4 @@
     </div>
   {% endif %}
    
-   {% if page.url == "/paint" %}
-    <div class="row mb-5 justify-content-center">
-      <div class="col-md-12 col-lg-6 text-center">
-        <div id="filters" class="filters">
-          <a href="#" class="mb-1 btn btn2 current" data-filter="*">All</a>
-          <a href="#" class="mb-1 btn btn2 " data-filter=".stilllife">Still Life</a>
-          <a href="#" class="mb-1 btn btn2 " data-filter=".portraits">Portraits</a>
-          <a href="#" class="mb-1 btn btn2 " data-filter=".landscape">Landscapes</a>
-          <a href="#" class="mb-1 btn btn2 " data-filter=".study">Studies</a>
-          <br />
-          <a href="#" class="mb-1 btn btn1 " data-filter=".watercolor">watercolor</a>
-          <a href="#" class="mb-1 btn btn1 " data-filter=".gouache">gouache</a>
-          <a href="#" class="mb-1 btn btn1 " data-filter=".pencils">pencils</a>
-          <a href="#" class="mb-1 btn btn1 " data-filter=".mixedmedia">mixed media</a>
-        </div>
-      </div>
-    </div>
-  {% endif %}
-
     <div id="portfolio-grid" class="row{% if page.url != "/merch" %} justify-content-center {%endif%}{% if page.url == "/" %} g-0{%endif%}">

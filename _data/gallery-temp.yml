@@ -4,24 +4,31 @@
 # 600 x 800px
 - name: thumb1-coloAC
   category: thumb1
+  link: /assets/img/temp/thumb1-coloAC.jpg
   img: /assets/img/temp/thumb1-coloAC.jpg
 - name: thumb1-coloAC2
   category: thumb1
+  link: /assets/img/temp/thumb1-coloAC2.jpg
   img: /assets/img/temp/thumb1-coloAC2.jpg
 - name: thumb1-coloDK
   category: thumb1
+  link: /assets/img/temp/thumb1-coloDK.jpg
   img: /assets/img/temp/thumb1-coloDK.jpg
 - name: thumb1-coloDK2
   category: thumb1
+  link: /assets/img/temp/thumb1-coloDK2.jpg
   img: /assets/img/temp/thumb1-coloDK2.jpg
 - name: thumb1-coloHL
   category: thumb1
+  link: /assets/img/temp/thumb1-coloHL.jpg
   img: /assets/img/temp/thumb1-coloHL.jpg
 - name: thumb1-coloLT
   category: thumb1
+  link: /assets/img/temp/thumb1-coloLT.jpg
   img: /assets/img/temp/thumb1-coloLT.jpg
 - name: thumb1-coloMD
   category: thumb1
+  link: /assets/img/temp/thumb1-coloMD.jpg
   img: /assets/img/temp/thumb1-coloMD.jpg
 
 # 600 x 800px - blog thumbnail - text posts
@@ -46,3 +53,33 @@
 - name: thumb2-coloMD
   category: thumb2
   img: /assets/img/temp/thumb2-coloMD.png
+
+# 800px x 600
+- name: thumb3-coloAC
+  category: thumb3
+  link: /assets/img/temp/thumb3-coloAC.jpg
+  img: /assets/img/temp/thumb3-coloAC.jpg
+- name: thumb3-coloAC2
+  category: thumb3
+  link: /assets/img/temp/thumb3-coloAC2.jpg
+  img: /assets/img/temp/thumb3-coloAC2.jpg
+- name: thumb3-coloDK
+  category: thumb3
+  link: /assets/img/temp/thumb3-coloDK.jpg
+  img: /assets/img/temp/thumb3-coloDK.jpg
+- name: thumb3-coloDK2
+  category: thumb3
+  link: /assets/img/temp/thumb3-coloDK2.jpg
+  img: /assets/img/temp/thumb3-coloDK2.jpg
+- name: thumb3-coloHL
+  category: thumb3
+  link: /assets/img/temp/thumb3-coloHL.jpg
+  img: /assets/img/temp/thumb3-coloHL.jpg
+- name: thumb3-coloLT
+  category: thumb3
+  link: /assets/img/temp/thumb3-coloLT.jpg
+  img: /assets/img/temp/thumb3-coloLT.jpg
+- name: thumb3-coloMD
+  category: thumb3
+  link: /assets/img/temp/thumb3-coloMD.jpg
+  img: /assets/img/temp/thumb3-coloMD.jpg

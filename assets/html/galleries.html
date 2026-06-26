@@ -27,11 +27,11 @@ keywords:
 <!-- Art Style Galleries -->
 <section class="section mt-auto pb-sm-5" id="gallery">
   <div class="container p-0">
-    <div id="portfolio-grid" class="row g-0 justify-content-center">
+    <div id="portfolio-grid" class="row justify-content-center">
       {% for item in site.data.nav-artStyles %}
       {% if item.name != "All Galleries" %}
-        <div class="item col-sm-6 col-lg-4 m-0 styleGallery gallery2">
-        {% include gallery2c.html %}
+        <div class="item col-sm-6 col-lg-4 styleGallery gallery">
+        {% include gallery2b.html %}
         </div>
       {% endif %}
       {% endfor %}
