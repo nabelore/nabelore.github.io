@@ -29,10 +29,10 @@ $item-wrap-colo-transparent: rgba(0, 0, 0, 0.2);
 $sl-overlay-background: $colo-dark2;
 $btn-focus-width: 1px;
 $btn-border-radius:1px;
-$tooltip-bg: $colo-accent2;
+//$tooltip-bg: $colo-accent2;
+//tooltip { background-color: $colo-accent2; }
 
 
-tooltip { background-color: $colo-accent2; }
 
 // container classes
 $container-max-widths: (
@@ -449,6 +449,32 @@ a.button.primary li > i{
 	.bs-tooltip-bottom .tooltip-arrow::before, .bs-tooltip-auto[data-popper-placement^=bottom] .tooltip-arrow::before{
 	  border-bottom-color: $colo-accent2;
 	}
+
+///////////////// tooltip 2 (color: Grullo)
+.coloAcc-tooltip .tooltip-inner {
+  background-color: $colo-accent;
+}
+
+.coloAcc-tooltip.bs-tooltip-top .tooltip-arrow::before,
+.coloAcc-tooltip.bs-tooltip-auto[x-placement^="top"] .tooltip-arrow::before {
+  border-top-color: $colo-accent !important;
+}
+
+.coloAcc-tooltip.bs-tooltip-end .tooltip-arrow::before,
+.coloAcc-tooltip.bs-tooltip-auto[x-placement^="end"] .tooltip-arrow::before {
+  border-right-color: $colo-accent !important;
+}
+
+.coloAcc-tooltip.bs-tooltip-bottom .tooltip-arrow::before,
+.coloAcc-tooltip.bs-tooltip-auto[x-placement^="bottom"] .tooltip-arrow::before {
+  border-bottom-color: $colo-accent !important;
+}
+
+.coloAcc-tooltip.bs-tooltip-start .tooltip-arrow::before,
+.coloAcc-tooltip.bs-tooltip-auto[x-placement^="start"] .tooltip-arrow::before {
+  border-left-color: $colo-accent !important;
+}
+
 
 /////////// gallery
 .item .item-wrap > .work-info h3{ font-size: 1.2rem; }
