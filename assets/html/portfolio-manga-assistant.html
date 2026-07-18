@@ -1,0 +1,154 @@
+---
+title: Portfolio - Manga Assistant
+permalink: /portfolio-manga
+redirect_from:
+- /assets/html/portfolio-manga-assistant
+- /assets/html/portfolio-manga-assistant.html
+- /portfolio-manga-assistant
+description:
+keywords:
+---
+
+
+<div class="row text-center my-5" id="top">
+  <h1 class="m-0">Portfolio - Manga Assistant</h1>
+  <p><span class="textaccent2">
+    <a href="#sunmoon">Sun says Moon says</a> - 
+    <a href="#camshy">Camera Shy (MP100 fancomic)</a> - 
+    <a href="#bgs">Background / Environment samples</a>
+  </span></p>
+</div> 
+
+
+<!-- section 1 -->
+<section class="section bgColoLight">
+  <div class="container my-3">
+    
+    <div class="row">
+
+      <!-- title section -->
+      <div class="row" id="sunmoon">
+        <h2 class="mb-0">Sun says Moon says</h2>
+        <span>Retelling of a Philippine folktale (The Sun and The Moon). 7-page excerpt below. </span> 
+        <p>[<a href="/sunmoon">more info</a>]</p><!-- end title section -->
+      </div> 
+
+      <!-- image section -->
+      <div class="row justify-content-start">
+          {% include gallery1.html %}
+            {% assign merchGallery1 = site.data.gallery-sunmoon | where: "category", "pages" %}
+            {% for item in merchGallery1 %}
+            {% if item.category == "pages" %}
+              <div class="item col-md-3 col-sm-4 col-6 m-0 p-1 gallery">
+              {% include gallery2a.html %}
+            {% endif %}
+            {% endfor %}
+          {% include gallery3.html %}
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
+
+<!-- section 2 -->
+<section class="section bgColoLight2">
+  <div class="container my-3">
+    
+    <div class="row">
+
+      <!-- title section -->
+      <div class="row" id="camshy">
+        <h2 class="mb-0">Camera Shy</h2>
+        <span>Mob Psycho 100 fancomic based on anime artstyle. 10 pages.</span>
+        <p>[<a href="/camshy">more info</a>]</p><!-- end title section -->
+      </div> 
+
+      <!-- image section -->
+      <div class="row justify-content-start">
+          {% include gallery1.html %}
+            {% assign merchGallery2 = site.data.gallery-camshy | where: "category", "pages" %}
+            {% for item in merchGallery2 %}
+            {% if item.category == "pages" %}
+              <div class="item col-md-3 col-sm-4 col-6 m-0 p-1 gallery2">
+              {% include gallery2a.html %}
+            {% endif %}
+            {% endfor %}
+          {% include gallery3.html %}
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
+<!-- section 3 -->
+<section class="section bgColoLight2">
+  <div class="container my-3">
+    
+    <div class="row">
+
+      <!-- title section -->
+      <div class="row" id="bgs">
+        <h2 class="">Background / Environment samples</h2>
+      </div> 
+
+      <!-- image section -->
+      <div class="row justify-content-start">
+
+        <div class="item col-3 m-0 p-1 gallery3">
+          <a href="/assets/proj/digital/2021-1point-1.jpg" class="item-wrap fancybox">
+            <div class="work-info p-2">
+              <h3>final lines</h3>
+              <span></span>
+            </div>
+          <img class="img-fluid" src="/assets/proj/digital/2021-1point-1.jpg" title="">
+          </a>
+        </div>
+        <div class="item col-3 m-0 p-1 gallery3">
+          <a href="/assets/proj/digital/reference-pinterest-home-workspace.jpg" class="item-wrap fancybox">
+            <div class="work-info p-2">
+              <h3>reference</h3>
+              <span></span>
+            </div>
+          <img class="img-fluid" src="/assets/proj/digital/reference-pinterest-home-workspace.jpg" title="">
+          </a>
+        </div>
+        <div class="col-6 align-content-center">Used <a href=https://www.pinterest.ph/pin/403142604153878326/>reference image</a> as starting point for perspective.</div>
+
+      </div>
+      
+      <div class="row justify-content-start">
+
+        <div class="item col-3 m-0 p-1 gallery4">
+          <a href="/assets/proj/digital/2022-bg.jpg" class="item-wrap fancybox">
+            <div class="work-info p-2">
+              <h3>final lines</h3>
+              <span></span>
+            </div>
+          <img class="img-fluid" src="/assets/proj/digital/2022-bg.jpg" title="">
+          </a>
+        </div>
+        <div class="item col-3 m-0 p-1 gallery4">
+          <a href="/assets/proj/digital/2022-bg-old.jpg" class="item-wrap fancybox">
+            <div class="work-info p-2">
+              <h3>roughs with 3D models</h3>
+              <span></span>
+            </div>
+          <img class="img-fluid" src="/assets/proj/digital/2022-bg-old.jpg" title="">
+          </a>
+        </div>
+        <div class="col-6 align-content-center">Based on 3D models from CSP's 3D asset library.</div>
+        
+      </div>
+
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
+<div class="row text-center my-5" id="footer">
+  <p>
+    <a href="#sunmoon">Sun says Moon says</a> - 
+    <a href="#camshy">Camera Shy (MP100 fancomic)</a> - 
+    <a href="#bgs">Background / Environment samples</a>
+  </p>
+</div> 
