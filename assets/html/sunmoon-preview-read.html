@@ -29,7 +29,7 @@ keywords:
     <div class="row justify-content-center">
       <div class="item web col-12 col-sm-10 col-lg-8 px-sm-2 px-0">
         {% for item in site.data.gallery-sunmoon %}
-        {% if item.name == "Cover - Front" or item.category == "pages" %}
+        {% if item.name == "Cover - Front" or item.category == "pages" or item.name == "Cover - Back"%}
           <img class="read-img-vert img-fluid rounded mx-auto d-block mb-4" src="{{ item.img }}">
         {% endif %}
         {% endfor %}  

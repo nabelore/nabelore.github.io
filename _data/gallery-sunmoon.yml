@@ -26,43 +26,43 @@
 
 - name: Cover - Square
   category: cover
-  link: /assets/proj/sunmoon/SunMoon_cover-square.jpg
-  img: /assets/proj/sunmoon/SunMoon_cover-square.jpg
+  link: /assets/proj/sunmoon/SunMoon-cover-square.jpg
+  img: /assets/proj/sunmoon/SunMoon-cover-square.jpg
 - name: Cover - Front
   category: cover
-  link: /assets/proj/sunmoon/SunMoon_cover-front.jpg
-  img: /assets/proj/sunmoon/SunMoon_cover-front.jpg
+  link: /assets/proj/sunmoon/SunMoon-cover-front.jpg
+  img: /assets/proj/sunmoon/SunMoon-cover-front.jpg
 
 - name: Page 01
   category: pages
-  link: /assets/proj/sunmoon/SunMoon_sample-page-1.jpg
-  img: /assets/proj/sunmoon/SunMoon_sample-page-1.jpg
+  link: /assets/proj/sunmoon/SunMoon-web-01.jpg
+  img: /assets/proj/sunmoon/SunMoon-web-01.jpg
 - name: Page 02
   category: pages
-  link: /assets/proj/sunmoon/SunMoon_sample-page-2.jpg
-  img: /assets/proj/sunmoon/SunMoon_sample-page-2.jpg
+  link: /assets/proj/sunmoon/SunMoon-web-02.jpg
+  img: /assets/proj/sunmoon/SunMoon-web-02.jpg
 - name: Page 03
   category: pages
-  link: /assets/proj/sunmoon/SunMoon_sample-page-3.jpg
-  img: /assets/proj/sunmoon/SunMoon_sample-page-3.jpg
+  link: /assets/proj/sunmoon/SunMoon-web-03.jpg
+  img: /assets/proj/sunmoon/SunMoon-web-03.jpg
 - name: Page 04
   category: pages
-  link: /assets/proj/sunmoon/SunMoon_sample-page-4.jpg
-  img: /assets/proj/sunmoon/SunMoon_sample-page-4.jpg
+  link: /assets/proj/sunmoon/SunMoon-web-04.jpg
+  img: /assets/proj/sunmoon/SunMoon-web-04.jpg
 - name: Page 05
   category: pages
-  link: /assets/proj/sunmoon/SunMoon_sample-page-5.jpg
-  img: /assets/proj/sunmoon/SunMoon_sample-page-5.jpg
+  link: /assets/proj/sunmoon/SunMoon-web-05.jpg
+  img: /assets/proj/sunmoon/SunMoon-web-05.jpg
 - name: Page 06
   category: pages
-  link: /assets/proj/sunmoon/SunMoon_sample-page-6.jpg
-  img: /assets/proj/sunmoon/SunMoon_sample-page-6.jpg
+  link: /assets/proj/sunmoon/SunMoon-web-06.jpg
+  img: /assets/proj/sunmoon/SunMoon-web-06.jpg
 - name: Page 07
   category: pages
-  link: /assets/proj/sunmoon/SunMoon_sample-page-7.jpg
-  img: /assets/proj/sunmoon/SunMoon_sample-page-7.jpg
+  link: /assets/proj/sunmoon/SunMoon-web-07.jpg
+  img: /assets/proj/sunmoon/SunMoon-web-07.jpg
 
 - name: Cover - Back
   category: cover
-  link: /assets/proj/sunmoon/SunMoon_cover-back.jpg
-  img: /assets/proj/sunmoon/SunMoon_cover-back.jpg
+  link: /assets/proj/sunmoon/SunMoon-cover-back.jpg
+  img: /assets/proj/sunmoon/SunMoon-cover-back.jpg
