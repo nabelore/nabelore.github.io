@@ -3,44 +3,44 @@
 
 - name: Page 01
   category: pages
-  link: /assets/proj/camshy/01.jpg
-  img: /assets/proj/camshy/01.jpg
+  link: /assets/proj/camshy/camshy-web-01.jpg
+  img: /assets/proj/camshy/camshy-web-01.jpg 
 - name: Page 02
   category: pages
-  link: /assets/proj/camshy/02.jpg
-  img: /assets/proj/camshy/02.jpg
+  link: /assets/proj/camshy/camshy-web-02.jpg
+  img: /assets/proj/camshy/camshy-web-02.jpg
 - name: Page 03
   category: pages
-  link: /assets/proj/camshy/03.jpg
-  img: /assets/proj/camshy/03.jpg
+  link: /assets/proj/camshy/camshy-web-03.jpg
+  img: /assets/proj/camshy/camshy-web-03.jpg
 - name: Page 04
   category: pages
-  link: /assets/proj/camshy/04.jpg
-  img: /assets/proj/camshy/04.jpg
+  link: /assets/proj/camshy/camshy-web-04.jpg
+  img: /assets/proj/camshy/camshy-web-04.jpg
 - name: Page 05
   category: pages
-  link: /assets/proj/camshy/05.jpg
-  img: /assets/proj/camshy/05.jpg
+  link: /assets/proj/camshy/camshy-web-05.jpg
+  img: /assets/proj/camshy/camshy-web-05.jpg
 - name: Page 06
   category: pages
-  link: /assets/proj/camshy/06.jpg
-  img: /assets/proj/camshy/06.jpg
+  link: /assets/proj/camshy/camshy-web-06.jpg
+  img: /assets/proj/camshy/camshy-web-06.jpg
 - name: Page 07
   category: pages
-  link: /assets/proj/camshy/07.jpg
-  img: /assets/proj/camshy/07.jpg
+  link: /assets/proj/camshy/camshy-web-07.jpg
+  img: /assets/proj/camshy/camshy-web-07.jpg
 - name: Page 08
   category: pages
-  link: /assets/proj/camshy/08.jpg
-  img: /assets/proj/camshy/08.jpg
+  link: /assets/proj/camshy/camshy-web-08.jpg
+  img: /assets/proj/camshy/camshy-web-08.jpg
 - name: Page 09
   category: pages
-  link: /assets/proj/camshy/09.jpg
-  img: /assets/proj/camshy/09.jpg
+  link: /assets/proj/camshy/camshy-web-09.jpg
+  img: /assets/proj/camshy/camshy-web-09.jpg
 - name: Page 10
   category: pages
-  link: /assets/proj/camshy/10.jpg
-  img: /assets/proj/camshy/10.jpg
+  link: /assets/proj/camshy/camshy-web-10.jpg
+  img: /assets/proj/camshy/camshy-web-10.jpg
 
 - name: Book cover
   category: cover
@@ -49,5 +49,5 @@
 
 - name: "Process for Page 01"
   category: process
-  link: /assets/proj/camshy/01_process.gif
-  img: /assets/proj/camshy/01_process.gif
+  link: /assets/proj/camshy/camshy-web-01_process.gif
+  img: /assets/proj/camshy/camshy-web-01_process.gif
