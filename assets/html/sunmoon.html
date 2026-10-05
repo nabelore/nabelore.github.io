@@ -16,12 +16,18 @@ timeline: 1
 
 {% assign img01 = "/assets/proj/sunmoon/SunMoon-cover-front.jpg" %}
 {% assign img02 = "/assets/proj/sunmoon/SunMoon-cover-back.jpg" %}
-
+<!--
+{% assign team_link ="#assistants" %}
+{% assign team_txt ="the team" %}
+-->
 {% assign readvert_link = "/sunmoon-preview-read" %}
 {% assign readvert_txt = "Read (mobile)" %}
 
-{% assign get_link = "https://docs.google.com/forms/d/e/1FAIpQLSc1hu_VFRPe5vt9dGgXi4PmGIQQ78lgdDr58RxZi_O8OPoZFQ/viewform?usp=preview" %}
-{% assign get_txt = "Get a copy" %}
+{% assign get2_link = "https://docs.google.com/forms/d/e/1FAIpQLSc1hu_VFRPe5vt9dGgXi4PmGIQQ78lgdDr58RxZi_O8OPoZFQ/viewform?usp=preview" %}
+{% assign get2_txt = "Physical Copy" %}
+
+{% assign get_link = "https://ko-fi.com/s/17413c2041" %}
+{% assign get_txt = "E-Book" %}
 
 {% for item in site.data.nav-proj %}
 {% if item.name == "Sun says Moon says" %}
@@ -71,9 +77,32 @@ timeline: 1
   </div> <!-- end container -->
 </section>
 
+<!-- Featured text 2 -->
+<section class="section bgColoDark">
+  <div class="container-fluid my-5">
+    <div class="row justify-content-center g-2 m-0">
+      
+      <!-- ======= header text =======  -->
+      <div class="col-10 col-sm-4 mb-4 mb-sm-0 p-0 mt-0 align-self-top">
+        <h5 class="m-0 p-0 mb-3"><a href="https://www.instagram.com/themonsoonawards/p/DdYPETPjYKE/">Finalist</a> <span class="txtColoAccent2">for </span> Best Young Adult Comic <span class="txtColoAccent2">at the</span> <a href="https://themonsoonawards.com/">2026 Monsoon Awards</a>.</h5>
+        <p>Will be exhibited as part of the <a href="https://www.bkkunzine.com/bcaf5-2026">2026 Bangkok Comics Art Festival</a> from Oct 6-18th at the Bangkok Art and Culture Centre.</p>
+      </div>
+      
+      <div class="col-10 col-sm-3 ms-sm-3 m-0">
+        <a href="https://themonsoonawards.com/"><img src="/assets/proj/events/monsoonawards2026/MonsoonAwardsLogo_1100px.png" class="img-fluid"></a>
+      </div>
+      <div class="col-10 col-sm-3 m-0">
+        <a href="https://www.bkkunzine.com/bcaf5-2026"><img src="/assets/proj/events/monsoonawards2026/BKKComicsArtfestival2026.jpg" class="img-fluid"></a>
+      </div>
+      
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+
 {% for item in site.data.nav-proj %}
 {% if item.name == "Sun says Moon says" %}
   {% include project.html %}
 {% endif %}
 {% endfor %}
 
+<!-- {% include sunmoon-assistants.html %} -->
