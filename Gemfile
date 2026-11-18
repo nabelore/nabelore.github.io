@@ -26,3 +26,9 @@ end
 gem "logger", "~> 1.6"
 
 gem "ostruct", "~> 0.6.1"
+
+# Used for testing
+
+gem "rake"
+gem "path"
+gem "json", ">= 2.3.0"
